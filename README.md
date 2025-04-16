@@ -13,17 +13,19 @@
 
 ## Table of Contents
 
-*   [C++](#c)
-*   [Sage](#sage)
-*   [Python](#python)
-*   [miscellaneous](#miscellaneous)
-*   [JavaScript](#javascript)
-*   [TypeScript](#typescript)
 *   [Rust](#rust)
+*   [miscellaneous](#miscellaneous)
+*   [Python](#python)
+*   [C++](#c)
+*   [TypeScript](#typescript)
 *   [C](#c-1)
-*   [CSS](#css)
-*   [Go](#go)
 *   [Java](#java)
+*   [JavaScript](#javascript)
+*   [Go](#go)
+*   [Kotlin](#kotlin)
+*   [Makefile](#makefile)
+*   [Sage](#sage)
+*   [CSS](#css)
 *   [Swift](#swift)
 *   [Vue](#vue)
 *   [Lean](#lean)
@@ -31,8 +33,6 @@
 *   [AutoHotkey](#autohotkey)
 *   [Objective-C](#objective-c)
 *   [OCaml](#ocaml)
-*   [Kotlin](#kotlin)
-*   [Makefile](#makefile)
 *   [Ruby](#ruby)
 *   [Shell](#shell)
 *   [MDX](#mdx)
@@ -72,165 +72,275 @@
 *   [Cython](#cython)
 *   [Stylus](#stylus)
 
-## C++
+## Rust
 
-*   [official-pikafish/Pikafish](https://github.com/official-pikafish/Pikafish) - UCI xiangqi engine
+*   [rust-crypto-labs/lll-rs](https://github.com/rust-crypto-labs/lll-rs) - Implementation of Lenstra-Lenstra-Lovász lattice basis reduction algorithm in Rust
 
-*   [CMMayer/Toolkit-for-Ring-LWE-v1.0](https://github.com/CMMayer/Toolkit-for-Ring-LWE-v1.0) - Implementation of a toolkit for ring-LWE based cryptography in arbitrary cyclotomic number fields.
+*   [alexkirsz/dispatch](https://github.com/alexkirsz/dispatch) - Combine internet connections, increase your download speed
 
-*   [wazuh/wazuh](https://github.com/wazuh/wazuh) - Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.
+*   [sharkdp/bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
 
-*   [radiantly/Invisiwind](https://github.com/radiantly/Invisiwind) - An application that allows you to hide certain windows when sharing your full screen
+*   [SitinCloud/Owlyshield](https://github.com/SitinCloud/Owlyshield) - Owlyshield is an EDR framework designed to safeguard vulnerable applications from potential exploitation (C\&C, exfiltration and impact).
 
-*   [thebabush/mcp-job-security](https://github.com/thebabush/mcp-job-security) - LLVM Pass to save Reverse Engineers from Automation
+*   [anza-xyz/mollusk](https://github.com/anza-xyz/mollusk) - SVM program test harness.
 
-*   [dendibakh/perf-ninja](https://github.com/dendibakh/perf-ninja) - This is an online course where you can learn and master the skill of low-level performance analysis and tuning.
+*   [block/goose](https://github.com/block/goose) - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
 
-*   [knownsec/shellcodeloader](https://github.com/knownsec/shellcodeloader) - shellcodeloader
+*   [uutils/coreutils](https://github.com/uutils/coreutils) - Cross-platform Rust rewrite of the GNU coreutils
 
-*   [Lil-House/Pyarmor-Static-Unpack-1shot](https://github.com/Lil-House/Pyarmor-Static-Unpack-1shot) - ✅ No need to run ✅ Pyarmor 8.0 - latest 9.1.3 ✅ Universal ✅ Statically convert obfuscated scripts to disassembly and (experimentally) source code.
+*   [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 
-*   [zeux/meshoptimizer](https://github.com/zeux/meshoptimizer) - Mesh optimization library that makes meshes smaller and faster to render
+*   [Le1a/LokiPool](https://github.com/Le1a/LokiPool) - 一个使用Rust编写的SOCKS5代理池管理工具，能够自动测速、管理多个代理服务器，提供高效稳定的匿名代理服务。
 
-*   [feicong/rom-book](https://github.com/feicong/rom-book) - 安卓系统定制：从入门到实践 开源图书🔥
+*   [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) - A Rust compiler front-end for IDEs
 
-*   [microsoft/wslg](https://github.com/microsoft/wslg) - Enabling the Windows Subsystem for Linux to include support for Wayland and X server related scenarios
+*   [Devolutions/IronRDP](https://github.com/Devolutions/IronRDP) - Rust implementation of the Microsoft Remote Desktop Protocol (RDP)
 
-*   [bodong1987/AHeadLib.Net](https://github.com/bodong1987/AHeadLib.Net) - The C# version of AHeadLib solves various problems such as instability and incompatibility with x64 of previous versions.
+*   [WGUNDERWOOD/tex-fmt](https://github.com/WGUNDERWOOD/tex-fmt) - An extremely fast LaTeX formatter written in Rust
 
-*   [G4lile0/tinyGS](https://github.com/G4lile0/tinyGS) - 📡 Open Ground Station Network  🛰
+*   [trunk-rs/trunk](https://github.com/trunk-rs/trunk) - Build, bundle & ship your Rust WASM application to the web.
 
-*   [XaFF-XaFF/Cronos-Rootkit](https://github.com/XaFF-XaFF/Cronos-Rootkit) - Cronos is Windows 10/11 x64 ring 0 rootkit. Cronos is able to hide processes, protect and elevate them with token manipulation.
+*   [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) - Facilitating high-level interactions between Wasm modules and JavaScript
 
-*   [Jinmo/ifred](https://github.com/Jinmo/ifred) - IDA command palette & more (Ctrl+Shift+P, Ctrl+P)
+*   [zksecurity/noname](https://github.com/zksecurity/noname) - Noname: a programming language to write zkapps
 
-*   [PKUFlyingPig/CS144-Computer-Network](https://github.com/PKUFlyingPig/CS144-Computer-Network) - Learning materials for Stanford Computer Network course : CS144
+*   [aptos-labs/aptos-core](https://github.com/aptos-labs/aptos-core) - Aptos is a layer 1 blockchain built to support the widespread use of blockchain through better technology and user experience.
 
-*   [rizsotto/Bear](https://github.com/rizsotto/Bear) - Bear is a tool that generates a compilation database for clang tooling.
+*   [wasmerio/wasmer](https://github.com/wasmerio/wasmer) - 🚀 Fast, secure, lightweight containers based on WebAssembly
 
-*   [WvanWoerden/G6K-GPU-Tensor](https://github.com/WvanWoerden/G6K-GPU-Tensor) - Lattice Sieving using GPU Tensor cores based on the General Sieve Kernel (G6K)
+*   [rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack) - 📦✨ your favorite rust -> wasm workflow tool!
 
-*   [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) - Self-hosted game stream host for Moonlight.
+*   [huacnlee/autocorrect](https://github.com/huacnlee/autocorrect) - A linter and formatter to help you to improve copywriting, correct spaces, words, and punctuations between CJK (Chinese, Japanese, Korean).
 
-*   [Summwer/pro-pnj-bkz](https://github.com/Summwer/pro-pnj-bkz) - We implement the progressive Improved Progressive BKZ with Lattice Sieving presented in https://eprint.iacr.org/2022/1343, one can call it to solve LWE challenge(https://www.latticechallenge.org/lwe\_challenge/challenge.php) or other approximate svp problem.
+*   [tokio-rs/axum](https://github.com/tokio-rs/axum) - Ergonomic and modular web framework built with Tokio, Tower, and Hyper
 
-*   [ImpulseAdventure/JPEGsnoop](https://github.com/ImpulseAdventure/JPEGsnoop) - JPEGsnoop: JPEG decoder and detailed analysis
+*   [hyperium/hyper](https://github.com/hyperium/hyper) - An HTTP library for Rust
 
-*   [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) - Protocol Buffers - Google's data interchange format
+*   [0xProject/OpenZKP](https://github.com/0xProject/OpenZKP) - OpenZKP - pure Rust implementations of Zero-Knowledge Proof systems.
 
-*   [microsoft/BitNet](https://github.com/microsoft/BitNet) - Official inference framework for 1-bit LLMs
+*   [quantumsheep/sshs](https://github.com/quantumsheep/sshs) - Terminal user interface for SSH
 
-*   [justcallmekoko/ESP32Marauder](https://github.com/justcallmekoko/ESP32Marauder) - A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32
+*   [ShellWen/v8\_killer](https://github.com/ShellWen/v8_killer) - A powerful and highly customizable universal V8 virtual machine injector.
 
-*   [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) - The Magic Mask for Android
+*   [sgayou/rbasefind](https://github.com/sgayou/rbasefind) - A firmware base address search tool.
 
-*   [0xnarwhal/BadUSB](https://github.com/0xnarwhal/BadUSB) - A framework to kickstart yourself in making malicious USB devices using ATTiny85.
+*   [amtoaer/bili-sync](https://github.com/amtoaer/bili-sync) - 由 Rust & Tokio 驱动的哔哩哔哩同步工具
 
-*   [ShahjalalShohag/code-library](https://github.com/ShahjalalShohag/code-library) - Templates, algorithms and data structures implemented and collected for programming contests.
+*   [samwho/spacer](https://github.com/samwho/spacer) - CLI tool to insert spacers when command output stops
 
-*   [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) - Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+*   [rust9x/rust](https://github.com/rust9x/rust) - UNOFFICIAL "Tier 4" Rust target for Windows 9x/Me/NT/2000/XP/Vista.
 
-*   [kasmtech/KasmVNC](https://github.com/kasmtech/KasmVNC) - Modern VNC Server and client, web based and secure
+*   [ankitects/anki](https://github.com/ankitects/anki) - Anki's shared backend and web components, and the Qt frontend
 
-*   [xiaomi-sm7225-devs/android\_device\_xiaomi\_gauguin](https://github.com/xiaomi-sm7225-devs/android_device_xiaomi_gauguin) - Device configuration for Xiaomi Redmi Note 9 Pro 5G Series
+*   [ferrilab/bitvec](https://github.com/ferrilab/bitvec) - A crate for managing memory bit by bit
 
-*   [PixelOS-Devices/device\_xiaomi\_gauguin](https://github.com/PixelOS-Devices/device_xiaomi_gauguin) -
+*   [asterinas/asterinas](https://github.com/asterinas/asterinas) - Asterinas is a secure, fast, and general-purpose OS kernel, written in Rust and providing Linux-compatible ABI.
 
-*   [yc9559/dfps](https://github.com/yc9559/dfps) - Dynamic screen refresh rate controller for Android 10+
+*   [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org
 
-*   [LineageOS/android\_device\_xiaomi\_gauguin](https://github.com/LineageOS/android_device_xiaomi_gauguin) -
+*   [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Magical shell history
 
-*   [baidu/braft](https://github.com/baidu/braft) - An industrial-grade C++ implementation of RAFT consensus algorithm based on brpc,  widely used inside Baidu to build highly-available distributed systems.
+*   [Aloxaf/rbkcrack](https://github.com/Aloxaf/rbkcrack) - Crack legacy zip encryption with Biham and Kocher's known plaintext attack. 使用明文攻击破解加密的 zip 文件
 
-*   [balena/aes-whitebox](https://github.com/balena/aes-whitebox) - WBC AES implementation in C++ using Chow and Muir papers supporting 128, 192, 256, 512, 1024, 2048 and 4096-bit keys
+*   [b23r0/cliws](https://github.com/b23r0/cliws) - Cross platform interactive bind/reverse PTY shell
 
-*   [zeze-zeze/NamedPipeMaster](https://github.com/zeze-zeze/NamedPipeMaster) - a tool used to analyze and monitor in named pipes
+*   [nix-community/nix-ld](https://github.com/nix-community/nix-ld) - Run unpatched dynamic binaries on NixOS \[maintainer=@Mic92]
 
-*   [Daeinar/dfa-aes](https://github.com/Daeinar/dfa-aes) - Differential fault analysis framework for AES128
+*   [LGUG2Z/komorebi](https://github.com/LGUG2Z/komorebi) - A tiling window manager for Windows 🍉
+
+*   [AFLplusplus/LibAFL](https://github.com/AFLplusplus/LibAFL) - Advanced Fuzzing Library - Slot your Fuzzer together in Rust! Scales across cores and machines. For Windows, Android, MacOS, Linux, no\_std, ...
+
+*   [shell-pool/shpool](https://github.com/shell-pool/shpool) - Think tmux, then aim... lower
+
+*   [rapiz1/rathole](https://github.com/rapiz1/rathole) - A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
 
 *   [XDSEC/WebSocketReflectorX](https://github.com/XDSEC/WebSocketReflectorX) -  Controlled TCP-over-WebSocket forwarding tunnel.
 
-*   [acidanthera/DebugEnhancer](https://github.com/acidanthera/DebugEnhancer) - A Lilu plugin intended to enable debug output in the macOS kernel
+*   [fuzzland/ityfuzz](https://github.com/fuzzland/ityfuzz) - Blazing Fast Bytecode-Level Hybrid Fuzzer for Smart Contracts
 
-*   [HACK-THE-WORLD/IDAPluginList](https://github.com/HACK-THE-WORLD/IDAPluginList) - IDA插件集合，含项目名称及项目地址，每日定时Clone项目。
+*   [H-M-H/Weylus](https://github.com/H-M-H/Weylus) - Use your tablet as graphic tablet/touch screen on your computer.
 
-*   [risc0/risc0](https://github.com/risc0/risc0) - RISC Zero is a zero-knowledge verifiable general computing platform based on zk-STARKs and the RISC-V microarchitecture.
+*   [jkcoxson/JitStreamer](https://github.com/jkcoxson/JitStreamer) - A service to activate JIT across the far reaches of the internet
 
-*   [linbox-team/linbox](https://github.com/linbox-team/linbox) - LinBox - C++ library for exact, high-performance linear algebra
+*   [io12/pwninit](https://github.com/io12/pwninit) - pwninit - automate starting binary exploit challenges
 
-*   [cloudfuzz/android-kernel-exploitation](https://github.com/cloudfuzz/android-kernel-exploitation) - Android Kernel Exploitation
+*   [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) -  All Algorithms implemented in Rust
 
-*   [stijnherfst/HiveWE](https://github.com/stijnherfst/HiveWE) - A Warcraft III world editor.
+*   [cmpute/num-prime](https://github.com/cmpute/num-prime) -
 
-*   [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) - Truly independent web browser
+*   [y011d4/factor-from-random-known-bits](https://github.com/y011d4/factor-from-random-known-bits) - Python's library written in Rust to quickly factor `n = pq` when around >50% bits of `p` and `q` are known which are distributed at random.
 
-*   [git-akshat/CNS-Lab](https://github.com/git-akshat/CNS-Lab) - Cryptography and Network Security Lab programs done in 7th semester of SIT(VTU).
+*   [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
 
-*   [WrBug/dumpDex](https://github.com/WrBug/dumpDex) - 💯一款Android脱壳工具，需要xposed支持, 易开发已集成该项目。
+*   [eza-community/eza](https://github.com/eza-community/eza) - A modern alternative to ls
 
-*   [Youlor/unpacker](https://github.com/Youlor/unpacker) - 基于ART主动调用的脱壳机
+*   [zcash/halo2](https://github.com/zcash/halo2) - The Halo2 zero-knowledge proving system
 
-*   [CodingGay/BlackDex](https://github.com/CodingGay/BlackDex) - BlackDex is an Android unpack(dexdump) tool, it supports Android 5.0~12 and need not rely to any environment. BlackDex can run on any Android mobile phone or emulator, you can unpack APK File in several seconds.
+*   [MystenLabs/sui](https://github.com/MystenLabs/sui) -  Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language
 
-*   [rizinorg/rz-ghidra](https://github.com/rizinorg/rz-ghidra) - Deep ghidra decompiler and sleigh disassembler integration for rizin
+*   [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
 
-*   [fplll/fplll](https://github.com/fplll/fplll) - Lattice algorithms using floating-point arithmetic
+*   [TabbyML/tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant
 
-*   [kyleneideck/BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic) - Background Music, a macOS audio utility: automatically pause your music, set individual apps' volumes and record system audio.
+*   [xwxb/camdict-cli](https://github.com/xwxb/camdict-cli) - Simple Cambridge Dictionary command-line tool.
 
-*   [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) - Karabiner-Elements is a powerful tool for customizing keyboards on macOS
+## miscellaneous
 
-*   [zrax/pycdc](https://github.com/zrax/pycdc) - C++ python bytecode disassembler and decompiler
+*   [cpq/embedded-network-programming-guide](https://github.com/cpq/embedded-network-programming-guide) - A complete guide for network programming on microcontroller devices
 
-*   [fplll/g6k](https://github.com/fplll/g6k) - The General Sieve Kernel
+*   [xv0nfers/V8-sbx-bypass-collection](https://github.com/xv0nfers/V8-sbx-bypass-collection) -
 
-*   [teeworlds/teeworlds](https://github.com/teeworlds/teeworlds) - A retro multiplayer shooter
+*   [enovella/TEE-reversing](https://github.com/enovella/TEE-reversing) -  A curated list of public TEE resources for learning how to reverse-engineer and achieve trusted code execution on ARM devices
 
-*   [WerWolv/ImHex](https://github.com/WerWolv/ImHex) - 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
+*   [ByteDance-Seed/Seed-Thinking-v1.5](https://github.com/ByteDance-Seed/Seed-Thinking-v1.5) -
 
-*   [keeganryan/flatter](https://github.com/keeganryan/flatter) - Fast lattice reduction
+*   [arch3rPro/Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows) - Windows11 Penetration Suite Toolkit 一个开箱即用的windows渗透测试环境
 
-*   [DavidLee528/VigenereCracker](https://github.com/DavidLee528/VigenereCracker) - Crack Vigenere Ciphertext using statistic method (Index of Coincidence and Chi-square)
+*   [slowmist/Knowledge-Base](https://github.com/slowmist/Knowledge-Base) - Knowledge Base 慢雾安全团队知识库
 
-*   [cp-algorithms/cp-algorithms](https://github.com/cp-algorithms/cp-algorithms) - Algorithm and data structure articles for https://cp-algorithms.com (based on http://e-maxx.ru)
+*   [NormalSubgroup/Team-md](https://github.com/NormalSubgroup/Team-md) - 第十届(2025年)全国高校密码数学挑战赛之赛题二
 
-*   [Z3Prover/z3](https://github.com/Z3Prover/z3) - The Z3 Theorem Prover
+*   [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - 互联网首份程序员考公指南，由3位已经进入体制内的前大厂程序员联合献上。
 
-*   [vijos/malicious-code](https://github.com/vijos/malicious-code) - Malicious code that Vijos judged.
+*   [chriskaliX/AD-Pentest-Notes](https://github.com/chriskaliX/AD-Pentest-Notes) - 用于记录内网渗透(域渗透)学习 :-)
 
-*   [achorein/silenteye](https://github.com/achorein/silenteye) - SilentEye is a cross-platform application design for an easy use of steganography
+*   [liaokongVFX/MCP-Chinese-Getting-Started-Guide](https://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide) - Model Context Protocol(MCP) 编程极速入门
 
-*   [NyaanNyaan/library](https://github.com/NyaanNyaan/library) - Competitive Programming Library
+*   [abc123info/ysoserial\_JDK1.5](https://github.com/abc123info/ysoserial_JDK1.5) - 分享ABC\_123自己改造的ysoserial工具，java反序列化漏洞利用，生成的java反序列化利用链支持jdk1.5版本的老旧系统的利用。
 
-## Sage
+*   [CTF-Archives/2024-wdb-Semis-CTF](https://github.com/CTF-Archives/2024-wdb-Semis-CTF) - 第四届 网鼎杯 半决赛 专项技术挑战赛
 
-*   [lducas/leaky-LWE-Estimator](https://github.com/lducas/leaky-LWE-Estimator) - A sage Toolkit for mounting/estimating attacks on LWE with Side Information
+*   [karminski/one-small-step](https://github.com/karminski/one-small-step) - 这是一个简单的技术科普教程项目，主要聚焦于解释一些有趣的，前沿的技术概念和原理。每篇文章都力求在 5 分钟内阅读完成。
 
-*   [elikaski/ECC\_Attacks](https://github.com/elikaski/ECC_Attacks) - Known attacks on Elliptic Curve Cryptography
+*   [Hexens/awesome-fhe-attacks](https://github.com/Hexens/awesome-fhe-attacks) - A curated list of research, articles, tools, and resources focused on attacks against Fully Homomorphic Encryption (FHE)
 
-*   [juliannowakowski/automated-coppersmith](https://github.com/juliannowakowski/automated-coppersmith) -
+*   [deepseek-ai/DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) -
 
-*   [ubuntor/coppersmith-algorithm](https://github.com/ubuntor/coppersmith-algorithm) - Implements Coron's simplification of Coppersmith's algorithm
+*   [SecureNexusLab/IoTFirmwareAnalysisGuide](https://github.com/SecureNexusLab/IoTFirmwareAnalysisGuide) - 物联网设备安全测试指南
 
-*   [pwang00/Cryptographic-Attacks](https://github.com/pwang00/Cryptographic-Attacks) - Repository containing implementation of attacks on modern public key cryptosystems and symmetric key ciphers.
+*   [ZJUBCA/roadmap](https://github.com/ZJUBCA/roadmap) - Roadmap of learning blockchain technology and business knowledge summarized by ZJUBCA（浙大区块链协会总结的区块链知识学习路线）
 
-*   [hash-hash/My-CTF-Challenges](https://github.com/hash-hash/My-CTF-Challenges) -
+*   [R2NorthstarCN/R2NorthstarCN\_Launcher](https://github.com/R2NorthstarCN/R2NorthstarCN_Launcher) - NorthStarCN 客户端发布仓库
 
-*   [maple3142/lll\_cvp](https://github.com/maple3142/lll_cvp) -
+*   [zama-ai/awesome-zama](https://github.com/zama-ai/awesome-zama) - A curated list of amazing Fully Homomorphic Encryption (FHE) resources created by the team at Zama.
 
-*   [defund/coppersmith](https://github.com/defund/coppersmith) - Coppersmith's method for multivariate polynomials
+*   [ignaciocastro/a-dove-is-dumb](https://github.com/ignaciocastro/a-dove-is-dumb) - Easily block Adobe telemetry checking domains. Continuously Updated. Useful for HostsMan / SwitchHosts / Pi-hole users ✨
 
-*   [zarismine/AliyunCTF2024\_DH1DH2](https://github.com/zarismine/AliyunCTF2024_DH1DH2) -
+*   [zhefox/Bindiff\_for\_IDA9.0](https://github.com/zhefox/Bindiff_for_IDA9.0) - Bindiff\_for\_IDA9 (support 9.0rc1 9.0 9.1)
 
-*   [y011d4/my-ctf-challenges](https://github.com/y011d4/my-ctf-challenges) - My CTF challenges, especially cryptography
+*   [tangcuxiaojikuai/Crypto-Learning](https://github.com/tangcuxiaojikuai/Crypto-Learning) -
 
-*   [fffmath/GIFP](https://github.com/fffmath/GIFP) - Code for the paper “Generalized Implicit Factorization Problem"
+*   [Acmesec/PromptJailbreakManual](https://github.com/Acmesec/PromptJailbreakManual) - Prompt越狱手册
 
-*   [GiacomoPope/Castryck-Decru-SageMath](https://github.com/GiacomoPope/Castryck-Decru-SageMath) - A SageMath implementation of the Castryck-Decru Key Recovery attack on SIDH
+*   [teamdArk5/FscanParser](https://github.com/teamdArk5/FscanParser) - 一个用于处理fsacn输出结果的图形化工具（尤其面对大量资产的fscan扫描结果做输出优化，让你打点快人五步！！！）
 
-*   [josephsurin/lattice-based-cryptanalysis](https://github.com/josephsurin/lattice-based-cryptanalysis) - A toolkit for cryptanalysis using lattices.
+*   [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - 提供计算机考研和软件工程考研专业的各个学校 考研真题
+
+*   [hzpt-inet-club/english-note](https://github.com/hzpt-inet-club/english-note) - 从0开始学习英语语法
+
+*   [tdragon6/Supershell](https://github.com/tdragon6/Supershell) - Supershell C2 远控平台，基于反向SSH隧道获取完全交互式Shell
+
+*   [KangweiiLiu/UCAS\_courses](https://github.com/KangweiiLiu/UCAS_courses) - 中国科学院大学网安-计算机相关课程资源，高级人工智能，深度学习，应用密码学，机器学习，信息隐藏，信息论与编码，多媒体编码等
+
+*   [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - 技术面试最后反问面试官的话
+
+*   [MystenLabs/awesome-move](https://github.com/MystenLabs/awesome-move) - Code and content from the Move community.
+
+*   [tuyafeng/Via](https://github.com/tuyafeng/Via) - Via is a simple browser, and this repository is set for localization.
+
+*   [getsurfboard/surfboard](https://github.com/getsurfboard/surfboard) -
+
+*   [rdragos/awesome-mpc](https://github.com/rdragos/awesome-mpc) -  A curated list of multi party computation resources and links.
+
+*   [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) - Binaries for the CodeQL CLI
+
+*   [straight-tamago/misakaX](https://github.com/straight-tamago/misakaX) - iOS /iPadOS 16.0 - 18.0 / 18.1 beta 4, An ultimate customization tool, uilitizing the bug that makes TrollRestore possible.
+
+*   [alex/what-happens-when](https://github.com/alex/what-happens-when) - An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"
+
+*   [melontini/bootloader-unlock-wall-of-shame](https://github.com/melontini/bootloader-unlock-wall-of-shame) - Keeping track of companies that "care about your data 🥺"
+
+*   [jiakaiwangCN/awesome-physical-adversarial-examples](https://github.com/jiakaiwangCN/awesome-physical-adversarial-examples) -
+
+*   [Calmact/e900v22c](https://github.com/Calmact/e900v22c) - E900V22C/22D等S905L3A机顶盒的刷机技术，包括但不限于安卓9、EmuELEC、CoreELEC、armbian、OpenWRT、ATVx等
+
+*   [qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy](https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy) -
+
+*   [CokePokes/AppStorePlus-TrollStore](https://github.com/CokePokes/AppStorePlus-TrollStore) - AppStore++ tweak for TrollStore
+
+*   [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - 致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD 现已支持 AdGuardHome，dnsmasq，Surge，Pi-Hole，Clash, mihomo，smartdns，sing-box 等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式
+
+*   [StreamerApp/Streamer](https://github.com/StreamerApp/Streamer) - App for Tracking Movies and TV shows on iOS and tvOS
+
+*   [doesprintfwork/All-in-one-Vanilla-AMD-Hackintosh-Guide](https://github.com/doesprintfwork/All-in-one-Vanilla-AMD-Hackintosh-Guide) - The Github Repo of the All-in-one Vanilla AMD Hackintosh Guide
+
+*   [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - A complete computer science study plan to become a software engineer.
+
+*   [ASTTeam/CodeQL](https://github.com/ASTTeam/CodeQL) - 《深入理解CodeQL》Finding vulnerabilities with CodeQL.
+
+*   [user1342/Awesome-Android-Reverse-Engineering](https://github.com/user1342/Awesome-Android-Reverse-Engineering) - A curated list of awesome Android Reverse Engineering training, resources, and tools.
+
+*   [ifr0zen/DoH-for-iMessage-FaceTime](https://github.com/ifr0zen/DoH-for-iMessage-FaceTime) - DNS over HTTPS config profiles for iOS & macOS
+
+*   [dtinth/superwhite](https://github.com/dtinth/superwhite) - display a very bright white color on HDR-enabled displays
+
+*   [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - A collection of modern/faster/saner alternatives to common unix commands.
+
+*   [immunefi-team/Web3-Security-Library](https://github.com/immunefi-team/Web3-Security-Library) - Information about web3 security and programming tutorials/tools
+
+*   [Tsojan/TsojanScan](https://github.com/Tsojan/TsojanScan) - An integrated BurpSuite vulnerability detection plug-in.
+
+*   [ProxymanApp/Proxyman](https://github.com/ProxymanApp/Proxyman) - Modern. Native. Delightful Web Debugging Proxy for macOS, iOS, and Android ⚡️
+
+*   [mohamedshahilshajahan/firmware-for-gauguininpro](https://github.com/mohamedshahilshajahan/firmware-for-gauguininpro) - This repository provides firmware for Mi 10i 5G (Gauguininpro). Access the essential firmware files and updates required for custom ROM installations on the Xiaomi Mi 10i 5G device. The repository is hosted on GitHub for convenient access and utilization.
+
+*   [IIIImmmyyy/U3DGameCourse](https://github.com/IIIImmmyyy/U3DGameCourse) - Android U3D手游安全中级篇
+
+*   [vvmdx/Sec-Interview-4-2023](https://github.com/vvmdx/Sec-Interview-4-2023) - 一个2023届毕业生在毕业前持续更新、收集的安全岗面试题及面试经验分享~
+
+*   [for-A1kaid/CodeAudit](https://github.com/for-A1kaid/CodeAudit) - 记录一些代码审计过的源码
+
+*   [sea0h7e/My-Public-CTF-Challenges](https://github.com/sea0h7e/My-Public-CTF-Challenges) - Repo for collecting part of my public CTF challenges
+
+*   [Junehck/SQL-injection-bypass](https://github.com/Junehck/SQL-injection-bypass) - 记录实战中的各种sql注入绕过姿势
+
+*   [withfig/fig](https://github.com/withfig/fig) - Public issue tracker for Fig.
+
+*   [chinnsenn/ClashCustomRule](https://github.com/chinnsenn/ClashCustomRule) -
+
+*   [Escapingbug/awesome-browser-exploit](https://github.com/Escapingbug/awesome-browser-exploit) - awesome list of browser exploitation tutorials
+
+*   [lbwang/CINTA-cn](https://github.com/lbwang/CINTA-cn) - 一本数论、代数与算法的入门讲义.
+
+*   [symkube/CS\_Syllabus](https://github.com/symkube/CS_Syllabus) - 计算机科学的教学方案，乱搞了一下
+
+*   [PKU-GeekGame/guiding-star](https://github.com/PKU-GeekGame/guiding-star) - Project Guiding Star -- A CTF contest platform by PKU GeekGame Team
+
+*   [reprodev/LGTV-Firmware-Downgrade](https://github.com/reprodev/LGTV-Firmware-Downgrade) - A guide on downgrading the firmware on LG TVs containing webOS so that you can root the TV
+
+*   [Byxs20/PuzzleSolver](https://github.com/Byxs20/PuzzleSolver) - 一款针对CTF竞赛MISC的工具~
+
+*   [AabyssZG/WebShell-Bypass-Guide](https://github.com/AabyssZG/WebShell-Bypass-Guide) - 从零学习Webshell免杀手册
+
+*   [waydabber/BetterDisplay](https://github.com/waydabber/BetterDisplay) - Unlock your displays on your Mac! Flexible HiDPI scaling, XDR/HDR extra brightness, virtual screens, DDC control, extra dimming, PIP/streaming, EDID override and lots more!
+
+*   [f1tz/cnseay](https://github.com/f1tz/cnseay) - Seay源代码审计系统
+
+*   [the-web3/cryptography](https://github.com/the-web3/cryptography) - Cryptography that everyone can understand
+
+*   [olm3ca/PixelbookOSX](https://github.com/olm3ca/PixelbookOSX) - Pixelbook OS X
+
+*   [StrawHatCTF/writeups](https://github.com/StrawHatCTF/writeups) - Writeups By Straw Hat
+
+*   [davinci1012/pinduoduo\_backdoor](https://github.com/davinci1012/pinduoduo_backdoor) - 拼多多apk内嵌提权代码，及动态下发dex分析
+
+*   [pluwen/axure-cn](https://github.com/pluwen/axure-cn) - Chinese language file for Axure RP. Axure RP 简体中文语言包。支持 Axure 11、10、9。不定期更新。
 
 ## Python
+
+*   [xming521/WeClone](https://github.com/xming521/WeClone) - 欢迎star⭐。🚀从聊天记录创造数字分身的一站式解决方案💡 使用微信聊天记录微调大语言模型，使用微信语音消息➕0.5B大模型实现高质量声音克隆，并绑定到聊天机器人，实现自己的数字分身。  数字克隆/数字分身/数字永生/声音克隆/LLM/大语言模型/微信聊天机器人/LoRA
+
+*   [google/A2A](https://github.com/google/A2A) - An open protocol enabling communication and interoperability between opaque agentic applications.
 
 *   [facebookresearch/LWE-benchmarking](https://github.com/facebookresearch/LWE-benchmarking) - This repository contains code to generate and preprocess Learning with Errors (LWE) data and implementations of four LWE attacks uSVP, SALSA, Cool\&Cruel, and Dual Hybrid Meet-in-the-Middle (MitM). We invite contributors to reproduce our results, improve on these methods, and/or suggest new concrete attacks on LWE.
 
@@ -652,277 +762,141 @@
 
 *   [X3NNY/xenny](https://github.com/X3NNY/xenny) - all of CTF
 
-*   [jvdsn/crypto-attacks](https://github.com/jvdsn/crypto-attacks) - Python implementations of cryptographic attacks and utilities.
+## C++
 
-*   [0xaww/awd-submit-flag](https://github.com/0xaww/awd-submit-flag) - 该模块主要是用来ctf AWD比赛时批量提交flag时使用的
+*   [ph4r05/Whitebox-crypto-AES](https://github.com/ph4r05/Whitebox-crypto-AES) - Whitebox AES implementation in C++. Chow, Karroumi.
 
-*   [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader
+*   [MalwareTech/EDR-Preloader](https://github.com/MalwareTech/EDR-Preloader) - An EDR bypass that prevents EDRs from hooking or loading DLLs into our process by hijacking the AppVerifier layer
 
-*   [extremecoders-re/pyinstxtractor](https://github.com/extremecoders-re/pyinstxtractor) - PyInstaller Extractor
+*   [abcz316/SKRoot-linuxKernelRoot](https://github.com/abcz316/SKRoot-linuxKernelRoot) - 新一代SKRoot，挑战全网root检测手段，跟面具完全不同思路，摆脱面具被检测的弱点，完美隐藏root功能，全程不需要暂停SELinux，实现真正的SELinux 0%触碰，通用性强，通杀所有内核，不需要内核源码，直接patch内核，兼容安卓APP直接JNI调用，稳定、流畅、不闪退。
 
-*   [ragibson/Steganography](https://github.com/ragibson/Steganography) - Least Significant Bit Steganography for bitmap images (.bmp and .png), WAV sound files, and byte sequences. Simple LSB Steganalysis (LSB extraction) for bitmap images.
+*   [ImCoriander/ZeroEye](https://github.com/ImCoriander/ZeroEye) - 自动化找白文件，用于扫描 EXE 文件的导入表，列出导入的DLL文件，并筛选出非系统DLL，符合条件的文件将被复制到特定的 X64 或 X86 文件夹
 
-*   [RsaCtfTool/RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) - RSA attack tool (mainly for ctf) - retrieve private key from weak public key and/or uncipher data
+*   [official-pikafish/Pikafish](https://github.com/official-pikafish/Pikafish) - UCI xiangqi engine
 
-*   [greshake/Alice](https://github.com/greshake/Alice) - Giving ChatGPT access to a real terminal
+*   [CMMayer/Toolkit-for-Ring-LWE-v1.0](https://github.com/CMMayer/Toolkit-for-Ring-LWE-v1.0) - Implementation of a toolkit for ring-LWE based cryptography in arbitrary cyclotomic number fields.
 
-## miscellaneous
+*   [wazuh/wazuh](https://github.com/wazuh/wazuh) - Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.
 
-*   [NormalSubgroup/Team-md](https://github.com/NormalSubgroup/Team-md) - 第十届(2025年)全国高校密码数学挑战赛之赛题二
+*   [radiantly/Invisiwind](https://github.com/radiantly/Invisiwind) - An application that allows you to hide certain windows when sharing your full screen
 
-*   [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - 互联网首份程序员考公指南，由3位已经进入体制内的前大厂程序员联合献上。
+*   [thebabush/mcp-job-security](https://github.com/thebabush/mcp-job-security) - LLVM Pass to save Reverse Engineers from Automation
 
-*   [chriskaliX/AD-Pentest-Notes](https://github.com/chriskaliX/AD-Pentest-Notes) - 用于记录内网渗透(域渗透)学习 :-)
+*   [dendibakh/perf-ninja](https://github.com/dendibakh/perf-ninja) - This is an online course where you can learn and master the skill of low-level performance analysis and tuning.
 
-*   [liaokongVFX/MCP-Chinese-Getting-Started-Guide](https://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide) - Model Context Protocol(MCP) 编程极速入门
+*   [knownsec/shellcodeloader](https://github.com/knownsec/shellcodeloader) - shellcodeloader
 
-*   [abc123info/ysoserial\_JDK1.5](https://github.com/abc123info/ysoserial_JDK1.5) - 分享ABC\_123自己改造的ysoserial工具，java反序列化漏洞利用，生成的java反序列化利用链支持jdk1.5版本的老旧系统的利用。
+*   [Lil-House/Pyarmor-Static-Unpack-1shot](https://github.com/Lil-House/Pyarmor-Static-Unpack-1shot) - ✅ No need to run ✅ Pyarmor 8.0 - latest 9.1.3 ✅ Universal ✅ Statically convert obfuscated scripts to disassembly and (experimentally) source code.
 
-*   [CTF-Archives/2024-wdb-Semis-CTF](https://github.com/CTF-Archives/2024-wdb-Semis-CTF) - 第四届 网鼎杯 半决赛 专项技术挑战赛
+*   [zeux/meshoptimizer](https://github.com/zeux/meshoptimizer) - Mesh optimization library that makes meshes smaller and faster to render
 
-*   [karminski/one-small-step](https://github.com/karminski/one-small-step) - 这是一个简单的技术科普教程项目，主要聚焦于解释一些有趣的，前沿的技术概念和原理。每篇文章都力求在 5 分钟内阅读完成。
+*   [feicong/android-rom-book](https://github.com/feicong/android-rom-book) - 安卓系统定制：从入门到实践 开源图书🔥
 
-*   [Hexens/awesome-fhe-attacks](https://github.com/Hexens/awesome-fhe-attacks) - A curated list of research, articles, tools, and resources focused on attacks against Fully Homomorphic Encryption (FHE)
+*   [microsoft/wslg](https://github.com/microsoft/wslg) - Enabling the Windows Subsystem for Linux to include support for Wayland and X server related scenarios
 
-*   [deepseek-ai/DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) -
+*   [bodong1987/AHeadLib.Net](https://github.com/bodong1987/AHeadLib.Net) - The C# version of AHeadLib solves various problems such as instability and incompatibility with x64 of previous versions.
 
-*   [SecureNexusLab/IoTFirmwareAnalysisGuide](https://github.com/SecureNexusLab/IoTFirmwareAnalysisGuide) - 物联网设备安全测试指南
+*   [G4lile0/tinyGS](https://github.com/G4lile0/tinyGS) - 📡 Open Ground Station Network  🛰
 
-*   [ZJUBCA/roadmap](https://github.com/ZJUBCA/roadmap) - Roadmap of learning blockchain technology and business knowledge summarized by ZJUBCA（浙大区块链协会总结的区块链知识学习路线）
+*   [XaFF-XaFF/Cronos-Rootkit](https://github.com/XaFF-XaFF/Cronos-Rootkit) - Cronos is Windows 10/11 x64 ring 0 rootkit. Cronos is able to hide processes, protect and elevate them with token manipulation.
 
-*   [R2NorthstarCN/R2NorthstarCN\_Launcher](https://github.com/R2NorthstarCN/R2NorthstarCN_Launcher) - NorthStarCN 客户端发布仓库
+*   [Jinmo/ifred](https://github.com/Jinmo/ifred) - IDA command palette & more (Ctrl+Shift+P, Ctrl+P)
 
-*   [zama-ai/awesome-zama](https://github.com/zama-ai/awesome-zama) - A curated list of amazing Fully Homomorphic Encryption (FHE) resources created by the team at Zama.
+*   [PKUFlyingPig/CS144-Computer-Network](https://github.com/PKUFlyingPig/CS144-Computer-Network) - Learning materials for Stanford Computer Network course : CS144
 
-*   [ignaciocastro/a-dove-is-dumb](https://github.com/ignaciocastro/a-dove-is-dumb) - Easily block Adobe telemetry checking domains. Continuously Updated. Useful for HostsMan / SwitchHosts / Pi-hole users ✨
+*   [rizsotto/Bear](https://github.com/rizsotto/Bear) - Bear is a tool that generates a compilation database for clang tooling.
 
-*   [zhefox/Bindiff\_for\_IDA9.0](https://github.com/zhefox/Bindiff_for_IDA9.0) - Bindiff\_for\_IDA9 (support 9.0rc1 9.0 9.1)
+*   [WvanWoerden/G6K-GPU-Tensor](https://github.com/WvanWoerden/G6K-GPU-Tensor) - Lattice Sieving using GPU Tensor cores based on the General Sieve Kernel (G6K)
 
-*   [tangcuxiaojikuai/Crypto-Learning](https://github.com/tangcuxiaojikuai/Crypto-Learning) -
+*   [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) - Self-hosted game stream host for Moonlight.
 
-*   [Acmesec/PromptJailbreakManual](https://github.com/Acmesec/PromptJailbreakManual) - Prompt越狱手册
+*   [Summwer/pro-pnj-bkz](https://github.com/Summwer/pro-pnj-bkz) - We implement the progressive Improved Progressive BKZ with Lattice Sieving presented in https://eprint.iacr.org/2022/1343, one can call it to solve LWE challenge(https://www.latticechallenge.org/lwe\_challenge/challenge.php) or other approximate svp problem.
 
-*   [teamdArk5/FscanParser](https://github.com/teamdArk5/FscanParser) - 一个用于处理fsacn输出结果的图形化工具（尤其面对大量资产的fscan扫描结果做输出优化，让你打点快人五步！！！）
+*   [ImpulseAdventure/JPEGsnoop](https://github.com/ImpulseAdventure/JPEGsnoop) - JPEGsnoop: JPEG decoder and detailed analysis
 
-*   [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - 提供计算机考研和软件工程考研专业的各个学校 考研真题
+*   [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) - Protocol Buffers - Google's data interchange format
 
-*   [hzpt-inet-club/english-note](https://github.com/hzpt-inet-club/english-note) - 从0开始学习英语语法
+*   [microsoft/BitNet](https://github.com/microsoft/BitNet) - Official inference framework for 1-bit LLMs
 
-*   [tdragon6/Supershell](https://github.com/tdragon6/Supershell) - Supershell C2 远控平台，基于反向SSH隧道获取完全交互式Shell
+*   [justcallmekoko/ESP32Marauder](https://github.com/justcallmekoko/ESP32Marauder) - A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32
 
-*   [KangweiiLiu/UCAS\_courses](https://github.com/KangweiiLiu/UCAS_courses) - 中国科学院大学网安-计算机相关课程资源，高级人工智能，深度学习，应用密码学，机器学习，信息隐藏，信息论与编码，多媒体编码等
+*   [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) - The Magic Mask for Android
 
-*   [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - 技术面试最后反问面试官的话
+*   [0xnarwhal/BadUSB](https://github.com/0xnarwhal/BadUSB) - A framework to kickstart yourself in making malicious USB devices using ATTiny85.
 
-*   [MystenLabs/awesome-move](https://github.com/MystenLabs/awesome-move) - Code and content from the Move community.
+*   [ShahjalalShohag/code-library](https://github.com/ShahjalalShohag/code-library) - Templates, algorithms and data structures implemented and collected for programming contests.
 
-*   [tuyafeng/Via](https://github.com/tuyafeng/Via) - Via is a simple browser, and this repository is set for localization.
+*   [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) - Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 
-*   [getsurfboard/surfboard](https://github.com/getsurfboard/surfboard) -
+*   [kasmtech/KasmVNC](https://github.com/kasmtech/KasmVNC) - Modern VNC Server and client, web based and secure
 
-*   [rdragos/awesome-mpc](https://github.com/rdragos/awesome-mpc) -  A curated list of multi party computation resources and links.
+*   [xiaomi-sm7225-devs/android\_device\_xiaomi\_gauguin](https://github.com/xiaomi-sm7225-devs/android_device_xiaomi_gauguin) - Device configuration for Xiaomi Redmi Note 9 Pro 5G Series
 
-*   [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) - Binaries for the CodeQL CLI
+*   [PixelOS-Devices/device\_xiaomi\_gauguin](https://github.com/PixelOS-Devices/device_xiaomi_gauguin) -
 
-*   [straight-tamago/misakaX](https://github.com/straight-tamago/misakaX) - iOS /iPadOS 16.0 - 18.0 / 18.1 beta 4, An ultimate customization tool, uilitizing the bug that makes TrollRestore possible.
+*   [yc9559/dfps](https://github.com/yc9559/dfps) - Dynamic screen refresh rate controller for Android 10+
 
-*   [alex/what-happens-when](https://github.com/alex/what-happens-when) - An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"
+*   [LineageOS/android\_device\_xiaomi\_gauguin](https://github.com/LineageOS/android_device_xiaomi_gauguin) -
 
-*   [melontini/bootloader-unlock-wall-of-shame](https://github.com/melontini/bootloader-unlock-wall-of-shame) - Keeping track of companies that "care about your data 🥺"
+*   [baidu/braft](https://github.com/baidu/braft) - An industrial-grade C++ implementation of RAFT consensus algorithm based on brpc,  widely used inside Baidu to build highly-available distributed systems.
 
-*   [jiakaiwangCN/awesome-physical-adversarial-examples](https://github.com/jiakaiwangCN/awesome-physical-adversarial-examples) -
+*   [balena/aes-whitebox](https://github.com/balena/aes-whitebox) - WBC AES implementation in C++ using Chow and Muir papers supporting 128, 192, 256, 512, 1024, 2048 and 4096-bit keys
 
-*   [Calmact/e900v22c](https://github.com/Calmact/e900v22c) - E900V22C/22D等S905L3A机顶盒的刷机技术，包括但不限于安卓9、EmuELEC、CoreELEC、armbian、OpenWRT、ATVx等
+*   [zeze-zeze/NamedPipeMaster](https://github.com/zeze-zeze/NamedPipeMaster) - a tool used to analyze and monitor in named pipes
 
-*   [qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy](https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy) -
+*   [Daeinar/dfa-aes](https://github.com/Daeinar/dfa-aes) - Differential fault analysis framework for AES128
 
-*   [CokePokes/AppStorePlus-TrollStore](https://github.com/CokePokes/AppStorePlus-TrollStore) - AppStore++ tweak for TrollStore
+*   [acidanthera/DebugEnhancer](https://github.com/acidanthera/DebugEnhancer) - A Lilu plugin intended to enable debug output in the macOS kernel
 
-*   [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - 致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD 现已支持 AdGuardHome，dnsmasq，Surge，Pi-Hole，Clash, mihomo，smartdns，sing-box 等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式
+*   [HACK-THE-WORLD/IDAPluginList](https://github.com/HACK-THE-WORLD/IDAPluginList) - IDA插件集合，含项目名称及项目地址，每日定时Clone项目。
 
-*   [StreamerApp/Streamer](https://github.com/StreamerApp/Streamer) - App for Tracking Movies and TV shows on iOS and tvOS
+*   [risc0/risc0](https://github.com/risc0/risc0) - RISC Zero is a zero-knowledge verifiable general computing platform based on zk-STARKs and the RISC-V microarchitecture.
 
-*   [doesprintfwork/All-in-one-Vanilla-AMD-Hackintosh-Guide](https://github.com/doesprintfwork/All-in-one-Vanilla-AMD-Hackintosh-Guide) - The Github Repo of the All-in-one Vanilla AMD Hackintosh Guide
+*   [linbox-team/linbox](https://github.com/linbox-team/linbox) - LinBox - C++ library for exact, high-performance linear algebra
 
-*   [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - A complete computer science study plan to become a software engineer.
+*   [cloudfuzz/android-kernel-exploitation](https://github.com/cloudfuzz/android-kernel-exploitation) - Android Kernel Exploitation
 
-*   [ASTTeam/CodeQL](https://github.com/ASTTeam/CodeQL) - 《深入理解CodeQL》Finding vulnerabilities with CodeQL.
+*   [stijnherfst/HiveWE](https://github.com/stijnherfst/HiveWE) - A Warcraft III world editor.
 
-*   [user1342/Awesome-Android-Reverse-Engineering](https://github.com/user1342/Awesome-Android-Reverse-Engineering) - A curated list of awesome Android Reverse Engineering training, resources, and tools.
+*   [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) - Truly independent web browser
 
-*   [ifr0zen/DoH-for-iMessage-FaceTime](https://github.com/ifr0zen/DoH-for-iMessage-FaceTime) - DNS over HTTPS config profiles for iOS & macOS
+*   [git-akshat/CNS-Lab](https://github.com/git-akshat/CNS-Lab) - Cryptography and Network Security Lab programs done in 7th semester of SIT(VTU).
 
-*   [dtinth/superwhite](https://github.com/dtinth/superwhite) - display a very bright white color on HDR-enabled displays
+*   [WrBug/dumpDex](https://github.com/WrBug/dumpDex) - 💯一款Android脱壳工具，需要xposed支持, 易开发已集成该项目。
 
-*   [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - A collection of modern/faster/saner alternatives to common unix commands.
+*   [Youlor/unpacker](https://github.com/Youlor/unpacker) - 基于ART主动调用的脱壳机
 
-*   [immunefi-team/Web3-Security-Library](https://github.com/immunefi-team/Web3-Security-Library) - Information about web3 security and programming tutorials/tools
+*   [CodingGay/BlackDex](https://github.com/CodingGay/BlackDex) - BlackDex is an Android unpack(dexdump) tool, it supports Android 5.0~12 and need not rely to any environment. BlackDex can run on any Android mobile phone or emulator, you can unpack APK File in several seconds.
 
-*   [Tsojan/TsojanScan](https://github.com/Tsojan/TsojanScan) - An integrated BurpSuite vulnerability detection plug-in.
+*   [rizinorg/rz-ghidra](https://github.com/rizinorg/rz-ghidra) - Deep ghidra decompiler and sleigh disassembler integration for rizin
 
-*   [ProxymanApp/Proxyman](https://github.com/ProxymanApp/Proxyman) - Modern. Native. Delightful Web Debugging Proxy for macOS, iOS, and Android ⚡️
+*   [fplll/fplll](https://github.com/fplll/fplll) - Lattice algorithms using floating-point arithmetic
 
-*   [mohamedshahilshajahan/firmware-for-gauguininpro](https://github.com/mohamedshahilshajahan/firmware-for-gauguininpro) - This repository provides firmware for Mi 10i 5G (Gauguininpro). Access the essential firmware files and updates required for custom ROM installations on the Xiaomi Mi 10i 5G device. The repository is hosted on GitHub for convenient access and utilization.
+*   [kyleneideck/BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic) - Background Music, a macOS audio utility: automatically pause your music, set individual apps' volumes and record system audio.
 
-*   [IIIImmmyyy/U3DGameCourse](https://github.com/IIIImmmyyy/U3DGameCourse) - Android U3D手游安全中级篇
+*   [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) - Karabiner-Elements is a powerful tool for customizing keyboards on macOS
 
-*   [vvmdx/Sec-Interview-4-2023](https://github.com/vvmdx/Sec-Interview-4-2023) - 一个2023届毕业生在毕业前持续更新、收集的安全岗面试题及面试经验分享~
+*   [zrax/pycdc](https://github.com/zrax/pycdc) - C++ python bytecode disassembler and decompiler
 
-*   [for-A1kaid/CodeAudit](https://github.com/for-A1kaid/CodeAudit) - 记录一些代码审计过的源码
+*   [fplll/g6k](https://github.com/fplll/g6k) - The General Sieve Kernel
 
-*   [sea0h7e/My-Public-CTF-Challenges](https://github.com/sea0h7e/My-Public-CTF-Challenges) - Repo for collecting part of my public CTF challenges
+*   [teeworlds/teeworlds](https://github.com/teeworlds/teeworlds) - A retro multiplayer shooter
 
-*   [Junehck/SQL-injection-bypass](https://github.com/Junehck/SQL-injection-bypass) - 记录实战中的各种sql注入绕过姿势
+*   [WerWolv/ImHex](https://github.com/WerWolv/ImHex) - 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
 
-*   [withfig/fig](https://github.com/withfig/fig) - Public issue tracker for Fig.
+*   [keeganryan/flatter](https://github.com/keeganryan/flatter) - Fast lattice reduction
 
-*   [chinnsenn/ClashCustomRule](https://github.com/chinnsenn/ClashCustomRule) -
+*   [DavidLee528/VigenereCracker](https://github.com/DavidLee528/VigenereCracker) - Crack Vigenere Ciphertext using statistic method (Index of Coincidence and Chi-square)
 
-*   [Escapingbug/awesome-browser-exploit](https://github.com/Escapingbug/awesome-browser-exploit) - awesome list of browser exploitation tutorials
+*   [cp-algorithms/cp-algorithms](https://github.com/cp-algorithms/cp-algorithms) - Algorithm and data structure articles for https://cp-algorithms.com (based on http://e-maxx.ru)
 
-*   [lbwang/CINTA-cn](https://github.com/lbwang/CINTA-cn) - 一本数论、代数与算法的入门讲义.
+*   [Z3Prover/z3](https://github.com/Z3Prover/z3) - The Z3 Theorem Prover
 
-*   [symkube/CS\_Syllabus](https://github.com/symkube/CS_Syllabus) - 计算机科学的教学方案，乱搞了一下
-
-*   [PKU-GeekGame/guiding-star](https://github.com/PKU-GeekGame/guiding-star) - Project Guiding Star -- A CTF contest platform by PKU GeekGame Team
-
-*   [reprodev/LGTV-Firmware-Downgrade](https://github.com/reprodev/LGTV-Firmware-Downgrade) - A guide on downgrading the firmware on LG TVs containing webOS so that you can root the TV
-
-*   [Byxs20/PuzzleSolver](https://github.com/Byxs20/PuzzleSolver) - 一款针对CTF竞赛MISC的工具~
-
-*   [AabyssZG/WebShell-Bypass-Guide](https://github.com/AabyssZG/WebShell-Bypass-Guide) - 从零学习Webshell免杀手册
-
-*   [waydabber/BetterDisplay](https://github.com/waydabber/BetterDisplay) - Unlock your displays on your Mac! Flexible HiDPI scaling, XDR/HDR extra brightness, virtual screens, DDC control, extra dimming, PIP/streaming, EDID override and lots more!
-
-*   [f1tz/cnseay](https://github.com/f1tz/cnseay) - Seay源代码审计系统
-
-*   [the-web3/cryptography](https://github.com/the-web3/cryptography) - Cryptography that everyone can understand
-
-*   [olm3ca/PixelbookOSX](https://github.com/olm3ca/PixelbookOSX) - Pixelbook OS X
-
-*   [StrawHatCTF/writeups](https://github.com/StrawHatCTF/writeups) - Writeups By Straw Hat
-
-*   [davinci1012/pinduoduo\_backdoor](https://github.com/davinci1012/pinduoduo_backdoor) - 拼多多apk内嵌提权代码，及动态下发dex分析
-
-*   [pluwen/axure-cn](https://github.com/pluwen/axure-cn) - Chinese language file for Axure RP. Axure RP 简体中文语言包。支持 Axure 11、10、9。不定期更新。
-
-*   [zweix123/CS-notes](https://github.com/zweix123/CS-notes) - Notes taken by zweix while learning computer related knowledge
-
-*   [CTFTraining/CTFTraining](https://github.com/CTFTraining/CTFTraining) - CTF Training 经典赛题复现环境
-
-*   [WXRIW/Lyricify-App](https://github.com/WXRIW/Lyricify-App) - Lyricify (/lɪ'rɪsəfaɪ/), a fantastic app to provide scroll lyrics for Spotify and other apps. 一款为 Spotify 等各种应用提供滚动歌词的软件。
-
-## JavaScript
-
-*   [agalwood/Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
-
-*   [byxiaozhi/Typedown](https://github.com/byxiaozhi/Typedown) - A markdown editor
-
-*   [AssemblyScript/wabt.js](https://github.com/AssemblyScript/wabt.js) - A buildbot for wabt.js, a port of WABT to the Web, with TypeScript support.
-
-*   [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Model Context Protocol Servers
-
-*   [leaningtech/cheerp-meta](https://github.com/leaningtech/cheerp-meta) - Cheerp - a C/C++ compiler for Web applications - compiles to WebAssembly and JavaScript
-
-*   [leaningtech/webvm](https://github.com/leaningtech/webvm) - Virtual Machine for the Web
-
-*   [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) - :zap: Dynamically generated stats for your github readmes
-
-*   [eric-gitta-moore/mac-hidden-anything-NSWindow](https://github.com/eric-gitta-moore/mac-hidden-anything-NSWindow) - This is a tool that uses Frida to inject into Chrome and modify NSWindow behavior to hide any window content on macOS systems.
-
-*   [Mathieu2301/TradingView-API](https://github.com/Mathieu2301/TradingView-API) - 📈 Get real-time stocks from TradingView
-
-*   [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) - 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
-
-*   [firesunCN/BlueLotus\_XSSReceiver](https://github.com/firesunCN/BlueLotus_XSSReceiver) -
-
-*   [trysec/BlueLotus\_XSSReceiver](https://github.com/trysec/BlueLotus_XSSReceiver) - XSS平台 CTF工具 Web安全工具
-
-*   [melanke/Watch.JS](https://github.com/melanke/Watch.JS) - watch the changes of any object or attribute
-
-*   [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) - 🍒 Cherry Studio is a desktop client that supports for multiple LLM providers.
-
-*   [flomesh-io/ztm](https://github.com/flomesh-io/ztm) - ZTM (Zero Trust Mesh) is a privacy-first open-source decentralized end-to-end encrypted software defined network, based on HTTP/2 tunnels. Experience boundless connectivity and mesh the globe!
-
-*   [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) - :file\_folder: A file manager / web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...
-
-*   [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) - A fancy self-hosted monitoring tool
-
-*   [opengovsg/pdf2md](https://github.com/opengovsg/pdf2md) - A PDF to Markdown converter
-
-*   [obgnail/typora\_plugin](https://github.com/obgnail/typora_plugin) - Typora plugin. Feature enhancement tool | Typora 插件，功能增强工具
-
-*   [hack-chat/main](https://github.com/hack-chat/main) - a minimal, distraction-free chat application
-
-*   [horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) - Program for determining types of files for Windows, Linux and MacOS.
-
-*   [dqzboy/Docker-Proxy](https://github.com/dqzboy/Docker-Proxy) - 🔥 🔥 🔥 自建Docker镜像加速服务，基于官方Docker  Registry 一键部署Docker、K8s、Quay、Ghcr、Mcr、Nvcr等镜像加速\管理服务。支持免服务器部署到Render\Koyeb
-
-*   [MurphyLo/cf-openai-sensechat-proxy](https://github.com/MurphyLo/cf-openai-sensechat-proxy) - A Cloudflare worker script to proxy OpenAI‘s request to Sensetime SenseChat-5 model
-
-*   [annnhan/ReRes](https://github.com/annnhan/ReRes) - Change the response of the request.
-
-*   [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) - Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.
-
-*   [zchengsite/hexo-theme-oranges](https://github.com/zchengsite/hexo-theme-oranges) - 🍊A simple hexo theme of minimalism
-
-*   [open-webui/open-webui](https://github.com/open-webui/open-webui) - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
-
-*   [NebulaStudio/airsend](https://github.com/NebulaStudio/airsend) - 一个基于 P2P 的文件分享服务。
-
-*   [hugsy/recon\_2024\_windbg\_workshop](https://github.com/hugsy/recon_2024_windbg_workshop) -
-
-*   [BiliUniverse/Enhanced](https://github.com/BiliUniverse/Enhanced) - 全面自定义哔哩哔哩 App 主界面，修改首页和底栏元素的显示顺序和触发功能
-
-*   [ITJoker233/Gridea-theme-Chic](https://github.com/ITJoker233/Gridea-theme-Chic) - 这个主题出自Hexo中的-Chic....我移植到了Gridea，喜欢的点个赞吧👍
-
-*   [fishjar/kiss-translator](https://github.com/fishjar/kiss-translator) - A simple, open source bilingual translation extension & Greasemonkey script (一个简约、开源的 双语对照翻译扩展 & 油猴脚本)
-
-*   [novnc/noVNC](https://github.com/novnc/noVNC) - VNC client web application
-
-*   [fffmath/UsefulLink](https://github.com/fffmath/UsefulLink) - A page containing many useful links.
-
-*   [Merricx/qrazybox](https://github.com/Merricx/qrazybox) - QR Code Analysis and Recovery Toolkit
-
-*   [WangYihang/USB-Mouse-Pcap-Visualizer](https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer) - USB mouse traffic packet forensic tool, mainly used to draw mouse movements and dragging trajectories
-
-*   [latentcat/mpmath](https://github.com/latentcat/mpmath) - 微信公众号公式编辑插件
-
-*   [marktext/marktext](https://github.com/marktext/marktext) - 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
-
-*   [guyoung/CaptfEncoder](https://github.com/guyoung/CaptfEncoder) - Captfencoder is opensource a rapid cross platform network security tool suite, providing network security related code conversion, classical cryptography, cryptography, asymmetric encryption, miscellaneous tools, and aggregating all kinds of online tools.
-
-*   [IIIImmmyyy/frida-il2cppDumper](https://github.com/IIIImmmyyy/frida-il2cppDumper) - Riru Il2cppDumper 加强版 内存里直接dump出源码信息 ( 已支持易盾)
-
-*   [lasting-yang/frida\_dump](https://github.com/lasting-yang/frida_dump) - frida dump dex, frida dump so
-
-*   [GuoQiang1993/Frida-Apk-Unpack](https://github.com/GuoQiang1993/Frida-Apk-Unpack) -
-
-*   [ganeshrvel/openmtp](https://github.com/ganeshrvel/openmtp) - OpenMTP  - Advanced Android File Transfer Application for macOS
-
-*   [brix/crypto-js](https://github.com/brix/crypto-js) - JavaScript library of crypto standards.
-
-*   [JSREI/js-cookie-monitor-debugger-hook](https://github.com/JSREI/js-cookie-monitor-debugger-hook) - js cookie逆向利器：js cookie变动监控可视化工具 & js cookie hook打条件断点
-
-*   [fkling/astexplorer](https://github.com/fkling/astexplorer) - A web tool to explore the ASTs generated by various parsers.
-
-*   [Kenshin/simpread](https://github.com/Kenshin/simpread) - 简悦 ( SimpRead ) - 让你瞬间进入沉浸式阅读的扩展
-
-*   [TryGhost/Ghost](https://github.com/TryGhost/Ghost) - Independent technology for modern publishing, memberships, subscriptions and newsletters.
-
-*   [gchq/CyberChef](https://github.com/gchq/CyberChef) - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
-
-*   [AntSwordProject/antSword](https://github.com/AntSwordProject/antSword) - 中国蚁剑是一款跨平台的开源网站管理工具。AntSword is a cross-platform website management toolkit.
-
-*   [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) - 哔哩哔哩-API收集整理【不断更新中....】
-
-*   [be5invis/Sarasa-Gothic](https://github.com/be5invis/Sarasa-Gothic) - Sarasa Gothic / 更纱黑体 / 更紗黑體 / 更紗ゴシック / 사라사 고딕
-
-*   [BetterDiscord/BetterDiscord](https://github.com/BetterDiscord/BetterDiscord) - Better Discord enhances Discord desktop app with new features.
-
-*   [CodeforcesContestHelper/CCHv2](https://github.com/CodeforcesContestHelper/CCHv2) - CCHv2 - A powerful contest helper for CodeForces, developed with NW.js.
+*   [vijos/malicious-code](https://github.com/vijos/malicious-code) - Malicious code that Vijos judged.
 
 ## TypeScript
+
+*   [mokeyish/obsidian-enhancing-export](https://github.com/mokeyish/obsidian-enhancing-export) - This is an enhancing export plugin base on Pandoc for Obsidian (https://obsidian.md/ ). It's allow you to export to formats like Markdown、Markdown (Hugo https://gohugo.io/ )、Html、docx、Latex etc.
 
 *   [TarsLab/obsidian-tars](https://github.com/TarsLab/obsidian-tars) - Obsidian tars plugin that supports text generation based on tag suggestions, using services like DeepSeek, Claude, OpenAI, OpenRouter, SiliconFlow, Gemini, Ollama, Kimi, Doubao, Qwen, Zhipu, QianFan & more.
 
@@ -945,6 +919,8 @@
 *   [galacean/engine](https://github.com/galacean/engine) - A typescript interactive engine, support 2D, 3D, animation, physics, built on WebGL and glTF.
 
 *   [xdebug/vscode-php-debug](https://github.com/xdebug/vscode-php-debug) - PHP Debug Adapter for Visual Studio Code 🐞⛔
+
+*   [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) - 🍒 Cherry Studio is a desktop client that supports for multiple LLM providers.
 
 *   [richards199999/Thinking-Claude](https://github.com/richards199999/Thinking-Claude) - Let your Claude able to think
 
@@ -1038,119 +1014,13 @@
 
 *   [nicepkg/gpt-runner](https://github.com/nicepkg/gpt-runner) - Conversations with your files! Manage and run your AI presets!
 
-*   [wechaty/wechaty](https://github.com/wechaty/wechaty) - Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt
-
-*   [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - OneDrive public directory listing, powered by Vercel and Next.js
-
-## Rust
-
-*   [SitinCloud/Owlyshield](https://github.com/SitinCloud/Owlyshield) - Owlyshield is an EDR framework designed to safeguard vulnerable applications from potential exploitation (C\&C, exfiltration and impact).
-
-*   [anza-xyz/mollusk](https://github.com/anza-xyz/mollusk) - SVM program test harness.
-
-*   [block/goose](https://github.com/block/goose) - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
-
-*   [uutils/coreutils](https://github.com/uutils/coreutils) - Cross-platform Rust rewrite of the GNU coreutils
-
-*   [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
-
-*   [Le1a/LokiPool](https://github.com/Le1a/LokiPool) - 一个使用Rust编写的SOCKS5代理池管理工具，能够自动测速、管理多个代理服务器，提供高效稳定的匿名代理服务。
-
-*   [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) - A Rust compiler front-end for IDEs
-
-*   [Devolutions/IronRDP](https://github.com/Devolutions/IronRDP) - Rust implementation of the Microsoft Remote Desktop Protocol (RDP)
-
-*   [WGUNDERWOOD/tex-fmt](https://github.com/WGUNDERWOOD/tex-fmt) - An extremely fast LaTeX formatter written in Rust
-
-*   [trunk-rs/trunk](https://github.com/trunk-rs/trunk) - Build, bundle & ship your Rust WASM application to the web.
-
-*   [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) - Facilitating high-level interactions between Wasm modules and JavaScript
-
-*   [zksecurity/noname](https://github.com/zksecurity/noname) - Noname: a programming language to write zkapps
-
-*   [aptos-labs/aptos-core](https://github.com/aptos-labs/aptos-core) - Aptos is a layer 1 blockchain built to support the widespread use of blockchain through better technology and user experience.
-
-*   [wasmerio/wasmer](https://github.com/wasmerio/wasmer) - 🚀 Fast, secure, lightweight containers based on WebAssembly
-
-*   [rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack) - 📦✨ your favorite rust -> wasm workflow tool!
-
-*   [huacnlee/autocorrect](https://github.com/huacnlee/autocorrect) - A linter and formatter to help you to improve copywriting, correct spaces, words, and punctuations between CJK (Chinese, Japanese, Korean).
-
-*   [tokio-rs/axum](https://github.com/tokio-rs/axum) - Ergonomic and modular web framework built with Tokio, Tower, and Hyper
-
-*   [hyperium/hyper](https://github.com/hyperium/hyper) - An HTTP library for Rust
-
-*   [0xProject/OpenZKP](https://github.com/0xProject/OpenZKP) - OpenZKP - pure Rust implementations of Zero-Knowledge Proof systems.
-
-*   [quantumsheep/sshs](https://github.com/quantumsheep/sshs) - Terminal user interface for SSH
-
-*   [ShellWen/v8\_killer](https://github.com/ShellWen/v8_killer) - A powerful and highly customizable universal V8 virtual machine injector.
-
-*   [sgayou/rbasefind](https://github.com/sgayou/rbasefind) - A firmware base address search tool.
-
-*   [amtoaer/bili-sync](https://github.com/amtoaer/bili-sync) - 由 Rust & Tokio 驱动的哔哩哔哩同步工具
-
-*   [samwho/spacer](https://github.com/samwho/spacer) - CLI tool to insert spacers when command output stops
-
-*   [rust9x/rust](https://github.com/rust9x/rust) - UNOFFICIAL "Tier 4" Rust target for Windows 9x/Me/NT/2000/XP/Vista.
-
-*   [ankitects/anki](https://github.com/ankitects/anki) - Anki's shared backend and web components, and the Qt frontend
-
-*   [ferrilab/bitvec](https://github.com/ferrilab/bitvec) - A crate for managing memory bit by bit
-
-*   [asterinas/asterinas](https://github.com/asterinas/asterinas) - Asterinas is a secure, fast, and general-purpose OS kernel, written in Rust and providing Linux-compatible ABI.
-
-*   [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org
-
-*   [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Magical shell history
-
-*   [Aloxaf/rbkcrack](https://github.com/Aloxaf/rbkcrack) - Crack legacy zip encryption with Biham and Kocher's known plaintext attack. 使用明文攻击破解加密的 zip 文件
-
-*   [b23r0/cliws](https://github.com/b23r0/cliws) - Cross platform interactive bind/reverse PTY shell
-
-*   [nix-community/nix-ld](https://github.com/nix-community/nix-ld) - Run unpatched dynamic binaries on NixOS \[maintainer=@Mic92]
-
-*   [LGUG2Z/komorebi](https://github.com/LGUG2Z/komorebi) - A tiling window manager for Windows 🍉
-
-*   [AFLplusplus/LibAFL](https://github.com/AFLplusplus/LibAFL) - Advanced Fuzzing Library - Slot your Fuzzer together in Rust! Scales across cores and machines. For Windows, Android, MacOS, Linux, no\_std, ...
-
-*   [shell-pool/shpool](https://github.com/shell-pool/shpool) - Think tmux, then aim... lower
-
-*   [rapiz1/rathole](https://github.com/rapiz1/rathole) - A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
-
-*   [fuzzland/ityfuzz](https://github.com/fuzzland/ityfuzz) - Blazing Fast Bytecode-Level Hybrid Fuzzer for Smart Contracts
-
-*   [H-M-H/Weylus](https://github.com/H-M-H/Weylus) - Use your tablet as graphic tablet/touch screen on your computer.
-
-*   [jkcoxson/JitStreamer](https://github.com/jkcoxson/JitStreamer) - A service to activate JIT across the far reaches of the internet
-
-*   [io12/pwninit](https://github.com/io12/pwninit) - pwninit - automate starting binary exploit challenges
-
-*   [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) -  All Algorithms implemented in Rust
-
-*   [cmpute/num-prime](https://github.com/cmpute/num-prime) -
-
-*   [y011d4/factor-from-random-known-bits](https://github.com/y011d4/factor-from-random-known-bits) - Python's library written in Rust to quickly factor `n = pq` when around >50% bits of `p` and `q` are known which are distributed at random.
-
-*   [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
-
-*   [eza-community/eza](https://github.com/eza-community/eza) - A modern alternative to ls
-
-*   [zcash/halo2](https://github.com/zcash/halo2) - The Halo2 zero-knowledge proving system
-
-*   [MystenLabs/sui](https://github.com/MystenLabs/sui) -  Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language
-
-*   [electric-capital/crypto-ecosystems](https://github.com/electric-capital/crypto-ecosystems) - A taxonomy for open source cryptocurrency, blockchain, and decentralized ecosystems
-
-*   [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
-
-*   [TabbyML/tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant
-
-*   [xwxb/camdict-cli](https://github.com/xwxb/camdict-cli) - Simple Cambridge Dictionary command-line tool.
-
-*   [ReFirmLabs/binwalk](https://github.com/ReFirmLabs/binwalk) - Firmware Analysis Tool
-
 ## C
+
+*   [capstone-engine/capstone](https://github.com/capstone-engine/capstone) - Capstone disassembly/disassembler framework for ARM, ARM64 (ARMv8), Alpha, BPF, Ethereum VM, HPPA, LoongArch, M68K, M680X, Mips, MOS65XX, PPC, RISC-V(rv32G/rv64G), SH, Sparc, SystemZ, TMS320C64X, TriCore, Webassembly, XCore and X86.
+
+*   [mridgers/clink](https://github.com/mridgers/clink) - Bash's powerful command line editing in cmd.exe
+
+*   [sokaRepo/CoercedPotatoRDLL](https://github.com/sokaRepo/CoercedPotatoRDLL) - Reflective DLL to privesc from NT Service to SYSTEM using SeImpersonateToken privilege
 
 *   [synacktiv/frinet](https://github.com/synacktiv/frinet) - Frida-based tracer for easier reverse-engineering on Android, iOS, Linux, Windows and most related architectures.
 
@@ -1334,151 +1204,13 @@
 
 *   [bbuhrow/yafu](https://github.com/bbuhrow/yafu) - Automated integer factorization
 
-*   [pelya/android-keyboard-gadget](https://github.com/pelya/android-keyboard-gadget) - Convert your Android device into USB keyboard/mouse, control your PC from your Android device remotely, including BIOS/bootloader.
-
-## CSS
-
-*   [AnubisNekhet/AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) - Personal theme for Obsidian
-
-*   [jbtronics/CrookedStyleSheets](https://github.com/jbtronics/CrookedStyleSheets) - Webpage tracking only using CSS (and no JS)
-
-*   [KoriIku/luxirty-search](https://github.com/KoriIku/luxirty-search) - 一个搜索引擎，基于 Google，屏蔽内容农场，无广告，无跟踪，干净，简洁，快。
-
-*   [Ruanxingzhi/Blueberry-CTF](https://github.com/Ruanxingzhi/Blueberry-CTF) - CTF contest platform for Lilac team.
-
-*   [X3NNY/sstilabs](https://github.com/X3NNY/sstilabs) - A lab to help you learning SSTI
-
-*   [getgridea/gridea-theme-notes](https://github.com/getgridea/gridea-theme-notes) - 一个简洁的 Gridea 主题 Notes
-
-*   [getgridea/gridea-theme-starter](https://github.com/getgridea/gridea-theme-starter) - Gridea 主题开发样板
-
-*   [straight-tamago/misaka](https://github.com/straight-tamago/misaka) -  iOS & tvOS customisation tool for KFD & MDC
-
-## Go
-
-*   [weaviate/weaviate](https://github.com/weaviate/weaviate) - Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.
-
-*   [cdk-team/CDK](https://github.com/cdk-team/CDK) - 📦  Make security testing of K8s, Docker, and Containerd easier.
-
-*   [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC) - PoC for CVE-2019-5736
-
-*   [wagoodman/dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image
-
-*   [daeuniverse/dae](https://github.com/daeuniverse/dae) - eBPF-based Linux high-performance transparent proxy solution.
-
-*   [shirou/gopsutil](https://github.com/shirou/gopsutil) - psutil for golang
-
-*   [sjtug/cerberus](https://github.com/sjtug/cerberus) - A Caddy module that blocks unwanted requests using a sha256 PoW challenge
-
-*   [google/gvisor](https://github.com/google/gvisor) - Application Kernel for Containers
-
-*   [cloudwego/eino](https://github.com/cloudwego/eino) - The ultimate LLM/AI application development framework in Golang.
-
-*   [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) - AI infrastructure security assessment tool designed to discover and detect potential security risks in AI systems.
-
-*   [anytls/anytls-go](https://github.com/anytls/anytls-go) -
-
-*   [subtrace/subtrace](https://github.com/subtrace/subtrace) - Wireshark for Docker containers
-
-*   [OJ/gobuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go
-
-*   [goplus/gop](https://github.com/goplus/gop) - The Go+ programming language is designed for engineering, STEM education, and data science. Our vision is to enable everyone to become a builder of the world.
-
-*   [Jeiwan/blockchain\_go](https://github.com/Jeiwan/blockchain_go) - A simplified blockchain implementation in Golang
-
-*   [wuhan005/Asteroid\_backend](https://github.com/wuhan005/Asteroid_backend) - Asteroid 后端
-
-*   [05sec/Cardinal](https://github.com/05sec/Cardinal) - CTF🚩 AWD (Attack with Defense) 线下赛平台 / AWD platform - 欢迎 Star~ ✨
-
-*   [Consensys/gnark](https://github.com/Consensys/gnark) - gnark is a fast zk-SNARK library that offers a high-level API to design circuits. The library is open source and developed under the Apache 2.0 license
-
-*   [klauspost/cpuid](https://github.com/klauspost/cpuid) - CPU feature identification for Go
-
-*   [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - Powerful Free DeepL API, No Token Required
-
-*   [containrrr/watchtower](https://github.com/containrrr/watchtower) - A process for automating Docker container base image updates.
-
-*   [jetify-com/devbox](https://github.com/jetify-com/devbox) - Instant, easy, and predictable development environments
-
-*   [ehang-io/nps](https://github.com/ehang-io/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.
-
-*   [lxn/win](https://github.com/lxn/win) - A Windows API wrapper package for the Go Programming Language
-
-*   [go-gitea/gitea](https://github.com/go-gitea/gitea) - Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
-
-*   [Dliv3/Venom](https://github.com/Dliv3/Venom) - Venom - A Multi-hop Proxy for Penetration Testers
-
-*   [jpillora/chisel](https://github.com/jpillora/chisel) - A fast TCP/UDP tunnel over HTTP
-
-*   [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) - Release engineering, simplified
-
-*   [SleepingBag945/dddd](https://github.com/SleepingBag945/dddd) - dddd是一款使用简单的批量信息收集,供应链漏洞探测工具，旨在优化红队工作流，减少伤肝的机械性操作。支持从Hunter、Fofa批量拉取目标
-
-*   [apernet/hysteria](https://github.com/apernet/hysteria) - Hysteria is a powerful, lightning fast and censorship resistant proxy.
-
-*   [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Self-hosted, lightweight server and website monitoring and O\&M tool
-
-*   [bepass-org/warp-plus](https://github.com/bepass-org/warp-plus) - Warp+Psiphon, an anti censorship utility for iran
-
-*   [ollama/ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, and other large language models.
-
-*   [cyfdecyf/cow](https://github.com/cyfdecyf/cow) - HTTP proxy written in Go. COW can automatically identify blocked sites and use parent proxies to access.
-
-*   [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
-
-*   [bestruirui/WeChatPush](https://github.com/bestruirui/WeChatPush) - 微信无后台，借助第三方软件接入系统推送
-
-*   [wjlab/Darksteel](https://github.com/wjlab/Darksteel) - 域内自动化信息搜集利用工具
-
-*   [natesales/q](https://github.com/natesales/q) - A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH.
-
-*   [juanfont/headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server
-
-*   [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry\_blossom: A command-line fuzzy finder
-
-*   [tuneinsight/lattigo](https://github.com/tuneinsight/lattigo) - A library for lattice-based multiparty homomorphic encryption in Go
-
-*   [tailscale/tailscale](https://github.com/tailscale/tailscale) - The easiest, most secure way to use WireGuard and 2FA.
-
-*   [ginuerzh/gost](https://github.com/ginuerzh/gost) - GO Simple Tunnel - a simple tunnel written in golang
-
-*   [liamg/traitor](https://github.com/liamg/traitor) - :arrow\_up: :skull\_and\_crossbones: :fire: Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dirty pipe, +w docker.sock
-
-*   [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
-
-*   [lima-vm/lima](https://github.com/lima-vm/lima) - Linux virtual machines, with a focus on running containers
-
-*   [wux1an/wxapkg](https://github.com/wux1an/wxapkg) - 微信小程序反编译工具，.wxapkg 文件扫描 + 解密 + 解包工具
-
-*   [shadow1ng/fscan](https://github.com/shadow1ng/fscan) - 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。
-
-*   [zksecurity/zkBank](https://github.com/zksecurity/zkBank) - zkBank is the most secure banking system in the world, powered by ZK, gnark, and GKR!
-
-*   [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) - Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (macOS, Windows, Linux).
-
-*   [qjfoidnh/BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go) - iikira/BaiduPCS-Go原版基础上集成了分享链接/秒传链接转存功能
-
-*   [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands
-
-*   [redpwn/jail](https://github.com/redpwn/jail) - An nsjail Docker image for CTF pwnables. Easily create secure, isolated xinetd/inetd-style services.
-
-*   [abiosoft/colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup
-
-*   [EdgeSecurityTeam/EHole](https://github.com/EdgeSecurityTeam/EHole) - EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具
-
-*   [SagerNet/sing-box](https://github.com/SagerNet/sing-box) - The universal proxy platform
-
-*   [INotGreen/XiebroC2](https://github.com/INotGreen/XiebroC2) - 渗透测试C2、支持Lua插件扩展、域前置/CDN上线、自定义profile、前置sRDI、文件管理、进程管理、内存加载、截图、反向代理、分组管理
-
-*   [iawia002/lux](https://github.com/iawia002/lux) - 👾 Fast and simple video download library and CLI tool written in Go
-
-*   [mariocandela/beelzebub](https://github.com/mariocandela/beelzebub) - A secure low code honeypot framework, leveraging LLM for System Virtualization.
-
-*   [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) - cqhttp的golang实现，轻量、原生跨平台.
-
-*   [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
-
 ## Java
+
+*   [whwlsfb/JDumpSpider](https://github.com/whwlsfb/JDumpSpider) - HeapDump敏感信息提取工具
+
+*   [fesh0r/fernflower](https://github.com/fesh0r/fernflower) - Unofficial mirror of FernFlower Java decompiler (All pulls should be submitted upstream)
+
+*   [chiteroman/BootloaderSpoofer](https://github.com/chiteroman/BootloaderSpoofer) - Spoof locked bootloader on local attestations
 
 *   [ant-media/Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server) - Ant Media Server is a live streaming engine software that provides adaptive, ultra low latency streaming by using WebRTC technology with ~0.5 seconds latency. Ant Media Server is auto-scalable and it can run on-premise or on-cloud.
 
@@ -1580,13 +1312,343 @@
 
 *   [feihong-cs/ShiroExploit-Deprecated](https://github.com/feihong-cs/ShiroExploit-Deprecated) - Shiro550/Shiro721 一键化利用工具，支持多种回显方式
 
+## JavaScript
+
+*   [cweijan/vscode-office](https://github.com/cweijan/vscode-office) - Let VSCode support previewing PDF, Excel, Word and other formats, and add markdown WYSIWYG editor.
+
+*   [wendux/ajax-hook](https://github.com/wendux/ajax-hook) - Intercepting browser's http requests which made by XMLHttpRequest.
+
+*   [agalwood/Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
+
+*   [byxiaozhi/Typedown](https://github.com/byxiaozhi/Typedown) - A markdown editor
+
+*   [AssemblyScript/wabt.js](https://github.com/AssemblyScript/wabt.js) - A buildbot for wabt.js, a port of WABT to the Web, with TypeScript support.
+
+*   [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Model Context Protocol Servers
+
+*   [leaningtech/cheerp-meta](https://github.com/leaningtech/cheerp-meta) - Cheerp - a C/C++ compiler for Web applications - compiles to WebAssembly and JavaScript
+
+*   [leaningtech/webvm](https://github.com/leaningtech/webvm) - Virtual Machine for the Web
+
+*   [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) - :zap: Dynamically generated stats for your github readmes
+
+*   [eric-gitta-moore/mac-hidden-anything-NSWindow](https://github.com/eric-gitta-moore/mac-hidden-anything-NSWindow) - This is a tool that uses Frida to inject into Chrome and modify NSWindow behavior to hide any window content on macOS systems.
+
+*   [Mathieu2301/TradingView-API](https://github.com/Mathieu2301/TradingView-API) - 📈 Get real-time stocks from TradingView
+
+*   [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) - 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
+
+*   [firesunCN/BlueLotus\_XSSReceiver](https://github.com/firesunCN/BlueLotus_XSSReceiver) -
+
+*   [trysec/BlueLotus\_XSSReceiver](https://github.com/trysec/BlueLotus_XSSReceiver) - XSS平台 CTF工具 Web安全工具
+
+*   [melanke/Watch.JS](https://github.com/melanke/Watch.JS) - watch the changes of any object or attribute
+
+*   [flomesh-io/ztm](https://github.com/flomesh-io/ztm) - ZTM (Zero Trust Mesh) is a privacy-first open-source decentralized end-to-end encrypted software defined network, based on HTTP/2 tunnels. Experience boundless connectivity and mesh the globe!
+
+*   [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) - :file\_folder: A file manager / web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...
+
+*   [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) - A fancy self-hosted monitoring tool
+
+*   [opengovsg/pdf2md](https://github.com/opengovsg/pdf2md) - A PDF to Markdown converter
+
+*   [obgnail/typora\_plugin](https://github.com/obgnail/typora_plugin) - Typora plugin. Feature enhancement tool | Typora 插件，功能增强工具
+
+*   [hack-chat/main](https://github.com/hack-chat/main) - a minimal, distraction-free chat application
+
+*   [horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) - Program for determining types of files for Windows, Linux and MacOS.
+
+*   [dqzboy/Docker-Proxy](https://github.com/dqzboy/Docker-Proxy) - 🔥 🔥 🔥 自建Docker镜像加速服务，基于官方Docker  Registry 一键部署Docker、K8s、Quay、Ghcr、Mcr、Nvcr等镜像加速\管理服务。支持免服务器部署到Render\Koyeb
+
+*   [MurphyLo/cf-openai-sensechat-proxy](https://github.com/MurphyLo/cf-openai-sensechat-proxy) - A Cloudflare worker script to proxy OpenAI‘s request to Sensetime SenseChat-5 model
+
+*   [annnhan/ReRes](https://github.com/annnhan/ReRes) - Change the response of the request.
+
+*   [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) - Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.
+
+*   [zchengsite/hexo-theme-oranges](https://github.com/zchengsite/hexo-theme-oranges) - 🍊A simple hexo theme of minimalism
+
+*   [open-webui/open-webui](https://github.com/open-webui/open-webui) - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+
+*   [NebulaStudio/airsend](https://github.com/NebulaStudio/airsend) - 一个基于 P2P 的文件分享服务。
+
+*   [hugsy/recon\_2024\_windbg\_workshop](https://github.com/hugsy/recon_2024_windbg_workshop) -
+
+*   [BiliUniverse/Enhanced](https://github.com/BiliUniverse/Enhanced) - 全面自定义哔哩哔哩 App 主界面，修改首页和底栏元素的显示顺序和触发功能
+
+*   [ITJoker233/Gridea-theme-Chic](https://github.com/ITJoker233/Gridea-theme-Chic) - 这个主题出自Hexo中的-Chic....我移植到了Gridea，喜欢的点个赞吧👍
+
+*   [fishjar/kiss-translator](https://github.com/fishjar/kiss-translator) - A simple, open source bilingual translation extension & Greasemonkey script (一个简约、开源的 双语对照翻译扩展 & 油猴脚本)
+
+*   [novnc/noVNC](https://github.com/novnc/noVNC) - VNC client web application
+
+*   [fffmath/UsefulLink](https://github.com/fffmath/UsefulLink) - A page containing many useful links.
+
+*   [Merricx/qrazybox](https://github.com/Merricx/qrazybox) - QR Code Analysis and Recovery Toolkit
+
+*   [WangYihang/USB-Mouse-Pcap-Visualizer](https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer) - USB mouse traffic packet forensic tool, mainly used to draw mouse movements and dragging trajectories
+
+*   [latentcat/mpmath](https://github.com/latentcat/mpmath) - 微信公众号公式编辑插件
+
+*   [marktext/marktext](https://github.com/marktext/marktext) - 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
+
+*   [guyoung/CaptfEncoder](https://github.com/guyoung/CaptfEncoder) - Captfencoder is opensource a rapid cross platform network security tool suite, providing network security related code conversion, classical cryptography, cryptography, asymmetric encryption, miscellaneous tools, and aggregating all kinds of online tools.
+
+*   [IIIImmmyyy/frida-il2cppDumper](https://github.com/IIIImmmyyy/frida-il2cppDumper) - Riru Il2cppDumper 加强版 内存里直接dump出源码信息 ( 已支持易盾)
+
+*   [lasting-yang/frida\_dump](https://github.com/lasting-yang/frida_dump) - frida dump dex, frida dump so
+
+*   [GuoQiang1993/Frida-Apk-Unpack](https://github.com/GuoQiang1993/Frida-Apk-Unpack) -
+
+*   [ganeshrvel/openmtp](https://github.com/ganeshrvel/openmtp) - OpenMTP  - Advanced Android File Transfer Application for macOS
+
+*   [brix/crypto-js](https://github.com/brix/crypto-js) - JavaScript library of crypto standards.
+
+*   [JSREI/js-cookie-monitor-debugger-hook](https://github.com/JSREI/js-cookie-monitor-debugger-hook) - js cookie逆向利器：js cookie变动监控可视化工具 & js cookie hook打条件断点
+
+*   [fkling/astexplorer](https://github.com/fkling/astexplorer) - A web tool to explore the ASTs generated by various parsers.
+
+*   [Kenshin/simpread](https://github.com/Kenshin/simpread) - 简悦 ( SimpRead ) - 让你瞬间进入沉浸式阅读的扩展
+
+*   [TryGhost/Ghost](https://github.com/TryGhost/Ghost) - Independent technology for modern publishing, memberships, subscriptions and newsletters.
+
+*   [gchq/CyberChef](https://github.com/gchq/CyberChef) - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+
+*   [AntSwordProject/antSword](https://github.com/AntSwordProject/antSword) - 中国蚁剑是一款跨平台的开源网站管理工具。AntSword is a cross-platform website management toolkit.
+
+## Go
+
+*   [Zjackky/CodeScan](https://github.com/Zjackky/CodeScan) - 一款轻量级匹配Sink点的代码审计扫描器，为了帮助红队过程中快速代码审计的小工具
+
+*   [spf13/cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
+
+*   [weaviate/weaviate](https://github.com/weaviate/weaviate) - Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.
+
+*   [cdk-team/CDK](https://github.com/cdk-team/CDK) - 📦  Make security testing of K8s, Docker, and Containerd easier.
+
+*   [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC) - PoC for CVE-2019-5736
+
+*   [wagoodman/dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image
+
+*   [daeuniverse/dae](https://github.com/daeuniverse/dae) - eBPF-based Linux high-performance transparent proxy solution.
+
+*   [shirou/gopsutil](https://github.com/shirou/gopsutil) - psutil for golang
+
+*   [sjtug/cerberus](https://github.com/sjtug/cerberus) - A Caddy module that blocks unwanted requests using a sha256 PoW challenge
+
+*   [google/gvisor](https://github.com/google/gvisor) - Application Kernel for Containers
+
+*   [cloudwego/eino](https://github.com/cloudwego/eino) - The ultimate LLM/AI application development framework in Golang.
+
+*   [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) - AI infrastructure security assessment tool designed to discover and detect potential security risks in AI systems.
+
+*   [anytls/anytls-go](https://github.com/anytls/anytls-go) -
+
+*   [subtrace/subtrace](https://github.com/subtrace/subtrace) - Wireshark for Docker containers
+
+*   [OJ/gobuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go
+
+*   [goplus/gop](https://github.com/goplus/gop) - The Go+ programming language is designed for engineering, STEM education, and data science. Our vision is to enable everyone to become a builder of the world.
+
+*   [Jeiwan/blockchain\_go](https://github.com/Jeiwan/blockchain_go) - A simplified blockchain implementation in Golang
+
+*   [wuhan005/Asteroid\_backend](https://github.com/wuhan005/Asteroid_backend) - Asteroid 后端
+
+*   [05sec/Cardinal](https://github.com/05sec/Cardinal) - CTF🚩 AWD (Attack with Defense) 线下赛平台 / AWD platform - 欢迎 Star~ ✨
+
+*   [Consensys/gnark](https://github.com/Consensys/gnark) - gnark is a fast zk-SNARK library that offers a high-level API to design circuits. The library is open source and developed under the Apache 2.0 license
+
+*   [klauspost/cpuid](https://github.com/klauspost/cpuid) - CPU feature identification for Go
+
+*   [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - Powerful Free DeepL API, No Token Required
+
+*   [containrrr/watchtower](https://github.com/containrrr/watchtower) - A process for automating Docker container base image updates.
+
+*   [jetify-com/devbox](https://github.com/jetify-com/devbox) - Instant, easy, and predictable development environments
+
+*   [ehang-io/nps](https://github.com/ehang-io/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.
+
+*   [lxn/win](https://github.com/lxn/win) - A Windows API wrapper package for the Go Programming Language
+
+*   [go-gitea/gitea](https://github.com/go-gitea/gitea) - Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
+
+*   [Dliv3/Venom](https://github.com/Dliv3/Venom) - Venom - A Multi-hop Proxy for Penetration Testers
+
+*   [jpillora/chisel](https://github.com/jpillora/chisel) - A fast TCP/UDP tunnel over HTTP
+
+*   [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) - Release engineering, simplified
+
+*   [SleepingBag945/dddd](https://github.com/SleepingBag945/dddd) - dddd是一款使用简单的批量信息收集,供应链漏洞探测工具，旨在优化红队工作流，减少伤肝的机械性操作。支持从Hunter、Fofa批量拉取目标
+
+*   [apernet/hysteria](https://github.com/apernet/hysteria) - Hysteria is a powerful, lightning fast and censorship resistant proxy.
+
+*   [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Self-hosted, lightweight server and website monitoring and O\&M tool
+
+*   [bepass-org/warp-plus](https://github.com/bepass-org/warp-plus) - Warp+Psiphon, an anti censorship utility for iran
+
+*   [ollama/ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 and other large language models.
+
+*   [cyfdecyf/cow](https://github.com/cyfdecyf/cow) - HTTP proxy written in Go. COW can automatically identify blocked sites and use parent proxies to access.
+
+*   [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
+
+*   [bestruirui/WeChatPush](https://github.com/bestruirui/WeChatPush) - 微信无后台，借助第三方软件接入系统推送
+
+*   [wjlab/Darksteel](https://github.com/wjlab/Darksteel) - 域内自动化信息搜集利用工具
+
+*   [natesales/q](https://github.com/natesales/q) - A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH.
+
+*   [juanfont/headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server
+
+*   [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry\_blossom: A command-line fuzzy finder
+
+*   [tuneinsight/lattigo](https://github.com/tuneinsight/lattigo) - A library for lattice-based multiparty homomorphic encryption in Go
+
+*   [tailscale/tailscale](https://github.com/tailscale/tailscale) - The easiest, most secure way to use WireGuard and 2FA.
+
+*   [ginuerzh/gost](https://github.com/ginuerzh/gost) - GO Simple Tunnel - a simple tunnel written in golang
+
+*   [liamg/traitor](https://github.com/liamg/traitor) - :arrow\_up: :skull\_and\_crossbones: :fire: Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dirty pipe, +w docker.sock
+
+*   [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+
+*   [lima-vm/lima](https://github.com/lima-vm/lima) - Linux virtual machines, with a focus on running containers
+
+*   [wux1an/wxapkg](https://github.com/wux1an/wxapkg) - 微信小程序反编译工具，.wxapkg 文件扫描 + 解密 + 解包工具
+
+*   [shadow1ng/fscan](https://github.com/shadow1ng/fscan) - 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。
+
+*   [zksecurity/zkBank](https://github.com/zksecurity/zkBank) - zkBank is the most secure banking system in the world, powered by ZK, gnark, and GKR!
+
+*   [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) - Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (macOS, Windows, Linux).
+
+*   [qjfoidnh/BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go) - iikira/BaiduPCS-Go原版基础上集成了分享链接/秒传链接转存功能
+
+*   [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands
+
+*   [redpwn/jail](https://github.com/redpwn/jail) - An nsjail Docker image for CTF pwnables. Easily create secure, isolated xinetd/inetd-style services.
+
+*   [abiosoft/colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup
+
+*   [EdgeSecurityTeam/EHole](https://github.com/EdgeSecurityTeam/EHole) - EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具
+
+*   [SagerNet/sing-box](https://github.com/SagerNet/sing-box) - The universal proxy platform
+
+*   [INotGreen/XiebroC2](https://github.com/INotGreen/XiebroC2) - 渗透测试C2、支持Lua插件扩展、域前置/CDN上线、自定义profile、前置sRDI、文件管理、进程管理、内存加载、截图、反向代理、分组管理
+
+*   [iawia002/lux](https://github.com/iawia002/lux) - 👾 Fast and simple video download library and CLI tool written in Go
+
+*   [mariocandela/beelzebub](https://github.com/mariocandela/beelzebub) - A secure low code honeypot framework, leveraging LLM for System Virtualization.
+
+*   [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) - cqhttp的golang实现，轻量、原生跨平台.
+
+## Kotlin
+
+*   [Crazyphil/digitales-amt-liberator](https://github.com/Crazyphil/digitales-amt-liberator) - Removes root and bootloader checks from e-government apps
+
+*   [NeoApplications/Neo-Backup](https://github.com/NeoApplications/Neo-Backup) - backup manager for android
+
+*   [Smooth-E/wireless-adb-switch](https://github.com/Smooth-E/wireless-adb-switch) - An app that allows you to switch Android's Wireless Debugging feature on and off quickly. It provides several widgets and a quick settings tile to do this.
+
+*   [KernelSU-Next/KernelSU-Next](https://github.com/KernelSU-Next/KernelSU-Next) - An advanced Kernel based root solution for Android
+
+*   [square/okhttp](https://github.com/square/okhttp) - Square’s meticulous HTTP client for the JVM, Android, and GraalVM.
+
+*   [sakana164/mytv-android](https://github.com/sakana164/mytv-android) - 使用Android原生开发的电视直播软件（source backup）
+
+*   [LYiHub/privacy-radar-public](https://github.com/LYiHub/privacy-radar-public) - Source code for the privacy radar app (android/ohos)
+
+*   [Arian04/android-hid-client](https://github.com/Arian04/android-hid-client) - Android app that allows you to use your phone as a keyboard and mouse WITHOUT any software on the other end (Requires root)
+
+*   [mamoe/mirai](https://github.com/mamoe/mirai) - 高效率 QQ 机器人支持库
+
+*   [DerTyp7214/RboardThemeManagerV3](https://github.com/DerTyp7214/RboardThemeManagerV3) -
+
+*   [osfans/trime](https://github.com/osfans/trime) - 同文安卓輸入法平臺3.x/Android-rime/Rime Input Method Engine for Android
+
+*   [CofbroTeam/Doraemon](https://github.com/CofbroTeam/Doraemon) - ⭐ ⭐ ⭐不止签到！更有一键同步作业功能！⭐ ⭐ ⭐ UI友好的安卓-Android移动端学习通签到助手，支持普通签到，扫码签到，图片签到，二维码签到，定位签到，签到码签到，手势签到，作业提醒：push通知，短信通知！！
+
+*   [Weverses/ModemPro](https://github.com/Weverses/ModemPro) - 一个适配于大部分MIUI13机型的基带增强型Xposed模块
+
+*   [zhufucdev/MotionEmulator](https://github.com/zhufucdev/MotionEmulator) - Xposed enabled location simulator with sensor support.
+
+*   [JingMatrix/ChromeXt](https://github.com/JingMatrix/ChromeXt) - UserScript and DevTools supports for Chromium based and WebView based browsers
+
+*   [Mygod/VPNHotspot](https://github.com/Mygod/VPNHotspot) - Share your VPN connection over hotspot or repeater! (root required)
+
+*   [iamr0s/InstallerX](https://github.com/iamr0s/InstallerX) - A modern and functional Android app installer. (You know some birds are not meant to be caged, their feathers are just too bright.)
+
+*   [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) - 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正
+
+*   [tiann/KernelSU](https://github.com/tiann/KernelSU) - A Kernel based root solution for Android
+
+## Makefile
+
+*   [yuk7/ArchWSL](https://github.com/yuk7/ArchWSL) - ArchLinux based WSL Distribution. Supports multiple install.
+
+*   [IntelLabs/kAFL](https://github.com/IntelLabs/kAFL) - A fuzzer for full VM kernel/driver targets
+
+*   [davidBar-On/android-iperf3](https://github.com/davidBar-On/android-iperf3) - Pre-compiled iperf3 binaries for Android + Dockerfile with SDK and NDK for manual build
+
+*   [DrizzleRisk/drizzleDumper](https://github.com/DrizzleRisk/drizzleDumper) - drizzleDumper是一款基于内存搜索的Android脱壳工具。
+
+*   [dlevi309/Sharecuts](https://github.com/dlevi309/Sharecuts) - allows importing/exporting .shortcut files directly within the app rather than uploading to iCloud
+
+*   [thecrabsterchief/Federated-Learning-meets-Homomorphic-Encryption](https://github.com/thecrabsterchief/Federated-Learning-meets-Homomorphic-Encryption) - Homomorphic Encryption and Federated Learning based Privacy-Preserving
+
+## Sage
+
+*   [lducas/leaky-LWE-Estimator](https://github.com/lducas/leaky-LWE-Estimator) - A sage Toolkit for mounting/estimating attacks on LWE with Side Information
+
+*   [elikaski/ECC\_Attacks](https://github.com/elikaski/ECC_Attacks) - Known attacks on Elliptic Curve Cryptography
+
+*   [juliannowakowski/automated-coppersmith](https://github.com/juliannowakowski/automated-coppersmith) -
+
+*   [ubuntor/coppersmith-algorithm](https://github.com/ubuntor/coppersmith-algorithm) - Implements Coron's simplification of Coppersmith's algorithm
+
+*   [pwang00/Cryptographic-Attacks](https://github.com/pwang00/Cryptographic-Attacks) - Repository containing implementation of attacks on modern public key cryptosystems and symmetric key ciphers.
+
+*   [hash-hash/My-CTF-Challenges](https://github.com/hash-hash/My-CTF-Challenges) -
+
+*   [maple3142/lll\_cvp](https://github.com/maple3142/lll_cvp) -
+
+*   [defund/coppersmith](https://github.com/defund/coppersmith) - Coppersmith's method for multivariate polynomials
+
+*   [zarismine/AliyunCTF2024\_DH1DH2](https://github.com/zarismine/AliyunCTF2024_DH1DH2) -
+
+*   [y011d4/my-ctf-challenges](https://github.com/y011d4/my-ctf-challenges) - My CTF challenges, especially cryptography
+
+*   [fffmath/GIFP](https://github.com/fffmath/GIFP) - Code for the paper “Generalized Implicit Factorization Problem"
+
+*   [GiacomoPope/Castryck-Decru-SageMath](https://github.com/GiacomoPope/Castryck-Decru-SageMath) - A SageMath implementation of the Castryck-Decru Key Recovery attack on SIDH
+
+*   [josephsurin/lattice-based-cryptanalysis](https://github.com/josephsurin/lattice-based-cryptanalysis) - A toolkit for cryptanalysis using lattices.
+
+## CSS
+
+*   [AnubisNekhet/AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) - Personal theme for Obsidian
+
+*   [jbtronics/CrookedStyleSheets](https://github.com/jbtronics/CrookedStyleSheets) - Webpage tracking only using CSS (and no JS)
+
+*   [KoriIku/luxirty-search](https://github.com/KoriIku/luxirty-search) - 一个搜索引擎，基于 Google，屏蔽内容农场，无广告，无跟踪，干净，简洁，快。
+
+*   [Ruanxingzhi/Blueberry-CTF](https://github.com/Ruanxingzhi/Blueberry-CTF) - CTF contest platform for Lilac team.
+
+*   [X3NNY/sstilabs](https://github.com/X3NNY/sstilabs) - A lab to help you learning SSTI
+
+*   [getgridea/gridea-theme-notes](https://github.com/getgridea/gridea-theme-notes) - 一个简洁的 Gridea 主题 Notes
+
+*   [getgridea/gridea-theme-starter](https://github.com/getgridea/gridea-theme-starter) - Gridea 主题开发样板
+
+*   [straight-tamago/misaka](https://github.com/straight-tamago/misaka) -  iOS & tvOS customisation tool for KFD & MDC
+
 ## Swift
 
 *   [nmggithub/Kass](https://github.com/nmggithub/Kass) - Kass: A security research tool.
 
-*   [alienator88/Sentinel](https://github.com/alienator88/Sentinel) - SwiftUI gatekeeper configuration GUI
+*   [alienator88/Sentinel](https://github.com/alienator88/Sentinel) - Configure Gatekeeper, remove apps from quarantine and self-sign apps
 
-*   [DevelopCubeLab/ClearFilzaResidue](https://github.com/DevelopCubeLab/ClearFilzaResidue) - iOS Utils remove Filza residue files
+*   [DevelopCubeLab/ClearResidue](https://github.com/DevelopCubeLab/ClearResidue) - iOS Utils remove Filza residue files
 
 *   [nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace) - AeroSpace is an i3-like tiling window manager for macOS
 
@@ -1657,8 +1719,6 @@
 *   [ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines) - ⏰ Collaboratively track deadlines of conferences recommended by CCF (Website, Python Cli, Wechat Applet) / If you find it useful, please star this project, thanks~
 
 *   [xugaoyi/vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) - 🚀一款简洁高效的VuePress知识管理&博客(blog)主题
-
-*   [UniiemStudio/CTFever](https://github.com/UniiemStudio/CTFever) - Fantastic toolkit for CTFers and everyone.
 
 ## Lean
 
@@ -1750,58 +1810,6 @@
 
 *   [rocq-prover/rocq](https://github.com/rocq-prover/rocq) - The Rocq Prover is an interactive theorem prover, or proof assistant. It provides a formal language to write mathematical definitions, executable algorithms and theorems together with an environment for semi-interactive development of machine-checked proofs.
 
-## Kotlin
-
-*   [NeoApplications/Neo-Backup](https://github.com/NeoApplications/Neo-Backup) - backup manager for android
-
-*   [Smooth-E/wireless-adb-switch](https://github.com/Smooth-E/wireless-adb-switch) - An app that allows you to switch Android's Wireless Debugging feature on and off quickly. It provides several widgets and a quick settings tile to do this.
-
-*   [KernelSU-Next/KernelSU-Next](https://github.com/KernelSU-Next/KernelSU-Next) - An advanced Kernel based root solution for Android
-
-*   [square/okhttp](https://github.com/square/okhttp) - Square’s meticulous HTTP client for the JVM, Android, and GraalVM.
-
-*   [sakana164/mytv-android](https://github.com/sakana164/mytv-android) - 使用Android原生开发的电视直播软件（source backup）
-
-*   [LYiHub/privacy-radar-public](https://github.com/LYiHub/privacy-radar-public) - Source code for the privacy radar app (android/ohos)
-
-*   [Arian04/android-hid-client](https://github.com/Arian04/android-hid-client) - Android app that allows you to use your phone as a keyboard and mouse WITHOUT any software on the other end (Requires root)
-
-*   [mamoe/mirai](https://github.com/mamoe/mirai) - 高效率 QQ 机器人支持库
-
-*   [DerTyp7214/RboardThemeManagerV3](https://github.com/DerTyp7214/RboardThemeManagerV3) -
-
-*   [osfans/trime](https://github.com/osfans/trime) - 同文安卓輸入法平臺3.x/Android-rime/Rime Input Method Engine for Android
-
-*   [CofbroTeam/Doraemon](https://github.com/CofbroTeam/Doraemon) - ⭐ ⭐ ⭐不止签到！更有一键同步作业功能！⭐ ⭐ ⭐ UI友好的安卓-Android移动端学习通签到助手，支持普通签到，扫码签到，图片签到，二维码签到，定位签到，签到码签到，手势签到，作业提醒：push通知，短信通知！！
-
-*   [Weverses/ModemPro](https://github.com/Weverses/ModemPro) - 一个适配于大部分MIUI13机型的基带增强型Xposed模块
-
-*   [zhufucdev/MotionEmulator](https://github.com/zhufucdev/MotionEmulator) - Xposed enabled location simulator with sensor support.
-
-*   [JingMatrix/ChromeXt](https://github.com/JingMatrix/ChromeXt) - UserScript and DevTools supports for Chromium based and WebView based browsers
-
-*   [Mygod/VPNHotspot](https://github.com/Mygod/VPNHotspot) - Share your VPN connection over hotspot or repeater! (root required)
-
-*   [iamr0s/InstallerX](https://github.com/iamr0s/InstallerX) - A modern and functional Android app installer. (You know some birds are not meant to be caged, their feathers are just too bright.)
-
-*   [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) - 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正
-
-*   [tiann/KernelSU](https://github.com/tiann/KernelSU) - A Kernel based root solution for Android
-
-*   [tejado/android-usb-gadget](https://github.com/tejado/android-usb-gadget) - Convert your Android phone to any USB device you like! USB Gadget Tool allows you to create and activate USB device roles, like a mouse or a keyboard.  🛠🛡📱
-
-## Makefile
-
-*   [IntelLabs/kAFL](https://github.com/IntelLabs/kAFL) - A fuzzer for full VM kernel/driver targets
-
-*   [davidBar-On/android-iperf3](https://github.com/davidBar-On/android-iperf3) - Pre-compiled iperf3 binaries for Android + Dockerfile with SDK and NDK for manual build
-
-*   [DrizzleRisk/drizzleDumper](https://github.com/DrizzleRisk/drizzleDumper) - drizzleDumper是一款基于内存搜索的Android脱壳工具。
-
-*   [dlevi309/Sharecuts](https://github.com/dlevi309/Sharecuts) - allows importing/exporting .shortcut files directly within the app rather than uploading to iCloud
-
-*   [thecrabsterchief/Federated-Learning-meets-Homomorphic-Encryption](https://github.com/thecrabsterchief/Federated-Learning-meets-Homomorphic-Encryption) - Homomorphic Encryption and Federated Learning based Privacy-Preserving
-
 ## Ruby
 
 *   [wpscanteam/wpscan](https://github.com/wpscanteam/wpscan) - WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites. Contact us via contact@wpscan.com
@@ -1886,8 +1894,6 @@
 
 *   [apachecn/awesome-cs-courses-zh](https://github.com/apachecn/awesome-cs-courses-zh) - 计算机公开课推荐
 
-*   [yanncam/UnSHc](https://github.com/yanncam/UnSHc) - UnSHc - How to decrypt SHc \*.sh.x encrypted file ?
-
 ## MDX
 
 *   [aptos-labs/developer-docs](https://github.com/aptos-labs/developer-docs) - Source for the Aptos developer docs
@@ -1915,8 +1921,6 @@
 ## Dockerfile
 
 *   [vulhub/vulhub](https://github.com/vulhub/vulhub) - Pre-Built Vulnerable Environments Based on Docker-Compose
-
-*   [RICwang/docker-wechat](https://github.com/RICwang/docker-wechat) - 在docker里运行wechat，可以通过web或者VNC访问wechat
 
 *   [leludo84/vol3-linux-profiles](https://github.com/leludo84/vol3-linux-profiles) - Volatility3 Linux profiles
 
@@ -1950,7 +1954,7 @@
 
 *   [zgjx6/SocialEngineeringDictionaryGenerator](https://github.com/zgjx6/SocialEngineeringDictionaryGenerator) - 社会工程学密码生成器，是一个利用个人信息生成密码的工具
 
-*   [Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) - 基于 docsify 快速部署 Awesome-POC 中的漏洞文档
+*   [Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) - 一个基于 docsify 快速部署 Awesome-POC 漏洞文档的项目。Deploying the Awesome-POC repository via docsify.
 
 *   [hugo-fixit/FixIt](https://github.com/hugo-fixit/FixIt) - 🔧 A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题
 
@@ -2032,8 +2036,6 @@
 
 *   [linyiLYi/pose-monitor](https://github.com/linyiLYi/pose-monitor) - “让爷康康”是一款手机 AI 应用程序，可以监测不良坐姿并进行语音提示
 
-*   [fengdu78/Data-Science-Notes](https://github.com/fengdu78/Data-Science-Notes) - 数据科学的笔记以及资料搜集
-
 ## Pascal
 
 *   [stascorp/rdpwrap](https://github.com/stascorp/rdpwrap) - RDP Wrapper Library
@@ -2053,10 +2055,6 @@
 *   [mimoo/RSA-and-LLL-attacks](https://github.com/mimoo/RSA-and-LLL-attacks) - attacking RSA via lattice reductions (LLL)
 
 *   [YuZhang/cryptography](https://github.com/YuZhang/cryptography) - Cryptography course slides at Harbin Institute of Technology
-
-*   [recuraki/cphb-ja](https://github.com/recuraki/cphb-ja) - (JA)Competitive Programmer's Handbook
-
-*   [CTeX-org/lshort-zh-cn](https://github.com/CTeX-org/lshort-zh-cn) - A Chi­nese edi­tion of the Not So Short Introduction to LaTeX2ε
 
 ## CMake
 
@@ -2135,6 +2133,8 @@
 ## Zig
 
 *   [Vexu/arocc](https://github.com/Vexu/arocc) - A modern fully featured C compiler.
+
+*   [electric-capital/crypto-ecosystems](https://github.com/electric-capital/crypto-ecosystems) - A taxonomy for open source cryptocurrency, blockchain, and decentralized ecosystems
 
 ## Vim Script
 
