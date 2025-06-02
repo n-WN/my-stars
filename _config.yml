@@ -1,0 +1,22 @@
+title: "Some Stars"
+description: "⭐ 我的star列表，每天自动更新 ⭐"
+baseurl: ""
+url: "https://n-wn.github.io"
+
+# 禁用 Jekyll 处理
+plugins: []
+theme: null
+
+# 包含文件
+include:
+  - data.json
+  - index.html
+  - 404.html
+
+# 排除文件
+exclude:
+  - template/
+  - .github/
+  - .git/
+  - LICENSE
+  - README.md
