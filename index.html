@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some Stars - 我的GitHub星标收藏</title>
+    <meta name="description" content="⭐ 我的star列表，每天自动更新 ⭐">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292f;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #0969da;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #656d76;
+            margin-bottom: 2rem;
+        }
+        .nav-links {
+            margin: 2rem 0;
+        }
+        .nav-links a {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 0 8px;
+            background-color: #f6f8fa;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #24292f;
+            transition: all 0.2s;
+        }
+        .nav-links a:hover {
+            background-color: #f3f4f6;
+            border-color: #d0d7de;
+        }
+        .divider {
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, #0969da, #8b5cf6, #0969da);
+            margin: 2rem 0;
+            border-radius: 2px;
+        }
+        .loading {
+            text-align: center;
+            font-size: 1.1rem;
+            color: #656d76;
+            margin: 3rem 0;
+        }
+        .toc {
+            background-color: #f6f8fa;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        .toc h2 {
+            margin-top: 0;
+            color: #0969da;
+        }
+        .toc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .toc-item {
+            padding: 0.5rem;
+            background-color: #ffffff;
+            border: 1px solid #d0d7de;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #24292f;
+            transition: all 0.2s;
+        }
+        .toc-item:hover {
+            background-color: #f3f4f6;
+            border-color: #0969da;
+        }
+        .language-section {
+            margin: 2rem 0;
+        }
+        .language-title {
+            font-size: 1.8rem;
+            color: #0969da;
+            border-bottom: 2px solid #d0d7de;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .repo-item {
+            background-color: #f6f8fa;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            transition: all 0.2s;
+        }
+        .repo-item:hover {
+            border-color: #0969da;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .repo-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #0969da;
+            text-decoration: none;
+        }
+        .repo-name:hover {
+            text-decoration: underline;
+        }
+        .repo-description {
+            color: #656d76;
+            margin-top: 0.5rem;
+        }
+        .repo-stats {
+            display: flex;
+            gap: 1rem;
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+            color: #656d76;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #d0d7de;
+            color: #656d76;
+        }
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            .toc-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Some Stars</h1>
+        <div class="subtitle">⭐ 我的star列表，每天自动更新 ⭐</div>
+        <div class="nav-links">
+            <a href="https://rsshub.app/github/starred_repos/rcy1314" target="_blank" title="基于rsshub的订阅">RSS订阅</a>
+            <a href="https://github.com/n-WN/my-stars" target="_blank">GitHub仓库</a>
+        </div>
+        <div class="divider"></div>
+    </div>
+
+    <div id="loading" class="loading">
+        正在加载星标仓库数据...
+    </div>
+
+    <div id="content" style="display: none;">
+        <div class="toc">
+            <h2>目录</h2>
+            <div id="toc-grid" class="toc-grid"></div>
+        </div>
+        <div id="repositories"></div>
+    </div>
+
+    <div class="footer">
+        <p>由 <a href="https://github.com/n-WN/my-stars">my-stars</a> 自动生成</p>
+        <p>最后更新：<span id="last-update"></span></p>
+    </div>
+
+    <script>
+        async function loadStarredRepos() {
+            try {
+                // 尝试多个可能的路径
+                let response;
+                try {
+                    response = await fetch('./data.json');
+                } catch (e) {
+                    // 如果相对路径失败，尝试绝对路径
+                    response = await fetch('/my-stars/data.json');
+                }
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                
+                // 验证数据结构
+                if (!data || typeof data !== 'object') {
+                    throw new Error('数据格式无效：不是有效的JSON对象');
+                }
+                
+                if (Object.keys(data).length === 0) {
+                    throw new Error('数据为空');
+                }
+                
+                console.log('成功加载数据，包含语言:', Object.keys(data));
+                console.log('总仓库数:', Object.values(data).reduce((sum, repos) => sum + repos.length, 0));
+                
+                // 隐藏加载提示
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+                
+                // 生成目录
+                const tocGrid = document.getElementById('toc-grid');
+                const repositoriesDiv = document.getElementById('repositories');
+                
+                Object.keys(data).forEach(language => {
+                    // 添加到目录
+                    const tocItem = document.createElement('a');
+                    tocItem.href = `#${language.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
+                    tocItem.className = 'toc-item';
+                    tocItem.textContent = `${language} (${data[language].length})`;
+                    tocGrid.appendChild(tocItem);
+                    
+                    // 创建语言分区
+                    const section = document.createElement('div');
+                    section.className = 'language-section';
+                    section.id = language.toLowerCase().replace(/[^a-z0-9]/g, '-');
+                    
+                    const title = document.createElement('h2');
+                    title.className = 'language-title';
+                    title.textContent = `${language} (${data[language].length} 个仓库)`;
+                    section.appendChild(title);
+                    
+                    // 添加仓库
+                    data[language].forEach(repo => {
+                        const repoDiv = document.createElement('div');
+                        repoDiv.className = 'repo-item';
+                        
+                        const repoName = document.createElement('a');
+                        repoName.href = repo.html_url;
+                        repoName.target = '_blank';
+                        repoName.className = 'repo-name';
+                        repoName.textContent = repo.full_name;
+                        
+                        const repoDesc = document.createElement('div');
+                        repoDesc.className = 'repo-description';
+                        repoDesc.textContent = repo.description || '暂无描述';
+                        
+                        const repoStats = document.createElement('div');
+                        repoStats.className = 'repo-stats';
+                        repoStats.innerHTML = `
+                            <span>⭐ ${repo.stargazers_count}</span>
+                            <span>🍴 ${repo.forks_count || 0}</span>
+                            <span>📅 ${new Date(repo.updated_at).toLocaleDateString('zh-CN')}</span>
+                        `;
+                        
+                        repoDiv.appendChild(repoName);
+                        repoDiv.appendChild(repoDesc);
+                        repoDiv.appendChild(repoStats);
+                        section.appendChild(repoDiv);
+                    });
+                    
+                    repositoriesDiv.appendChild(section);
+                });
+                
+                // 设置最后更新时间
+                document.getElementById('last-update').textContent = new Date().toLocaleString('zh-CN');
+                
+            } catch (error) {
+                console.error('加载数据失败:', error);
+                document.getElementById('loading').innerHTML = `
+                    <div style="color: #d1242f;">
+                        ❌ 加载数据失败: ${error.message}<br>
+                        <small>请检查控制台获取更多详细信息</small><br>
+                        <button onclick="location.reload()" style="margin-top: 1rem; padding: 8px 16px; background: #0969da; color: white; border: none; border-radius: 4px; cursor: pointer;">重新加载</button>
+                    </div>
+                `;
+                
+                // 显示调试信息
+                console.log('当前URL:', window.location.href);
+                console.log('基础URL:', window.location.origin);
+                console.log('路径名:', window.location.pathname);
+            }
+        }
+        
+        // 页面加载完成后执行
+        document.addEventListener('DOMContentLoaded', loadStarredRepos);
+        
+        // 平滑滚动
+        document.addEventListener('click', function(e) {
+            if (e.target.tagName === 'A' && e.target.getAttribute('href').startsWith('#')) {
+                e.preventDefault();
+                const target = document.getElementById(e.target.getAttribute('href').substring(1));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
+    </script>
+</body>
+</html>
