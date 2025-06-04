@@ -5,7 +5,7 @@
 ⭐ 我的star列表，每天自动更新 ⭐
 
 <div style="width:auto;margin: 0 auto;">
-  <a href="https://rsshub.app/github/starred_repos/rcy1314"  target="_blank" title="基于rsshub的订阅">RSS订阅</a>
+  <a href="https://rsshub.app/github/starred_repos/n-wn"  target="_blank" title="基于rsshub的订阅">RSS订阅</a>
 </div>
 
 <img src="https://camo.githubusercontent.com/82291b0fe831bfc6781e07fc5090cbd0a8b912bb8b8d4fec0696c881834f81ac/68747470733a2f2f70726f626f742e6d656469612f394575424971676170492e676966" width="800"  height="3">
@@ -14,12 +14,13 @@
 ## Table of Contents
 
 *   [Python](#python)
+*   [Go](#go)
+*   [HTML](#html)
 *   [Shell](#shell)
 *   [C](#c)
 *   [JavaScript](#javascript)
 *   [Jupyter Notebook](#jupyter-notebook)
 *   [TypeScript](#typescript)
-*   [Go](#go)
 *   [Kotlin](#kotlin)
 *   [Rust](#rust)
 *   [C++](#c-1)
@@ -29,7 +30,6 @@
 *   [Java](#java)
 *   [Vue](#vue)
 *   [CSS](#css)
-*   [HTML](#html)
 *   [Objective-C](#objective-c)
 *   [Zig](#zig)
 *   [Vim Script](#vim-script)
@@ -73,6 +73,10 @@
 *   [Stylus](#stylus)
 
 ## Python
+
+*   [Operative-Sh/web-eval-agent](https://github.com/Operative-Sh/web-eval-agent) - An MCP server that autonomously evaluates web applications.
+
+*   [keeganryan/cuso](https://github.com/keeganryan/cuso) -
 
 *   [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) - Python scraper based on AI
 
@@ -158,7 +162,7 @@
 
 *   [volatilityfoundation/volatility3](https://github.com/volatilityfoundation/volatility3) - Volatility 3.0 development
 
-*   [xming521/WeClone](https://github.com/xming521/WeClone) - 🚀 One-stop solution for creating your digital avatar from chat logs 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.  从聊天记录创造数字分身的一站式解决方案
+*   [xming521/WeClone](https://github.com/xming521/WeClone) - 🚀 One-stop solution for creating your digital avatar from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.  从聊天记录创造数字分身的一站式解决方案
 
 *   [facebookresearch/LWE-benchmarking](https://github.com/facebookresearch/LWE-benchmarking) - This repository contains code to generate and preprocess Learning with Errors (LWE) data and implementations of four LWE attacks uSVP, SALSA, Cool\&Cruel, and Dual Hybrid Meet-in-the-Middle (MitM). We invite contributors to reproduce our results, improve on these methods, and/or suggest new concrete attacks on LWE.
 
@@ -586,9 +590,209 @@
 
 *   [jvdsn/crypto-attacks](https://github.com/jvdsn/crypto-attacks) - Python implementations of cryptographic attacks and utilities.
 
-*   [0xaww/awd-submit-flag](https://github.com/0xaww/awd-submit-flag) - 该模块主要是用来ctf AWD比赛时批量提交flag时使用的
+## Go
 
-*   [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader
+*   [BertoldVdb/WACResearch](https://github.com/BertoldVdb/WACResearch) - Security research and open source implementation of the Apple 'Wireless Accessory Configuration' (WAC) protocol
+
+*   [vladimirvivien/ktop](https://github.com/vladimirvivien/ktop) - A top-like tool for your Kubernetes clusters
+
+*   [txthinking/nami](https://github.com/txthinking/nami) - A clean and tidy decentralized package manager.
+
+*   [e2b-dev/infra](https://github.com/e2b-dev/infra) - Infrastructure for AI code interpreting that's powering E2B.
+
+*   [burpheart/xdpscan](https://github.com/burpheart/xdpscan) - 一个基于eBPF/XDP的高性能端口扫描器 A High-Performance Port Scanner Based on eBPF/XDP
+
+*   [ac0d3r/Hyuga](https://github.com/ac0d3r/Hyuga) - Hyuga is a tool for monitoring Out-of-Band (OOB) traffic, supporting DNS, HTTP, LDAP, RMI, and DNS-Rebinding。🪤
+
+*   [ssut/payload-dumper-go](https://github.com/ssut/payload-dumper-go) - an android OTA payload dumper written in Go
+
+*   [kevwan/tproxy](https://github.com/kevwan/tproxy) - A cli tool to proxy and analyze TCP connections.
+
+*   [quic-go/quic-go](https://github.com/quic-go/quic-go) - A QUIC implementation in pure Go
+
+*   [livekit/livekit](https://github.com/livekit/livekit) - End-to-end stack for WebRTC. SFU media server and SDKs.
+
+*   [charmbracelet/glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
+
+*   [danger-dream/ebpf-firewall](https://github.com/danger-dream/ebpf-firewall) - eBPF Firewall 是基于 eBPF 技术的高性能网络防火墙系统，具有实时入站流量监控、规则过滤和黑名单管理等功能。主要用于在资源有限的 VPS 中进行入站流量监控和过滤。
+
+*   [Automata-Labs-team/code-sandbox-mcp](https://github.com/Automata-Labs-team/code-sandbox-mcp) - An MCP server to create secure code sandbox environment for executing code within Docker containers. This MCP server provides AI applications with a safe and isolated environment for running code while maintaining security through containerization.
+
+*   [wgpsec/ENScan\_GO](https://github.com/wgpsec/ENScan_GO) - 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。支持MCP接入
+
+*   [istio/istio](https://github.com/istio/istio) - Connect, secure, control, and observe services.
+
+*   [sjzar/chatlog](https://github.com/sjzar/chatlog) - chat log tool, easily use your own chat data. 聊天记录工具，轻松使用自己的聊天数据
+
+*   [volatilityfoundation/dwarf2json](https://github.com/volatilityfoundation/dwarf2json) - convert ELF/DWARF symbol and type information into vol3's intermediate JSON
+
+*   [Zjackky/CodeScan](https://github.com/Zjackky/CodeScan) - 一款轻量级匹配Sink点的代码审计扫描器，为了帮助红队过程中快速代码审计的小工具
+
+*   [spf13/cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
+
+*   [weaviate/weaviate](https://github.com/weaviate/weaviate) - Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.
+
+*   [cdk-team/CDK](https://github.com/cdk-team/CDK) - 📦  Make security testing of K8s, Docker, and Containerd easier.
+
+*   [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC) - PoC for CVE-2019-5736
+
+*   [wagoodman/dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image
+
+*   [daeuniverse/dae](https://github.com/daeuniverse/dae) - eBPF-based Linux high-performance transparent proxy solution.
+
+*   [shirou/gopsutil](https://github.com/shirou/gopsutil) - psutil for golang
+
+*   [sjtug/cerberus](https://github.com/sjtug/cerberus) - A Caddy module that blocks unwanted requests using a sha256 PoW challenge
+
+*   [google/gvisor](https://github.com/google/gvisor) - Application Kernel for Containers
+
+*   [cloudwego/eino](https://github.com/cloudwego/eino) - The ultimate LLM/AI application development framework in Golang.
+
+*   [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) - A comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment and MCP Server Security Analysis Tool.
+
+*   [anytls/anytls-go](https://github.com/anytls/anytls-go) -
+
+*   [subtrace/subtrace](https://github.com/subtrace/subtrace) - Wireshark for Docker containers
+
+*   [OJ/gobuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go
+
+*   [goplus/xgo](https://github.com/goplus/xgo) - XGo is the first AI-native programming language that integrates software engineering into a unified whole. Our vision is to enable everyone to become a builder of the world.
+
+*   [Jeiwan/blockchain\_go](https://github.com/Jeiwan/blockchain_go) - A simplified blockchain implementation in Golang
+
+*   [wuhan005/Asteroid\_backend](https://github.com/wuhan005/Asteroid_backend) - Asteroid 后端
+
+*   [05sec/Cardinal](https://github.com/05sec/Cardinal) - CTF🚩 AWD (Attack with Defense) 线下赛平台 / AWD platform - 欢迎 Star~ ✨
+
+*   [Consensys/gnark](https://github.com/Consensys/gnark) - gnark is a fast zk-SNARK library that offers a high-level API to design circuits. The library is open source and developed under the Apache 2.0 license
+
+*   [klauspost/cpuid](https://github.com/klauspost/cpuid) - CPU feature identification for Go
+
+*   [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - Powerful Free DeepL API, No Token Required
+
+*   [containrrr/watchtower](https://github.com/containrrr/watchtower) - A process for automating Docker container base image updates.
+
+*   [jetify-com/devbox](https://github.com/jetify-com/devbox) - Instant, easy, and predictable development environments
+
+*   [ehang-io/nps](https://github.com/ehang-io/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.
+
+*   [lxn/win](https://github.com/lxn/win) - A Windows API wrapper package for the Go Programming Language
+
+*   [go-gitea/gitea](https://github.com/go-gitea/gitea) - Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
+
+*   [Dliv3/Venom](https://github.com/Dliv3/Venom) - Venom - A Multi-hop Proxy for Penetration Testers
+
+*   [jpillora/chisel](https://github.com/jpillora/chisel) - A fast TCP/UDP tunnel over HTTP
+
+*   [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) - Release engineering, simplified
+
+*   [SleepingBag945/dddd](https://github.com/SleepingBag945/dddd) - dddd是一款使用简单的批量信息收集,供应链漏洞探测工具，旨在优化红队工作流，减少伤肝的机械性操作。支持从Hunter、Fofa批量拉取目标
+
+*   [apernet/hysteria](https://github.com/apernet/hysteria) - Hysteria is a powerful, lightning fast and censorship resistant proxy.
+
+*   [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Self-hosted, lightweight server and website monitoring and O\&M tool
+
+*   [bepass-org/warp-plus](https://github.com/bepass-org/warp-plus) - Warp+Psiphon, an anti censorship utility for iran
+
+*   [ollama/ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 and other large language models.
+
+*   [cyfdecyf/cow](https://github.com/cyfdecyf/cow) - HTTP proxy written in Go. COW can automatically identify blocked sites and use parent proxies to access.
+
+*   [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
+
+*   [bestruirui/WeChatPush](https://github.com/bestruirui/WeChatPush) - 微信无后台，借助第三方软件接入系统推送
+
+*   [wjlab/Darksteel](https://github.com/wjlab/Darksteel) - 域内自动化信息搜集利用工具
+
+*   [natesales/q](https://github.com/natesales/q) - A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH.
+
+*   [juanfont/headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server
+
+*   [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry\_blossom: A command-line fuzzy finder
+
+*   [tuneinsight/lattigo](https://github.com/tuneinsight/lattigo) - A library for lattice-based multiparty homomorphic encryption in Go
+
+*   [tailscale/tailscale](https://github.com/tailscale/tailscale) - The easiest, most secure way to use WireGuard and 2FA.
+
+*   [ginuerzh/gost](https://github.com/ginuerzh/gost) - GO Simple Tunnel - a simple tunnel written in golang
+
+*   [liamg/traitor](https://github.com/liamg/traitor) - :arrow\_up: :skull\_and\_crossbones: :fire: Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dirty pipe, +w docker.sock
+
+*   [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+
+*   [lima-vm/lima](https://github.com/lima-vm/lima) - Linux virtual machines, with a focus on running containers
+
+*   [wux1an/wxapkg](https://github.com/wux1an/wxapkg) - 微信小程序反编译工具，.wxapkg 文件扫描 + 解密 + 解包工具
+
+*   [shadow1ng/fscan](https://github.com/shadow1ng/fscan) - 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。
+
+*   [zksecurity/zkBank](https://github.com/zksecurity/zkBank) - zkBank is the most secure banking system in the world, powered by ZK, gnark, and GKR!
+
+*   [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) - Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (macOS, Windows, Linux).
+
+*   [qjfoidnh/BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go) - iikira/BaiduPCS-Go原版基础上集成了分享链接/秒传链接转存功能
+
+*   [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands
+
+*   [redpwn/jail](https://github.com/redpwn/jail) - An nsjail Docker image for CTF pwnables. Easily create secure, isolated xinetd/inetd-style services.
+
+*   [abiosoft/colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup
+
+*   [EdgeSecurityTeam/EHole](https://github.com/EdgeSecurityTeam/EHole) - EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具
+
+*   [SagerNet/sing-box](https://github.com/SagerNet/sing-box) - The universal proxy platform
+
+*   [INotGreen/XiebroC2](https://github.com/INotGreen/XiebroC2) - 渗透测试C2、支持Lua插件扩展、域前置/CDN上线、自定义profile、前置sRDI、文件管理、进程管理、内存加载、截图、反向代理、分组管理
+
+*   [iawia002/lux](https://github.com/iawia002/lux) - 👾 Fast and simple video download library and CLI tool written in Go
+
+*   [mariocandela/beelzebub](https://github.com/mariocandela/beelzebub) - A secure low code honeypot framework, leveraging LLM for System Virtualization.
+
+*   [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) - cqhttp的golang实现，轻量、原生跨平台.
+
+## HTML
+
+*   [jina-ai/correlations](https://github.com/jina-ai/correlations) - Simple UI for debugging correlations of text embeddings
+
+*   [eunomia-bpf/eunomia.dev](https://github.com/eunomia-bpf/eunomia.dev) - https://github.com/eunomia-bpf homepage, documents and blogs
+
+*   [pawroman/zola-theme-terminimal](https://github.com/pawroman/zola-theme-terminimal) - A simple, minimal retro theme for Zola
+
+*   [cotes2020/jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) - A minimal, responsive, and feature-rich Jekyll theme for technical writing.
+
+*   [madhuakula/kubernetes-goat](https://github.com/madhuakula/kubernetes-goat) - Kubernetes Goat is a "Vulnerable by Design" cluster environment to learn and practice Kubernetes security using an interactive hands-on playground 🚀
+
+*   [demining/Twist-Attack](https://github.com/demining/Twist-Attack) - In this article, we will implement a Twist Attack with an example and show how, using certain points on the secp256k1 elliptic curve, we can get partial private key values ​​and restore a Bitcoin Wallet within 5-15 minutes using “Sagemath pollard rho function: (discrete\_log\_rho)” and “ Chinese Remainder Theorem” .
+
+*   [alshedivat/al-folio](https://github.com/alshedivat/al-folio) - A beautiful, simple, clean, and responsive Jekyll theme for academics
+
+*   [serpapi/awesome-seo-tools](https://github.com/serpapi/awesome-seo-tools) - Curated list of awesome SEO tools
+
+*   [ToverPomelo/ToverPomelo.github.io](https://github.com/ToverPomelo/ToverPomelo.github.io) - \Cypher/ \Cypher/ \Cypher/
+
+*   [Forensics-wiki/Forensics-Wiki](https://github.com/Forensics-wiki/Forensics-Wiki) - 电子数据取证Wiki
+
+*   [ScH01ar/ScH01ar.github.io](https://github.com/ScH01ar/ScH01ar.github.io) -
+
+*   [Lazzzaro/lazzzaro.github.io](https://github.com/Lazzzaro/lazzzaro.github.io) - blog
+
+*   [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) - Defines a common protocol for language servers.
+
+*   [Aemulo/Release](https://github.com/Aemulo/Release) -
+
+*   [bg6cq/speedtest](https://github.com/bg6cq/speedtest) - Lightweight HTML5 Speedtest
+
+*   [zgjx6/SocialEngineeringDictionaryGenerator](https://github.com/zgjx6/SocialEngineeringDictionaryGenerator) - 社会工程学密码生成器，是一个利用个人信息生成密码的工具
+
+*   [Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) - 一个基于 docsify 快速部署 Awesome-POC 漏洞文档的项目。Deploying the Awesome-POC repository via docsify.
+
+*   [hugo-fixit/FixIt](https://github.com/hugo-fixit/FixIt) - 🔧 A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题
+
+*   [Lerist/FakeLocation](https://github.com/Lerist/FakeLocation) - Fake Location
+
+*   [X1cT34m/0xGame2023](https://github.com/X1cT34m/0xGame2023) - 0xGame 2023 challenges and writeups
+
+*   [RootMyTV/RootMyTV.github.io](https://github.com/RootMyTV/RootMyTV.github.io) - RootMyTV is a user-friendly exploit for rooting/jailbreaking LG webOS smart TVs.
 
 ## Shell
 
@@ -1237,166 +1441,6 @@
 *   [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows
 
 *   [nicepkg/gpt-runner](https://github.com/nicepkg/gpt-runner) - Conversations with your files! Manage and run your AI presets!
-
-*   [wechaty/wechaty](https://github.com/wechaty/wechaty) - Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt
-
-## Go
-
-*   [vladimirvivien/ktop](https://github.com/vladimirvivien/ktop) - A top-like tool for your Kubernetes clusters
-
-*   [txthinking/nami](https://github.com/txthinking/nami) - A clean and tidy decentralized package manager.
-
-*   [e2b-dev/infra](https://github.com/e2b-dev/infra) - Infrastructure for AI code interpreting that's powering E2B.
-
-*   [burpheart/xdpscan](https://github.com/burpheart/xdpscan) - 一个基于eBPF/XDP的高性能端口扫描器 A High-Performance Port Scanner Based on eBPF/XDP
-
-*   [ac0d3r/Hyuga](https://github.com/ac0d3r/Hyuga) - Hyuga is a tool for monitoring Out-of-Band (OOB) traffic, supporting DNS, HTTP, LDAP, RMI, and DNS-Rebinding。🪤
-
-*   [ssut/payload-dumper-go](https://github.com/ssut/payload-dumper-go) - an android OTA payload dumper written in Go
-
-*   [kevwan/tproxy](https://github.com/kevwan/tproxy) - A cli tool to proxy and analyze TCP connections.
-
-*   [quic-go/quic-go](https://github.com/quic-go/quic-go) - A QUIC implementation in pure Go
-
-*   [livekit/livekit](https://github.com/livekit/livekit) - End-to-end stack for WebRTC. SFU media server and SDKs.
-
-*   [charmbracelet/glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
-
-*   [danger-dream/ebpf-firewall](https://github.com/danger-dream/ebpf-firewall) - eBPF Firewall 是基于 eBPF 技术的高性能网络防火墙系统，具有实时入站流量监控、规则过滤和黑名单管理等功能。主要用于在资源有限的 VPS 中进行入站流量监控和过滤。
-
-*   [Automata-Labs-team/code-sandbox-mcp](https://github.com/Automata-Labs-team/code-sandbox-mcp) - An MCP server to create secure code sandbox environment for executing code within Docker containers. This MCP server provides AI applications with a safe and isolated environment for running code while maintaining security through containerization.
-
-*   [wgpsec/ENScan\_GO](https://github.com/wgpsec/ENScan_GO) - 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。支持MCP接入
-
-*   [istio/istio](https://github.com/istio/istio) - Connect, secure, control, and observe services.
-
-*   [sjzar/chatlog](https://github.com/sjzar/chatlog) - chat log tool, easily use your own chat data. 聊天记录工具，轻松使用自己的聊天数据
-
-*   [volatilityfoundation/dwarf2json](https://github.com/volatilityfoundation/dwarf2json) - convert ELF/DWARF symbol and type information into vol3's intermediate JSON
-
-*   [Zjackky/CodeScan](https://github.com/Zjackky/CodeScan) - 一款轻量级匹配Sink点的代码审计扫描器，为了帮助红队过程中快速代码审计的小工具
-
-*   [spf13/cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
-
-*   [weaviate/weaviate](https://github.com/weaviate/weaviate) - Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.
-
-*   [cdk-team/CDK](https://github.com/cdk-team/CDK) - 📦  Make security testing of K8s, Docker, and Containerd easier.
-
-*   [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC) - PoC for CVE-2019-5736
-
-*   [wagoodman/dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image
-
-*   [daeuniverse/dae](https://github.com/daeuniverse/dae) - eBPF-based Linux high-performance transparent proxy solution.
-
-*   [shirou/gopsutil](https://github.com/shirou/gopsutil) - psutil for golang
-
-*   [sjtug/cerberus](https://github.com/sjtug/cerberus) - A Caddy module that blocks unwanted requests using a sha256 PoW challenge
-
-*   [google/gvisor](https://github.com/google/gvisor) - Application Kernel for Containers
-
-*   [cloudwego/eino](https://github.com/cloudwego/eino) - The ultimate LLM/AI application development framework in Golang.
-
-*   [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) - A comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment and MCP Server Security Analysis Tool.
-
-*   [anytls/anytls-go](https://github.com/anytls/anytls-go) -
-
-*   [subtrace/subtrace](https://github.com/subtrace/subtrace) - Wireshark for Docker containers
-
-*   [OJ/gobuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go
-
-*   [goplus/xgo](https://github.com/goplus/xgo) - XGo is the first AI-native programming language that integrates software engineering into a unified whole. Our vision is to enable everyone to become a builder of the world.
-
-*   [Jeiwan/blockchain\_go](https://github.com/Jeiwan/blockchain_go) - A simplified blockchain implementation in Golang
-
-*   [wuhan005/Asteroid\_backend](https://github.com/wuhan005/Asteroid_backend) - Asteroid 后端
-
-*   [05sec/Cardinal](https://github.com/05sec/Cardinal) - CTF🚩 AWD (Attack with Defense) 线下赛平台 / AWD platform - 欢迎 Star~ ✨
-
-*   [Consensys/gnark](https://github.com/Consensys/gnark) - gnark is a fast zk-SNARK library that offers a high-level API to design circuits. The library is open source and developed under the Apache 2.0 license
-
-*   [klauspost/cpuid](https://github.com/klauspost/cpuid) - CPU feature identification for Go
-
-*   [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - Powerful Free DeepL API, No Token Required
-
-*   [containrrr/watchtower](https://github.com/containrrr/watchtower) - A process for automating Docker container base image updates.
-
-*   [jetify-com/devbox](https://github.com/jetify-com/devbox) - Instant, easy, and predictable development environments
-
-*   [ehang-io/nps](https://github.com/ehang-io/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.
-
-*   [lxn/win](https://github.com/lxn/win) - A Windows API wrapper package for the Go Programming Language
-
-*   [go-gitea/gitea](https://github.com/go-gitea/gitea) - Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
-
-*   [Dliv3/Venom](https://github.com/Dliv3/Venom) - Venom - A Multi-hop Proxy for Penetration Testers
-
-*   [jpillora/chisel](https://github.com/jpillora/chisel) - A fast TCP/UDP tunnel over HTTP
-
-*   [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) - Release engineering, simplified
-
-*   [SleepingBag945/dddd](https://github.com/SleepingBag945/dddd) - dddd是一款使用简单的批量信息收集,供应链漏洞探测工具，旨在优化红队工作流，减少伤肝的机械性操作。支持从Hunter、Fofa批量拉取目标
-
-*   [apernet/hysteria](https://github.com/apernet/hysteria) - Hysteria is a powerful, lightning fast and censorship resistant proxy.
-
-*   [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Self-hosted, lightweight server and website monitoring and O\&M tool
-
-*   [bepass-org/warp-plus](https://github.com/bepass-org/warp-plus) - Warp+Psiphon, an anti censorship utility for iran
-
-*   [ollama/ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 and other large language models.
-
-*   [cyfdecyf/cow](https://github.com/cyfdecyf/cow) - HTTP proxy written in Go. COW can automatically identify blocked sites and use parent proxies to access.
-
-*   [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
-
-*   [bestruirui/WeChatPush](https://github.com/bestruirui/WeChatPush) - 微信无后台，借助第三方软件接入系统推送
-
-*   [wjlab/Darksteel](https://github.com/wjlab/Darksteel) - 域内自动化信息搜集利用工具
-
-*   [natesales/q](https://github.com/natesales/q) - A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH.
-
-*   [juanfont/headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server
-
-*   [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry\_blossom: A command-line fuzzy finder
-
-*   [tuneinsight/lattigo](https://github.com/tuneinsight/lattigo) - A library for lattice-based multiparty homomorphic encryption in Go
-
-*   [tailscale/tailscale](https://github.com/tailscale/tailscale) - The easiest, most secure way to use WireGuard and 2FA.
-
-*   [ginuerzh/gost](https://github.com/ginuerzh/gost) - GO Simple Tunnel - a simple tunnel written in golang
-
-*   [liamg/traitor](https://github.com/liamg/traitor) - :arrow\_up: :skull\_and\_crossbones: :fire: Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dirty pipe, +w docker.sock
-
-*   [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
-
-*   [lima-vm/lima](https://github.com/lima-vm/lima) - Linux virtual machines, with a focus on running containers
-
-*   [wux1an/wxapkg](https://github.com/wux1an/wxapkg) - 微信小程序反编译工具，.wxapkg 文件扫描 + 解密 + 解包工具
-
-*   [shadow1ng/fscan](https://github.com/shadow1ng/fscan) - 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。
-
-*   [zksecurity/zkBank](https://github.com/zksecurity/zkBank) - zkBank is the most secure banking system in the world, powered by ZK, gnark, and GKR!
-
-*   [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) - Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (macOS, Windows, Linux).
-
-*   [qjfoidnh/BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go) - iikira/BaiduPCS-Go原版基础上集成了分享链接/秒传链接转存功能
-
-*   [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands
-
-*   [redpwn/jail](https://github.com/redpwn/jail) - An nsjail Docker image for CTF pwnables. Easily create secure, isolated xinetd/inetd-style services.
-
-*   [abiosoft/colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup
-
-*   [EdgeSecurityTeam/EHole](https://github.com/EdgeSecurityTeam/EHole) - EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具
-
-*   [SagerNet/sing-box](https://github.com/SagerNet/sing-box) - The universal proxy platform
-
-*   [INotGreen/XiebroC2](https://github.com/INotGreen/XiebroC2) - 渗透测试C2、支持Lua插件扩展、域前置/CDN上线、自定义profile、前置sRDI、文件管理、进程管理、内存加载、截图、反向代理、分组管理
-
-*   [iawia002/lux](https://github.com/iawia002/lux) - 👾 Fast and simple video download library and CLI tool written in Go
-
-*   [mariocandela/beelzebub](https://github.com/mariocandela/beelzebub) - A secure low code honeypot framework, leveraging LLM for System Virtualization.
-
-*   [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) - cqhttp的golang实现，轻量、原生跨平台.
 
 ## Kotlin
 
@@ -2146,8 +2190,6 @@
 
 *   [xugaoyi/vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) - 🚀一款简洁高效的VuePress知识管理&博客(blog)主题
 
-*   [UniiemStudio/CTFever](https://github.com/UniiemStudio/CTFever) - Fantastic toolkit for CTFers and everyone.
-
 ## CSS
 
 *   [akkva/gwfox](https://github.com/akkva/gwfox) - 果味🦊皮...
@@ -2167,48 +2209,6 @@
 *   [getgridea/gridea-theme-starter](https://github.com/getgridea/gridea-theme-starter) - Gridea 主题开发样板
 
 *   [straight-tamago/misaka](https://github.com/straight-tamago/misaka) -  iOS & tvOS customisation tool for KFD & MDC
-
-## HTML
-
-*   [eunomia-bpf/eunomia.dev](https://github.com/eunomia-bpf/eunomia.dev) - https://github.com/eunomia-bpf homepage, documents and blogs
-
-*   [pawroman/zola-theme-terminimal](https://github.com/pawroman/zola-theme-terminimal) - A simple, minimal retro theme for Zola
-
-*   [cotes2020/jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) - A minimal, responsive, and feature-rich Jekyll theme for technical writing.
-
-*   [madhuakula/kubernetes-goat](https://github.com/madhuakula/kubernetes-goat) - Kubernetes Goat is a "Vulnerable by Design" cluster environment to learn and practice Kubernetes security using an interactive hands-on playground 🚀
-
-*   [demining/Twist-Attack](https://github.com/demining/Twist-Attack) - In this article, we will implement a Twist Attack with an example and show how, using certain points on the secp256k1 elliptic curve, we can get partial private key values ​​and restore a Bitcoin Wallet within 5-15 minutes using “Sagemath pollard rho function: (discrete\_log\_rho)” and “ Chinese Remainder Theorem” .
-
-*   [alshedivat/al-folio](https://github.com/alshedivat/al-folio) - A beautiful, simple, clean, and responsive Jekyll theme for academics
-
-*   [serpapi/awesome-seo-tools](https://github.com/serpapi/awesome-seo-tools) - Curated list of awesome SEO tools
-
-*   [ToverPomelo/ToverPomelo.github.io](https://github.com/ToverPomelo/ToverPomelo.github.io) - \Cypher/ \Cypher/ \Cypher/
-
-*   [Forensics-wiki/Forensics-Wiki](https://github.com/Forensics-wiki/Forensics-Wiki) - 电子数据取证Wiki
-
-*   [ScH01ar/ScH01ar.github.io](https://github.com/ScH01ar/ScH01ar.github.io) -
-
-*   [Lazzzaro/lazzzaro.github.io](https://github.com/Lazzzaro/lazzzaro.github.io) - blog
-
-*   [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) - Defines a common protocol for language servers.
-
-*   [Aemulo/Release](https://github.com/Aemulo/Release) -
-
-*   [bg6cq/speedtest](https://github.com/bg6cq/speedtest) - Lightweight HTML5 Speedtest
-
-*   [zgjx6/SocialEngineeringDictionaryGenerator](https://github.com/zgjx6/SocialEngineeringDictionaryGenerator) - 社会工程学密码生成器，是一个利用个人信息生成密码的工具
-
-*   [Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) - 一个基于 docsify 快速部署 Awesome-POC 漏洞文档的项目。Deploying the Awesome-POC repository via docsify.
-
-*   [hugo-fixit/FixIt](https://github.com/hugo-fixit/FixIt) - 🔧 A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题
-
-*   [Lerist/FakeLocation](https://github.com/Lerist/FakeLocation) - Fake Location
-
-*   [X1cT34m/0xGame2023](https://github.com/X1cT34m/0xGame2023) - 0xGame 2023 challenges and writeups
-
-*   [RootMyTV/RootMyTV.github.io](https://github.com/RootMyTV/RootMyTV.github.io) - RootMyTV is a user-friendly exploit for rooting/jailbreaking LG webOS smart TVs.
 
 ## Objective-C
 
