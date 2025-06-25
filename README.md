@@ -13,21 +13,21 @@
 
 ## Table of Contents
 
-*   [Python](#python)
-*   [C++](#c)
-*   [Objective-C](#objective-c)
-*   [C](#c-1)
 *   [Rust](#rust)
-*   [Nix](#nix)
+*   [C](#c)
 *   [HTML](#html)
+*   [TypeScript](#typescript)
+*   [Jupyter Notebook](#jupyter-notebook)
+*   [Python](#python)
+*   [C++](#c-1)
+*   [Objective-C](#objective-c)
+*   [Nix](#nix)
 *   [Swift](#swift)
 *   [Go](#go)
 *   [Makefile](#makefile)
-*   [TypeScript](#typescript)
 *   [Vue](#vue)
 *   [miscellaneous](#miscellaneous)
 *   [Kotlin](#kotlin)
-*   [Jupyter Notebook](#jupyter-notebook)
 *   [JavaScript](#javascript)
 *   [Shell](#shell)
 *   [Logos](#logos)
@@ -71,7 +71,699 @@
 *   [Cython](#cython)
 *   [Stylus](#stylus)
 
+## Rust
+
+*   [astral-sh/rye](https://github.com/astral-sh/rye) - a Hassle-Free Python Experience
+
+*   [YaLTeR/niri](https://github.com/YaLTeR/niri) - A scrollable-tiling Wayland compositor.
+
+*   [huggingface/llm-ls](https://github.com/huggingface/llm-ls) - LSP server leveraging LLMs for code completion (and more?)
+
+*   [Swizzzer/simpleFileServer](https://github.com/Swizzzer/simpleFileServer) - A simple http server written in Rust, similar to `python -m http.server`
+
+*   [nushell/nushell](https://github.com/nushell/nushell) - A new type of shell
+
+*   [dandavison/delta](https://github.com/dandavison/delta) - A syntax-highlighting pager for git, diff, grep, and blame output
+
+*   [tealdeer-rs/tealdeer](https://github.com/tealdeer-rs/tealdeer) - A very fast implementation of tldr in Rust.
+
+*   [prefix-dev/pixi](https://github.com/prefix-dev/pixi) - Package management made easy
+
+*   [rust-lang/socket2](https://github.com/rust-lang/socket2) - Advanced configuration options for sockets.
+
+*   [openai/codex](https://github.com/openai/codex) - Lightweight coding agent that runs in your terminal
+
+*   [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
+
+*   [Martichou/rquickshare](https://github.com/Martichou/rquickshare) - Rust implementation of NearbyShare/QuickShare from Android for Linux and macOS.
+
+*   [strazzere/inject-hooks-android-rs](https://github.com/strazzere/inject-hooks-android-rs) - Remote library injection into Android processes, then hooking via various methods
+
+*   [mind-network/mind-sdk-deepseek-rust](https://github.com/mind-network/mind-sdk-deepseek-rust) - Mind Network Rust SDK DeepSeek
+
+*   [libnyanpasu/clash-nyanpasu](https://github.com/libnyanpasu/clash-nyanpasu) - Clash Nyanpasu～(∠・ω< )⌒☆​
+
+*   [Qi4l-Labs/Fusion](https://github.com/Qi4l-Labs/Fusion) - A cross platform C2/post-exploitation framework
+
+*   [WerWolv/ImHex-Patterns](https://github.com/WerWolv/ImHex-Patterns) - Hex patterns, include patterns and magic files for the use with the ImHex Hex Editor
+
+*   [starship/starship](https://github.com/starship/starship) - ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+
+*   [astral-sh/ruff](https://github.com/astral-sh/ruff) - An extremely fast Python linter and code formatter, written in Rust.
+
+*   [astral-sh/uv](https://github.com/astral-sh/uv) - An extremely fast Python package and project manager, written in Rust.
+
+*   [skim-rs/skim](https://github.com/skim-rs/skim) - Fuzzy Finder in rust!
+
+*   [MagnetForensics/dumpit-linux](https://github.com/MagnetForensics/dumpit-linux) - Memory acquisition for Linux that makes sense.
+
+*   [rust-crypto-labs/lll-rs](https://github.com/rust-crypto-labs/lll-rs) - Implementation of Lenstra-Lenstra-Lovász lattice basis reduction algorithm in Rust
+
+*   [alexkirsz/dispatch](https://github.com/alexkirsz/dispatch) - Combine internet connections, increase your download speed
+
+*   [sharkdp/bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
+
+*   [SitinCloud/Owlyshield](https://github.com/SitinCloud/Owlyshield) - Owlyshield is an EDR framework designed to safeguard vulnerable applications from potential exploitation (C\&C, exfiltration and impact).
+
+*   [anza-xyz/mollusk](https://github.com/anza-xyz/mollusk) - SVM program test harness
+
+*   [block/goose](https://github.com/block/goose) - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+
+*   [uutils/coreutils](https://github.com/uutils/coreutils) - Cross-platform Rust rewrite of the GNU coreutils
+
+*   [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
+
+*   [Le1a/LokiPool](https://github.com/Le1a/LokiPool) - 一个使用Rust编写的SOCKS5代理池管理工具，能够自动测速、管理多个代理服务器，提供高效稳定的匿名代理服务。
+
+*   [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) - A Rust compiler front-end for IDEs
+
+*   [Devolutions/IronRDP](https://github.com/Devolutions/IronRDP) - Rust implementation of the Microsoft Remote Desktop Protocol (RDP)
+
+*   [WGUNDERWOOD/tex-fmt](https://github.com/WGUNDERWOOD/tex-fmt) - An extremely fast LaTeX formatter written in Rust
+
+*   [trunk-rs/trunk](https://github.com/trunk-rs/trunk) - Build, bundle & ship your Rust WASM application to the web.
+
+*   [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) - Facilitating high-level interactions between Wasm modules and JavaScript
+
+*   [zksecurity/noname](https://github.com/zksecurity/noname) - Noname: a programming language to write zkapps
+
+*   [aptos-labs/aptos-core](https://github.com/aptos-labs/aptos-core) - Aptos is a layer 1 blockchain built to support the widespread use of blockchain through better technology and user experience.
+
+*   [wasmerio/wasmer](https://github.com/wasmerio/wasmer) - 🚀 Fast, secure, lightweight containers based on WebAssembly
+
+*   [rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack) - 📦✨ your favorite rust -> wasm workflow tool!
+
+*   [huacnlee/autocorrect](https://github.com/huacnlee/autocorrect) - A linter and formatter to help you to improve copywriting, correct spaces, words, and punctuations between CJK (Chinese, Japanese, Korean).
+
+*   [otter-sec/sui-ctf-framework](https://github.com/otter-sec/sui-ctf-framework) - A framework for building sui based capture the flag challenges
+
+*   [tokio-rs/axum](https://github.com/tokio-rs/axum) - Ergonomic and modular web framework built with Tokio, Tower, and Hyper
+
+*   [hyperium/hyper](https://github.com/hyperium/hyper) - An HTTP library for Rust
+
+*   [0xProject/OpenZKP](https://github.com/0xProject/OpenZKP) - OpenZKP - pure Rust implementations of Zero-Knowledge Proof systems.
+
+*   [quantumsheep/sshs](https://github.com/quantumsheep/sshs) - Terminal user interface for SSH
+
+*   [ShellWen/v8\_killer](https://github.com/ShellWen/v8_killer) - A powerful and highly customizable universal V8 virtual machine injector.
+
+*   [sgayou/rbasefind](https://github.com/sgayou/rbasefind) - A firmware base address search tool.
+
+*   [amtoaer/bili-sync](https://github.com/amtoaer/bili-sync) - 由 Rust & Tokio 驱动的哔哩哔哩同步工具
+
+*   [samwho/spacer](https://github.com/samwho/spacer) - CLI tool to insert spacers when command output stops
+
+*   [rust9x/rust](https://github.com/rust9x/rust) - UNOFFICIAL "Tier 4" Rust target for Windows 9x/Me/NT/2000/XP/Vista.
+
+*   [ankitects/anki](https://github.com/ankitects/anki) - Anki's shared backend and web components, and the Qt frontend
+
+*   [ferrilab/bitvec](https://github.com/ferrilab/bitvec) - A crate for managing memory bit by bit
+
+*   [asterinas/asterinas](https://github.com/asterinas/asterinas) - Asterinas is a secure, fast, and general-purpose OS kernel, written in Rust and providing Linux-compatible ABI.
+
+*   [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org
+
+*   [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Magical shell history
+
+*   [Aloxaf/rbkcrack](https://github.com/Aloxaf/rbkcrack) - Crack legacy zip encryption with Biham and Kocher's known plaintext attack. 使用明文攻击破解加密的 zip 文件
+
+*   [b23r0/cliws](https://github.com/b23r0/cliws) - Cross platform interactive bind/reverse PTY shell
+
+*   [nix-community/nix-ld](https://github.com/nix-community/nix-ld) - Run unpatched dynamic binaries on NixOS \[maintainer=@Mic92]
+
+*   [LGUG2Z/komorebi](https://github.com/LGUG2Z/komorebi) - A tiling window manager for Windows 🍉
+
+*   [AFLplusplus/LibAFL](https://github.com/AFLplusplus/LibAFL) - Advanced Fuzzing Library - Slot your Fuzzer together in Rust! Scales across cores and machines. For Windows, Android, MacOS, Linux, no\_std, ...
+
+*   [shell-pool/shpool](https://github.com/shell-pool/shpool) - Think tmux, then aim... lower
+
+*   [rathole-org/rathole](https://github.com/rathole-org/rathole) - A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
+
+*   [XDSEC/WebSocketReflectorX](https://github.com/XDSEC/WebSocketReflectorX) -  Controlled TCP-over-WebSocket forwarding tunnel.
+
+*   [fuzzland/ityfuzz](https://github.com/fuzzland/ityfuzz) - Blazing Fast Bytecode-Level Hybrid Fuzzer for Smart Contracts
+
+*   [H-M-H/Weylus](https://github.com/H-M-H/Weylus) - Use your tablet as graphic tablet/touch screen on your computer.
+
+*   [jkcoxson/JitStreamer](https://github.com/jkcoxson/JitStreamer) - A service to activate JIT across the far reaches of the internet
+
+*   [io12/pwninit](https://github.com/io12/pwninit) - pwninit - automate starting binary exploit challenges
+
+*   [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) -  All Algorithms implemented in Rust
+
+*   [cmpute/num-prime](https://github.com/cmpute/num-prime) -
+
+*   [y011d4/factor-from-random-known-bits](https://github.com/y011d4/factor-from-random-known-bits) - Python's library written in Rust to quickly factor `n = pq` when around >50% bits of `p` and `q` are known which are distributed at random.
+
+*   [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
+
+*   [eza-community/eza](https://github.com/eza-community/eza) - A modern alternative to ls
+
+*   [zcash/halo2](https://github.com/zcash/halo2) - The Halo2 zero-knowledge proving system
+
+*   [MystenLabs/sui](https://github.com/MystenLabs/sui) -  Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language
+
+*   [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
+
+*   [TabbyML/tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant
+
+*   [xwxb/camdict-cli](https://github.com/xwxb/camdict-cli) - Simple Cambridge Dictionary command-line tool.
+
+*   [ReFirmLabs/binwalk](https://github.com/ReFirmLabs/binwalk) - Firmware Analysis Tool
+
+## C
+
+*   [ichi4096/vivado-on-silicon-mac](https://github.com/ichi4096/vivado-on-silicon-mac) - Installs Vivado on M1/M2/M3 macs
+
+*   [thuvasooriya/vivado4mac](https://github.com/thuvasooriya/vivado4mac) - optimized vivado4mac on docker (orbstack)
+
+*   [MikeWang000000/FakeHTTP](https://github.com/MikeWang000000/FakeHTTP) - Obfuscate all your TCP connections into HTTP protocol.
+
+*   [yarrick/iodine](https://github.com/yarrick/iodine) - Official git repo for iodine dns tunnel
+
+*   [LIJI32/MIP](https://github.com/LIJI32/MIP) - MIP – macOS Injection Platform
+
+*   [amosbird/ldb\_toolchain\_gen](https://github.com/amosbird/ldb_toolchain_gen) -
+
+*   [gabriellandau/ItsNotASecurityBoundary](https://github.com/gabriellandau/ItsNotASecurityBoundary) -
+
+*   [paokuwansui/Antivirus\_killer](https://github.com/paokuwansui/Antivirus_killer) - 免杀主流防病毒软件
+
+*   [meetecho/janus-gateway](https://github.com/meetecho/janus-gateway) - Janus WebRTC Server
+
+*   [beordle/termtunnel](https://github.com/beordle/termtunnel) - Cross-platform terminal tunnel tool
+
+*   [NeSE-Team/OurChallenges](https://github.com/NeSE-Team/OurChallenges) - writeups for our challenges
+
+*   [didi/yarc](https://github.com/didi/yarc) - 基于 eBPF 的流量录制工具
+
+*   [stefanesser/dumpdecrypted](https://github.com/stefanesser/dumpdecrypted) - Dumps decrypted mach-o files from encrypted iPhone applications from memory to disk. This tool is necessary for security researchers to be able to look under the hood of encryption.
+
+*   [curl/curl](https://github.com/curl/curl) - A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features
+
+*   [Adaptix-Framework/AdaptixC2](https://github.com/Adaptix-Framework/AdaptixC2) -
+
+*   [radareorg/radare2-mcp](https://github.com/radareorg/radare2-mcp) - MCP stdio server for radare2
+
+*   [hashcat/hashcat](https://github.com/hashcat/hashcat) - World's fastest and most advanced password recovery utility
+
+*   [capstone-engine/capstone](https://github.com/capstone-engine/capstone) - Capstone disassembly/disassembler framework for ARM, ARM64 (ARMv8), Alpha, BPF, Ethereum VM, HPPA, LoongArch, M68K, M680X, Mips, MOS65XX, PPC, RISC-V(rv32G/rv64G), SH, Sparc, SystemZ, TMS320C64X, TriCore, Webassembly, XCore and X86.
+
+*   [mridgers/clink](https://github.com/mridgers/clink) - Bash's powerful command line editing in cmd.exe
+
+*   [sokaRepo/CoercedPotatoRDLL](https://github.com/sokaRepo/CoercedPotatoRDLL) - Reflective DLL to privesc from NT Service to SYSTEM using SeImpersonateToken privilege
+
+*   [wazuh/wazuh](https://github.com/wazuh/wazuh) - Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.
+
+*   [synacktiv/frinet](https://github.com/synacktiv/frinet) - Frida-based tracer for easier reverse-engineering on Android, iOS, Linux, Windows and most related architectures.
+
+*   [akiratk0355/ladderleak-attack-ecdsa](https://github.com/akiratk0355/ladderleak-attack-ecdsa) -
+
+*   [DosX-dev/obfus.h](https://github.com/DosX-dev/obfus.h) - Macro-header for compile-time C obfuscation (tcc, win x86/x64)
+
+*   [BloodyOrangeMan/DVRF](https://github.com/BloodyOrangeMan/DVRF) - Damn Vulnerable Router Firmware(DVRF)
+
+*   [DreamAndDead/CSAPP-3e-Solutions](https://github.com/DreamAndDead/CSAPP-3e-Solutions) - CSAPP 3e Solutions, migrated to github.io from gitbook.io which is being shut down.
+
+*   [segnolin/pwn-basic-challenge](https://github.com/segnolin/pwn-basic-challenge) -
+
+*   [EthanArbuckle/objsee-ios](https://github.com/EthanArbuckle/objsee-ios) - toy project for tracing objc\_msgSend
+
+*   [m0nad/Diamorphine](https://github.com/m0nad/Diamorphine) - LKM rootkit for Linux Kernels 2.6.x/3.x/4.x/5.x/6.x (x86/x86\_64 and ARM64)
+
+*   [ShinoLeah/eDBG](https://github.com/ShinoLeah/eDBG) - eBPF-based lightweight debugger for Android
+
+*   [wasmerio/kernel-wasm](https://github.com/wasmerio/kernel-wasm) - Sandboxed kernel mode WebAssembly runtime.
+
+*   [xairy/raw-gadget](https://github.com/xairy/raw-gadget) - USB Raw Gadget — a low-level interface for the Linux USB Gadget subsystem
+
+*   [gwsystems/aWsm](https://github.com/gwsystems/aWsm) - WebAssembly ahead-of-time compiler and runtime. Focuses on generating fast code, simplicity, and portability.
+
+*   [pqcrypto-cn/PQMagic](https://github.com/pqcrypto-cn/PQMagic) - Post-Quantum Magic Project. See more at https://pqcrypto.dev/ . We also open-sourced at https://gitee.com/pqcrypto/pqmagic.
+
+*   [malb/m4ri](https://github.com/malb/m4ri) - M4RI is a library for fast arithmetic with dense matrices over GF(2)
+
+*   [smallkirby/kernelpwn](https://github.com/smallkirby/kernelpwn) - kernel-pwn and writeup collection
+
+*   [libimobiledevice/libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) - A cross-platform protocol library to communicate with iOS devices
+
+*   [zmap/zmap](https://github.com/zmap/zmap) - ZMap is a fast single packet network scanner designed for Internet-wide network surveys.
+
+*   [PQClean/PQClean](https://github.com/PQClean/PQClean) - Clean, portable, tested implementations of post-quantum cryptography
+
+*   [Antibioticss/tinyhook](https://github.com/Antibioticss/tinyhook) - A tiny macOS hook framework, inlcuded inline hook, objc runtime hook, symbol resolver..
+
+*   [vvasseur/pqsigRM](https://github.com/vvasseur/pqsigRM) - Scripts showing vulnerabilities in enhanced pqsigRM.
+
+*   [PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable) - Portable OpenSSH, all Win32-OpenSSH releases and wiki are managed at https://github.com/powershell/Win32-OpenSSH
+
+*   [oldboy21/RflDllOb](https://github.com/oldboy21/RflDllOb) - Reflective DLL Injection Made Bella
+
+*   [paboldin/meltdown-exploit](https://github.com/paboldin/meltdown-exploit) - Meltdown Exploit PoC
+
+*   [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) - FreeRDP is a free remote desktop protocol library and clients
+
+*   [algebraic-solving/msolve](https://github.com/algebraic-solving/msolve) - Library for Polynomial System Solving through Algebraic Methods
+
+*   [Gui774ume/ebpfkit](https://github.com/Gui774ume/ebpfkit) - ebpfkit is a rootkit powered by eBPF
+
+*   [LLeavesG/eBPFDexDumper](https://github.com/LLeavesG/eBPFDexDumper) - DexDumper based eBPF on Android Platform
+
+*   [JHUISI/charm](https://github.com/JHUISI/charm) - Charm: A Framework for Rapidly Prototyping Cryptosystems
+
+*   [nicbarker/clay](https://github.com/nicbarker/clay) - High performance UI layout library in C.
+
+*   [mit-pdos/xv6-riscv](https://github.com/mit-pdos/xv6-riscv) - Xv6 for RISC-V
+
+*   [FACT0RN/factoring](https://github.com/FACT0RN/factoring) - Mining code for the FACT0RN blockchain.
+
+*   [pkgconf/pkgconf](https://github.com/pkgconf/pkgconf) - package compiler and linker metadata toolkit
+
+*   [opa334/Dopamine](https://github.com/opa334/Dopamine) - Dopamine is a semi-untethered jailbreak for iOS 15 and 16
+
+*   [mozillazg/ptcpdump](https://github.com/mozillazg/ptcpdump) - Process-aware, eBPF-based tcpdump
+
+*   [hengyoush/kyanos](https://github.com/hengyoush/kyanos) - Kyanos is a networking analysis tool using eBPF. It can visualize the time packets spend in the kernel, capture requests/responses, makes troubleshooting more efficient.
+
+*   [amitv87/PiP](https://github.com/amitv87/PiP) - macOS Picture in Picture and AirPlay Receiver
+
+*   [IchildYu/load-elf](https://github.com/IchildYu/load-elf) -
+
+*   [jaredsburrows/rarcrack](https://github.com/jaredsburrows/rarcrack) - Rarcrack - port for Mac OSX (works on Linux and Mac OSX)
+
+*   [h3xduck/TripleCross](https://github.com/h3xduck/TripleCross) - A Linux eBPF rootkit with a backdoor, C2, library injection, execution hijacking, persistence and stealth capabilities.
+
+*   [zherczeg/sljit](https://github.com/zherczeg/sljit) - Platform independent low-level JIT compiler
+
+*   [Lydxn/xorsat](https://github.com/Lydxn/xorsat) -
+
+*   [maple3142/gf2bv](https://github.com/maple3142/gf2bv) - Solving linear systems over GF(2) by manipulating bitvectors
+
+*   [portapack-mayhem/mayhem-firmware](https://github.com/portapack-mayhem/mayhem-firmware) - Custom firmware for the HackRF+PortaPack H1/H2/H4
+
+*   [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch) - A maintained, feature-rich and performance oriented, neofetch like system information tool.
+
+*   [positive-security/send-my](https://github.com/positive-security/send-my) - Upload arbitrary data via Apple's Find My network.
+
+*   [pbatard/libwdi](https://github.com/pbatard/libwdi) - Windows Driver Installer library for USB devices
+
+*   [Molyuu/neko\_kernel\_xiaomi\_gauguin](https://github.com/Molyuu/neko_kernel_xiaomi_gauguin) - Android kernel for gauguin | LA.UM.9.12.r1-15100-SMxx50.QSSI12.0 | 4.19.264
+
+*   [everettjf/AppleTrace](https://github.com/everettjf/AppleTrace) - 🍎Objective C Method Tracing Call Chart
+
+*   [mit-pdos/xv6-public](https://github.com/mit-pdos/xv6-public) - xv6 OS
+
+*   [crigler/dtach](https://github.com/crigler/dtach) - A simple program that emulates the detach feature of screen
+
+*   [acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) - OpenCore bootloader
+
+*   [gojue/ecapture](https://github.com/gojue/ecapture) - Capturing SSL/TLS plaintext without a CA certificate using eBPF. Supported on Linux/Android kernels for amd64/arm64.
+
+*   [apple-oss-distributions/mDNSResponder](https://github.com/apple-oss-distributions/mDNSResponder) -
+
+*   [matt-wu/AES](https://github.com/matt-wu/AES) - Understanding AES & Rijndael
+
+*   [SideChannelMarvels/Stark](https://github.com/SideChannelMarvels/Stark) - Repository of small utilities related to key recovery
+
+*   [Gr1zz/WhiteBoxAES](https://github.com/Gr1zz/WhiteBoxAES) - C/C++ whitebox implementation of AES
+
+*   [kokke/tiny-AES-c](https://github.com/kokke/tiny-AES-c) - Small portable AES128/192/256 in C
+
+*   [SideChannelMarvels/Deadpool](https://github.com/SideChannelMarvels/Deadpool) - Repository of various public white-box cryptographic implementations and their practical attacks.
+
+*   [koekeishiya/yabai](https://github.com/koekeishiya/yabai) - A tiling window manager for macOS based on binary space partitioning
+
+*   [mikebrady/shairport-sync](https://github.com/mikebrady/shairport-sync) - AirPlay and AirPlay 2 audio player
+
+*   [juhovh/shairplay](https://github.com/juhovh/shairplay) - Apple airplay and raop protocol server
+
+*   [PacktPublishing/Fuzzing-Against-the-Machine](https://github.com/PacktPublishing/Fuzzing-Against-the-Machine) -
+
+*   [eunomia-bpf/bpf-developer-tutorial](https://github.com/eunomia-bpf/bpf-developer-tutorial) - eBPF Developer Tutorial: Learning eBPF Step by Step with Examples
+
+*   [NixOS/patchelf](https://github.com/NixOS/patchelf) - A small utility to modify the dynamic linker and RPATH of ELF executables
+
+*   [theos/sdks](https://github.com/theos/sdks) - Patched sdks that include private framework tbds
+
+*   [SeeFlowerX/stackplz](https://github.com/SeeFlowerX/stackplz) - 基于eBPF的堆栈追踪工具
+
+*   [keens312/yafu\_arm](https://github.com/keens312/yafu_arm) - yafu is optimized for x86/x64 architecture, and this project is based on yafu with changes to support ARM architecture.
+
+*   [tsl0922/ttyd](https://github.com/tsl0922/ttyd) - Share your terminal over the web
+
+*   [upiter/msieve](https://github.com/upiter/msieve) - MSIEVE: A Library for Factoring Large Integers
+
+*   [radii/msieve](https://github.com/radii/msieve) - msieve - Number Field Sieve implementation by Jason Papadopoulos
+
+*   [alfiecg24/TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX) - A TrollStore installer for iOS 14.0 - 16.6.1
+
+*   [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) - Display and control your Android device
+
+*   [iagox86/hash\_extender](https://github.com/iagox86/hash_extender) -
+
+*   [bndeff/socksdroid](https://github.com/bndeff/socksdroid) -
+
+*   [realme-kernel-opensource/realmeV3\_realmeX7\_realmeX7Pro\_AndroidQ-kernel-source](https://github.com/realme-kernel-opensource/realmeV3_realmeX7_realmeX7Pro_AndroidQ-kernel-source) - realmeV3\_realmeX7\_realmeX7Pro\_AndroidQ-kernel-source
+
+*   [arut/nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module) - NGINX-based Media Streaming Server
+
+*   [gdbinit/MachOView](https://github.com/gdbinit/MachOView) - MachOView fork
+
+*   [meme/apple-tools](https://github.com/meme/apple-tools) - A collection of tools for working with Apple software/hardware
+
+*   [shellphish/how2heap](https://github.com/shellphish/how2heap) - A repository for learning various heap exploitation techniques.
+
+*   [aleaxit/gmpy](https://github.com/aleaxit/gmpy) - General Multi-Precision arithmetic for Python 2.6+/3+ (GMP, MPIR, MPFR, MPC)
+
+*   [KFERMercer/OpenWrt](https://github.com/KFERMercer/OpenWrt) - Mercer's OpenWrt source tree
+
+*   [fw876/helloworld](https://github.com/fw876/helloworld) -
+
+*   [barefootnetworks/Open-Tofino](https://github.com/barefootnetworks/Open-Tofino) -
+
+*   [gentilkiwi/mimikatz](https://github.com/gentilkiwi/mimikatz) - A little tool to play with Windows security
+
+*   [RoderickChan/deploy\_pwn\_template](https://github.com/RoderickChan/deploy_pwn_template) - Templates for deploying pwn challenge in ctf
+
+*   [hal3002/rooty](https://github.com/hal3002/rooty) - libpcap based ICMP encrypted backdoor for linux.
+
+*   [Carl-Knox/pollard-rho-brent](https://github.com/Carl-Knox/pollard-rho-brent) - Parallel Multicore Semiprime Factoring Pollard Rho Brent, OpenMPI, GMP.
+
+*   [haad/proxychains](https://github.com/haad/proxychains) - proxychains - a tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy.  Supported auth-types: "user/pass" for SOCKS4/5, "basic" for HTTP.
+
+*   [guanzhi/GmSSL](https://github.com/guanzhi/GmSSL) - 支持国密SM2/SM3/SM4/SM9/SSL的密码工具箱
+
+*   [bbuhrow/avx-ecm](https://github.com/bbuhrow/avx-ecm) - Computes parallel curves of the ECM (Elliptic Curve Method) factoring algorithm using AVX-512 vector arithmetic
+
+*   [bbuhrow/yafu](https://github.com/bbuhrow/yafu) - Automated integer factorization
+
+*   [pelya/android-keyboard-gadget](https://github.com/pelya/android-keyboard-gadget) - Convert your Android device into USB keyboard/mouse, control your PC from your Android device remotely, including BIOS/bootloader.
+
+*   [peng-zhihui/HoloCubic](https://github.com/peng-zhihui/HoloCubic) - 带网络功能的伪全息透明显示桌面站
+
+*   [nonstriater/Learn-Algorithms](https://github.com/nonstriater/Learn-Algorithms) - 算法学习笔记
+
+## HTML
+
+*   [juliocesarfort/public-pentesting-reports](https://github.com/juliocesarfort/public-pentesting-reports) - A list of public penetration test reports published by several consulting firms and academic security groups.
+
+*   [GTFOBins/GTFOBins.github.io](https://github.com/GTFOBins/GTFOBins.github.io) - GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems
+
+*   [davesc63/GeoPort](https://github.com/davesc63/GeoPort) - GeoPort: Your Location, Anywhere! The iOS location simulator
+
+*   [jina-ai/correlations](https://github.com/jina-ai/correlations) - Simple UI for debugging correlations of text embeddings
+
+*   [eunomia-bpf/eunomia.dev](https://github.com/eunomia-bpf/eunomia.dev) - https://github.com/eunomia-bpf homepage, documents and blogs
+
+*   [pawroman/zola-theme-terminimal](https://github.com/pawroman/zola-theme-terminimal) - A simple, minimal retro theme for Zola
+
+*   [cotes2020/jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) - A minimal, responsive, and feature-rich Jekyll theme for technical writing.
+
+*   [madhuakula/kubernetes-goat](https://github.com/madhuakula/kubernetes-goat) - Kubernetes Goat is a "Vulnerable by Design" cluster environment to learn and practice Kubernetes security using an interactive hands-on playground 🚀
+
+*   [demining/Twist-Attack](https://github.com/demining/Twist-Attack) - In this article, we will implement a Twist Attack with an example and show how, using certain points on the secp256k1 elliptic curve, we can get partial private key values ​​and restore a Bitcoin Wallet within 5-15 minutes using “Sagemath pollard rho function: (discrete\_log\_rho)” and “ Chinese Remainder Theorem” .
+
+*   [alshedivat/al-folio](https://github.com/alshedivat/al-folio) - A beautiful, simple, clean, and responsive Jekyll theme for academics
+
+*   [serpapi/awesome-seo-tools](https://github.com/serpapi/awesome-seo-tools) - Curated list of awesome SEO tools
+
+*   [ToverPomelo/ToverPomelo.github.io](https://github.com/ToverPomelo/ToverPomelo.github.io) - \Cypher/ \Cypher/ \Cypher/
+
+*   [Forensics-wiki/Forensics-Wiki](https://github.com/Forensics-wiki/Forensics-Wiki) - 电子数据取证Wiki
+
+*   [ScH01ar/ScH01ar.github.io](https://github.com/ScH01ar/ScH01ar.github.io) -
+
+*   [Lazzzaro/lazzzaro.github.io](https://github.com/Lazzzaro/lazzzaro.github.io) - blog
+
+*   [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) - Defines a common protocol for language servers.
+
+*   [Aemulo/Release](https://github.com/Aemulo/Release) -
+
+*   [bg6cq/speedtest](https://github.com/bg6cq/speedtest) - Lightweight HTML5 Speedtest
+
+*   [zgjx6/SocialEngineeringDictionaryGenerator](https://github.com/zgjx6/SocialEngineeringDictionaryGenerator) - 社会工程学密码生成器，是一个利用个人信息生成密码的工具
+
+*   [Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) - 一个基于 docsify 快速部署 Awesome-POC 漏洞文档的项目。Deploying the Awesome-POC repository via docsify.
+
+*   [hugo-fixit/FixIt](https://github.com/hugo-fixit/FixIt) - 🔧 A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题
+
+*   [Lerist/FakeLocation](https://github.com/Lerist/FakeLocation) - Fake Location
+
+*   [X1cT34m/0xGame2023](https://github.com/X1cT34m/0xGame2023) - 0xGame 2023 challenges and writeups
+
+*   [RootMyTV/RootMyTV.github.io](https://github.com/RootMyTV/RootMyTV.github.io) - RootMyTV is a user-friendly exploit for rooting/jailbreaking LG webOS smart TVs.
+
+*   [fengdu78/Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) - 吴恩达老师的机器学习课程个人笔记
+
+## TypeScript
+
+*   [Nutlope/self.so](https://github.com/Nutlope/self.so) - LinkedIn -> personal site generator
+
+*   [NapNeko/NapCatQQ](https://github.com/NapNeko/NapCatQQ) - Modern protocol-side framework based on NTQQ
+
+*   [longern/FlareDrive](https://github.com/longern/FlareDrive) - Free file hosting service (WebUI & WebDAV) using CloudFlare R2
+
+*   [n8n-io/n8n](https://github.com/n8n-io/n8n) - Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+
+*   [Authenticator-Extension/Authenticator](https://github.com/Authenticator-Extension/Authenticator) - Authenticator generates 2-Step Verification codes in your browser.
+
+*   [immersive-translate/zotero-immersivetranslate](https://github.com/immersive-translate/zotero-immersivetranslate) - Zotero BabelDOC plugin, for Immersive Translate Pro members.
+
+*   [Heavrnl/nexus-terminal](https://github.com/Heavrnl/nexus-terminal) -  一款现代化的 Web SSH / RDP / VNC 客户端，提供独立桌面端，支持人机验证、2FA、界面定制、操作审计等强大功能。
+
+*   [VisActor/VTable](https://github.com/VisActor/VTable) - VTable is not just a high-performance multidimensional data analysis table, but also a grid artist that creates art between rows and columns.
+
+*   [MCSManager/MCSManager](https://github.com/MCSManager/MCSManager) - Free, Secure, Distributed, Modern Control Panel for Minecraft and most Steam Game Servers.
+
+*   [kodu-ai/claude-coder](https://github.com/kodu-ai/claude-coder) - Kodu is an autonomous coding agent that lives in your IDE. It is a VSCode extension that can help you build your dream project step by step by leveraging the latest technologies in automated coding agents
+
+*   [Wangxs404/video2ppt](https://github.com/Wangxs404/video2ppt) - Convert videos to Slides, including local, online videos, screen recording.
+
+*   [agrawal-d/cph-submit](https://github.com/agrawal-d/cph-submit) - Codeforces Submit add-on for Competitive Programming Helper
+
+*   [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) - The official Typescript SDK for Model Context Protocol servers and clients
+
+*   [guigrpa/docx-templates](https://github.com/guigrpa/docx-templates) - Template-based docx report creation
+
+*   [astral-sh/ruff-vscode](https://github.com/astral-sh/ruff-vscode) - A Visual Studio Code extension with support for the Ruff linter.
+
+*   [outline/outline](https://github.com/outline/outline) - The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.
+
+*   [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 Curated coding interview preparation materials for busy software engineers
+
+*   [groupultra/telegram-search](https://github.com/groupultra/telegram-search) - 🔍  一个功能强大的 Telegram 聊天记录搜索工具，支持向量搜索和语义匹配。A powerful Telegram chat search tool with vector search and semantic matching capabilities.
+
+*   [freeman-jiang/beatsync](https://github.com/freeman-jiang/beatsync) - 🔊 High-precision web player for multi-device audio playback and spatial audio.
+
+*   [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) - Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme
+
+*   [Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt) - Telegram Web A, GPL v3
+
+*   [j4k0xb/webcrack](https://github.com/j4k0xb/webcrack) - Deobfuscate obfuscator.io, unminify and unpack bundled javascript
+
+*   [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ Free and serverless uptime monitoring / status page on Cloudflare Workers, with Geo-specific checks
+
+*   [biggerstar/wedecode](https://github.com/biggerstar/wedecode) - 全自动化，微信小程序 wxapkg 包 源代码还原工具, 线上代码安全审计
+
+*   [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) - Playwright MCP server
+
+*   [microsoft/playwright](https://github.com/microsoft/playwright) - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
+
+*   [mihomo-party-org/mihomo-party](https://github.com/mihomo-party-org/mihomo-party) - :electron: Another Mihomo GUI.
+
+*   [mokeyish/obsidian-enhancing-export](https://github.com/mokeyish/obsidian-enhancing-export) - This is an enhancing export plugin base on Pandoc for Obsidian (https://obsidian.md/ ). It's allow you to export to formats like Markdown、Markdown (Hugo https://gohugo.io/ )、Html、docx、Latex etc.
+
+*   [a2aproject/A2A](https://github.com/a2aproject/A2A) - An open protocol enabling communication and interoperability between opaque agentic applications.
+
+*   [TarsLab/obsidian-tars](https://github.com/TarsLab/obsidian-tars) - Obsidian tars plugin that supports text generation based on tag suggestions, using services like DeepSeek, Claude, OpenAI, OpenRouter, SiliconFlow, Gemini, Ollama, Kimi, Doubao, Qwen, Zhipu, QianFan & more.
+
+*   [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) - Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.
+
+*   [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync) -
+
+*   [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative
+
+*   [cline/cline](https://github.com/cline/cline) - Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.
+
+*   [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) - 一款提示词优化器，助力于编写高质量的提示词
+
+*   [movefuns/move-js](https://github.com/movefuns/move-js) - Javascript version of the Move language compiler, supports compiling Move code into Move bytecode in the browser.
+
+*   [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown
+
+*   [yaklang/yakit](https://github.com/yaklang/yakit) - Cyber Security ALL-IN-ONE Platform
+
+*   [galacean/engine](https://github.com/galacean/engine) - A typescript interactive engine, support 2D, 3D, animation, physics, built on WebGL and glTF.
+
+*   [xdebug/vscode-php-debug](https://github.com/xdebug/vscode-php-debug) - PHP Debug Adapter for Visual Studio Code 🐞⛔
+
+*   [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) - 🍒 Cherry Studio is a desktop client that supports for multiple LLM providers.
+
+*   [richards199999/Thinking-Claude](https://github.com/richards199999/Thinking-Claude) - Let your Claude able to think
+
+*   [dcrebbin/meta-glasses-api](https://github.com/dcrebbin/meta-glasses-api) - Mai - Hacky Messenger browser extension & API for the Meta Glasses. "Hey Meta send a message to ChatGPT"
+
+*   [ChiChou/vscode-frida](https://github.com/ChiChou/vscode-frida) - Unofficial frida extension for VSCode
+
+*   [markmap/markmap](https://github.com/markmap/markmap) - Build mindmaps with plain text
+
+*   [antiwork/shortest](https://github.com/antiwork/shortest) - QA via natural language AI tests
+
+*   [James-Yu/LaTeX-Workshop](https://github.com/James-Yu/LaTeX-Workshop) - Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.
+
+*   [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) - The headless rich text editor framework for web artisans.
+
+*   [wg-easy/wg-easy](https://github.com/wg-easy/wg-easy) - The easiest way to run WireGuard VPN + Web-based Admin UI.
+
+*   [kbravh/tweet-to-markdown](https://github.com/kbravh/tweet-to-markdown) - A command line tool to convert Tweets to Markdown.
+
+*   [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer) - Run compilers interactively from your web browser and interact with the assembly
+
+*   [molvqingtai/WebChat](https://github.com/molvqingtai/WebChat) - 💬 Chat with anyone on any website.
+
+*   [hedgedoc/hedgedoc](https://github.com/hedgedoc/hedgedoc) - HedgeDoc - Ideas grow better together
+
+*   [goreleaser/goreleaser-action](https://github.com/goreleaser/goreleaser-action) - GitHub Action for GoReleaser
+
+*   [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe) - AI app store powered by 24/7 desktop history.  open source | 100% local | dev friendly | 24/7 screen, mic recording
+
+*   [mendableai/firecrawl](https://github.com/mendableai/firecrawl) - 🔥 Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.
+
+*   [lyc8503/onedrive-cf-index-ng](https://github.com/lyc8503/onedrive-cf-index-ng) - Another OneDrive public directory listing on Docker / Cloudflare Workers, forked from onedrive-vercel-index.
+
+*   [OI-wiki/OI-wiki](https://github.com/OI-wiki/OI-wiki) - :star2: Wiki of OI / ICPC for everyone. （某大型游戏线上攻略，内含炫酷算术魔法）
+
+*   [RSSNext/Folo](https://github.com/RSSNext/Folo) - 🧡 Follow everything in one place
+
+*   [agrawal-d/cph](https://github.com/agrawal-d/cph) - Makes judging, compiling, and downloading problems for competitive programming easy.
+
+*   [eric-gitta-moore/chaoxing-sign-app](https://github.com/eric-gitta-moore/chaoxing-sign-app) - 学习通第三方版。超星学习通全平台，多账号批量签到，拍照签到（任选照片）、位置签到（任选位置）、二维码签到、普通签到、手势签到、签到码签到
+
+*   [PawanOsman/ChatGPT](https://github.com/PawanOsman/ChatGPT) - OpenAI API Free Reverse Proxy
+
+*   [jina-ai/reader](https://github.com/jina-ai/reader) - Convert any URL to an LLM-friendly input with a simple prefix https://r.jina.ai/
+
+*   [microsoft/vscode-json-languageservice](https://github.com/microsoft/vscode-json-languageservice) - JSON language service extracted from VSCode to be reused, e.g in the Monaco editor.
+
+*   [Chilfish/Weibo-archiver](https://github.com/Chilfish/Weibo-archiver) - 将微博导出备份的油猴脚本，为号被完全夹没前未雨绸缪 😭
+
+*   [webosbrew/dev-manager-desktop](https://github.com/webosbrew/dev-manager-desktop) - Device/DevMode Manager for webOS TV
+
+*   [type-challenges/type-challenges](https://github.com/type-challenges/type-challenges) - Collection of TypeScript type challenges with online judge
+
+*   [slidevjs/slidev](https://github.com/slidevjs/slidev) - Presentation Slides for Developers
+
+*   [share121/f1](https://github.com/share121/f1) - 耗时 3 天，我用纯 CSS 动画实现了 F1 赛车手出场动画。
+
+*   [jackyzha0/quartz](https://github.com/jackyzha0/quartz) - 🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites
+
+*   [withfig/autocomplete](https://github.com/withfig/autocomplete) - IDE-style autocomplete for your existing terminal & shell
+
+*   [tldraw/tldraw](https://github.com/tldraw/tldraw) - very good whiteboard SDK / infinite canvas SDK
+
+*   [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.
+
+*   [actions/checkout](https://github.com/actions/checkout) - Action for checking out a repo
+
+*   [LasCC/HackTools](https://github.com/LasCC/HackTools) - The all-in-one browser extension for offensive security professionals 🛠
+
+*   [getgridea/gridea](https://github.com/getgridea/gridea) - ✍️ A static blog writing client (一个静态博客写作客户端)
+
+*   [xmcp/pakku.js](https://github.com/xmcp/pakku.js) - 拯救B站的弹幕体验！
+
+*   [langgenius/dify](https://github.com/langgenius/dify) - Production-ready platform for agentic workflow development.
+
+*   [storybookjs/storybook](https://github.com/storybookjs/storybook) - Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
+
+*   [14790897/paper-ai](https://github.com/14790897/paper-ai) - 搜索真实文献并生成引用对应文献的AI论文
+
+*   [windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate) - Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.
+
+*   [ZuodaoTech/everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english) - 人人都能用英语
+
+*   [JSREI/js-cookie-monitor-debugger-hook](https://github.com/JSREI/js-cookie-monitor-debugger-hook) - js cookie逆向利器：js cookie变动监控可视化工具 & js cookie hook打条件断点
+
+*   [conwnet/github1s](https://github.com/conwnet/github1s) - One second to read GitHub code with VS Code.
+
+*   [privacy-scaling-explorations/maci](https://github.com/privacy-scaling-explorations/maci) - Minimal Anti-Collusion Infrastructure (MACI)
+
+*   [l0o0/jasminum](https://github.com/l0o0/jasminum) - A Zotero add-on to retrive CNKI meta data. 一个简单的Zotero 插件，用于识别中文元数据
+
+*   [Eugeny/tabby](https://github.com/Eugeny/tabby) - A terminal for a more modern age
+
+*   [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows
+
+*   [nicepkg/gpt-runner](https://github.com/nicepkg/gpt-runner) - Conversations with your files! Manage and run your AI presets!
+
+*   [wechaty/wechaty](https://github.com/wechaty/wechaty) - Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt
+
+*   [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - OneDrive public directory listing, powered by Vercel and Next.js
+
+*   [BetterDiscord/BetterDiscord](https://github.com/BetterDiscord/BetterDiscord) - Better Discord enhances Discord desktop app with new features.
+
+## Jupyter Notebook
+
+*   [Crypto-TII/partial-key-exposure-attacks](https://github.com/Crypto-TII/partial-key-exposure-attacks) -
+
+*   [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) - 《动手学大模型Dive into LLMs》系列编程实践教程
+
+*   [google-gemini/gemini-fullstack-langgraph-quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart) - Get started with building Fullstack Agents using Gemini 2.5 and LangGraph
+
+*   [langgptai/LangGPT](https://github.com/langgptai/LangGPT) - LangGPT: Empowering everyone to become a prompt expert!🚀  Structured Prompt，Language of GPT, 结构化提示词，结构化Prompt, Created by 「云中江树」
+
+*   [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) - 21 Lessons, Get Started Building with Generative AI  🔗 https://microsoft.github.io/generative-ai-for-beginners/
+
+*   [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) - 11 Lessons to Get Started Building AI Agents
+
+*   [anthropics/courses](https://github.com/anthropics/courses) - Anthropic's educational courses
+
+*   [TrustAI-laboratory/Learn-Prompt-Hacking](https://github.com/TrustAI-laboratory/Learn-Prompt-Hacking) - This is The most comprehensive prompt hacking course available, which record our progress on a prompt engineering and prompt hacking course.
+
+*   [microsoft/OmniParser](https://github.com/microsoft/OmniParser) - A simple screen parsing tool towards pure vision based GUI agent
+
+*   [Yuis1/LLM4Stock](https://github.com/Yuis1/LLM4Stock) - 基于LLM的股票投资决策系统
+
+*   [tl2cents/Implementation-of-Cryptographic-Attacks](https://github.com/tl2cents/Implementation-of-Cryptographic-Attacks) - Implementation of cryptographic attacks. Mainly reproduction of recent cryptographic papers.
+
+*   [IdahoLabResearch/5GAD](https://github.com/IdahoLabResearch/5GAD) - This is a dataset of 5G network traffic for use with machine learning tools to benchmark attack detection capabilities for multiple different models. The dataset contains simulated normal and attack 5G network traffic.
+
+*   [WTFAcademy/WTF-zk](https://github.com/WTFAcademy/WTF-zk) - 零知识证明入门教程。Comprehensive Zero-Knowledge Proofs Tutorial. #zk #WIP
+
+*   [Azmarie/Hairstyle-Transfer](https://github.com/Azmarie/Hairstyle-Transfer) - 💇🏻‍♀️ An end-to-end workflow for editing hair attributes on real faces
+
+*   [verazuo/jailbreak\_llms](https://github.com/verazuo/jailbreak_llms) - \[CCS'24] A dataset consists of 15,140 ChatGPT prompts from Reddit, Discord, websites, and open-source datasets (including 1,405 jailbreak prompts).
+
+*   [newaetech/chipwhisperer-jupyter](https://github.com/newaetech/chipwhisperer-jupyter) - Interactive ChipWhisperer tutorials using Jupyter notebooks.
+
+*   [zademn/EverythingCrypto](https://github.com/zademn/EverythingCrypto) - (Still exploring) My cryptography journey: A collection of notebooks covering different algorithms and concepts from cryptography
+
+*   [PetePriority/picoctf-2024](https://github.com/PetePriority/picoctf-2024) - picoCTF 2024 writeups
+
+*   [langchain-ai/langchain](https://github.com/langchain-ai/langchain) - 🦜🔗 Build context-aware reasoning applications
+
+*   [mshumer/gpt-investor](https://github.com/mshumer/gpt-investor) -
+
+*   [Gallopsled/pwntools-tutorial](https://github.com/Gallopsled/pwntools-tutorial) - Tutorials for getting started with Pwntools
+
+*   [fffmath/IdentifyIdealLattice](https://github.com/fffmath/IdentifyIdealLattice) - A tookit for Identifying-Ideal-Lattice
+
+*   [Hvass-Labs/TensorFlow-Tutorials](https://github.com/Hvass-Labs/TensorFlow-Tutorials) - TensorFlow Tutorials with YouTube Videos
+
+*   [jephianlin/outreach](https://github.com/jephianlin/outreach) - Slides or multi-media materials for outreach
+
+*   [linyiLYi/pose-monitor](https://github.com/linyiLYi/pose-monitor) - “让爷康康”是一款手机 AI 应用程序，可以监测不良坐姿并进行语音提示
+
+*   [fengdu78/Data-Science-Notes](https://github.com/fengdu78/Data-Science-Notes) - 数据科学的笔记以及资料搜集
+
 ## Python
+
+*   [angr/angr-management](https://github.com/angr/angr-management) - The official angr GUI.
+
+*   [mahaloz/decomp2dbg](https://github.com/mahaloz/decomp2dbg) - A plugin to introduce interactive symbols into your debugger from your decompiler
+
+*   [nneonneo/iOS-SOCKS-Server](https://github.com/nneonneo/iOS-SOCKS-Server) - iOS HTTP/SOCKS proxy server for fake-tethering
+
+*   [nneonneo/pwn-stuff](https://github.com/nneonneo/pwn-stuff) - Miscellaneous utilities and such that I use for pwning. Open sourced since people might find these useful. Be warned: nothing is stable.
 
 *   [MoonshotAI/Kimi-Dev](https://github.com/MoonshotAI/Kimi-Dev) - open-source coding LLM for software engineering tasks
 
@@ -232,6 +924,8 @@
 *   [tarunkant/Gopherus](https://github.com/tarunkant/Gopherus) - This tool generates gopher link for exploiting SSRF and gaining RCE in various servers
 
 *   [AabyssZG/NavicatPwn](https://github.com/AabyssZG/NavicatPwn) - 针对Navicat的后渗透利用框架
+
+*   [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Model Context Protocol Servers
 
 *   [OpenZeppelin/ctf-infra](https://github.com/OpenZeppelin/ctf-infra) - 🧱 Infrastructure for Ethernaut CTF 2024
 
@@ -627,12 +1321,6 @@
 
 *   [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) - OpenMMLab Detection Toolbox and Benchmark
 
-*   [TechXueXi/TechXueXi](https://github.com/TechXueXi/TechXueXi) - 强国通 科技强国 学习强国 xuexiqiangguo 全网最好用开源网页学习强国助手：TechXueXi （懒人刷分工具 自动学习）技术强国，支持答题，支持 docker 45分/天
-
-*   [yuban10703/chaoxingsign](https://github.com/yuban10703/chaoxingsign) - 超星学习通自动签到
-
-*   [Joe-Lyu/J.A.R.V.I.S-project](https://github.com/Joe-Lyu/J.A.R.V.I.S-project) - A decent attempt to recreate J.A.R.V.I.S. from MCU's Iron Man.
-
 ## C++
 
 *   [bpftrace/bpftrace](https://github.com/bpftrace/bpftrace) - High-level tracing language for Linux
@@ -843,394 +1531,6 @@
 
 *   [objective-see/LuLu](https://github.com/objective-see/LuLu) - LuLu is the free open-source macOS firewall
 
-## C
-
-*   [MikeWang000000/FakeHTTP](https://github.com/MikeWang000000/FakeHTTP) - Obfuscate all your TCP connections into HTTP protocol.
-
-*   [yarrick/iodine](https://github.com/yarrick/iodine) - Official git repo for iodine dns tunnel
-
-*   [LIJI32/MIP](https://github.com/LIJI32/MIP) - MIP – macOS Injection Platform
-
-*   [amosbird/ldb\_toolchain\_gen](https://github.com/amosbird/ldb_toolchain_gen) -
-
-*   [gabriellandau/ItsNotASecurityBoundary](https://github.com/gabriellandau/ItsNotASecurityBoundary) -
-
-*   [paokuwansui/Antivirus\_killer](https://github.com/paokuwansui/Antivirus_killer) - 免杀主流防病毒软件
-
-*   [meetecho/janus-gateway](https://github.com/meetecho/janus-gateway) - Janus WebRTC Server
-
-*   [beordle/termtunnel](https://github.com/beordle/termtunnel) - Cross-platform terminal tunnel tool
-
-*   [NeSE-Team/OurChallenges](https://github.com/NeSE-Team/OurChallenges) - writeups for our challenges
-
-*   [didi/yarc](https://github.com/didi/yarc) - 基于 eBPF 的流量录制工具
-
-*   [stefanesser/dumpdecrypted](https://github.com/stefanesser/dumpdecrypted) - Dumps decrypted mach-o files from encrypted iPhone applications from memory to disk. This tool is necessary for security researchers to be able to look under the hood of encryption.
-
-*   [curl/curl](https://github.com/curl/curl) - A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features
-
-*   [Adaptix-Framework/AdaptixC2](https://github.com/Adaptix-Framework/AdaptixC2) -
-
-*   [radareorg/radare2-mcp](https://github.com/radareorg/radare2-mcp) - MCP stdio server for radare2
-
-*   [hashcat/hashcat](https://github.com/hashcat/hashcat) - World's fastest and most advanced password recovery utility
-
-*   [capstone-engine/capstone](https://github.com/capstone-engine/capstone) - Capstone disassembly/disassembler framework for ARM, ARM64 (ARMv8), Alpha, BPF, Ethereum VM, HPPA, LoongArch, M68K, M680X, Mips, MOS65XX, PPC, RISC-V(rv32G/rv64G), SH, Sparc, SystemZ, TMS320C64X, TriCore, Webassembly, XCore and X86.
-
-*   [mridgers/clink](https://github.com/mridgers/clink) - Bash's powerful command line editing in cmd.exe
-
-*   [sokaRepo/CoercedPotatoRDLL](https://github.com/sokaRepo/CoercedPotatoRDLL) - Reflective DLL to privesc from NT Service to SYSTEM using SeImpersonateToken privilege
-
-*   [wazuh/wazuh](https://github.com/wazuh/wazuh) - Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.
-
-*   [synacktiv/frinet](https://github.com/synacktiv/frinet) - Frida-based tracer for easier reverse-engineering on Android, iOS, Linux, Windows and most related architectures.
-
-*   [akiratk0355/ladderleak-attack-ecdsa](https://github.com/akiratk0355/ladderleak-attack-ecdsa) -
-
-*   [DosX-dev/obfus.h](https://github.com/DosX-dev/obfus.h) - Macro-header for compile-time C obfuscation (tcc, win x86/x64)
-
-*   [BloodyOrangeMan/DVRF](https://github.com/BloodyOrangeMan/DVRF) - Damn Vulnerable Router Firmware(DVRF)
-
-*   [DreamAndDead/CSAPP-3e-Solutions](https://github.com/DreamAndDead/CSAPP-3e-Solutions) - CSAPP 3e Solutions, migrated to github.io from gitbook.io which is being shut down.
-
-*   [segnolin/pwn-basic-challenge](https://github.com/segnolin/pwn-basic-challenge) -
-
-*   [EthanArbuckle/objsee-ios](https://github.com/EthanArbuckle/objsee-ios) - toy project for tracing objc\_msgSend
-
-*   [m0nad/Diamorphine](https://github.com/m0nad/Diamorphine) - LKM rootkit for Linux Kernels 2.6.x/3.x/4.x/5.x/6.x (x86/x86\_64 and ARM64)
-
-*   [ShinoLeah/eDBG](https://github.com/ShinoLeah/eDBG) - eBPF-based lightweight debugger for Android
-
-*   [wasmerio/kernel-wasm](https://github.com/wasmerio/kernel-wasm) - Sandboxed kernel mode WebAssembly runtime.
-
-*   [xairy/raw-gadget](https://github.com/xairy/raw-gadget) - USB Raw Gadget — a low-level interface for the Linux USB Gadget subsystem
-
-*   [gwsystems/aWsm](https://github.com/gwsystems/aWsm) - WebAssembly ahead-of-time compiler and runtime. Focuses on generating fast code, simplicity, and portability.
-
-*   [pqcrypto-cn/PQMagic](https://github.com/pqcrypto-cn/PQMagic) - Post-Quantum Magic Project. See more at https://pqcrypto.dev/ . We also open-sourced at https://gitee.com/pqcrypto/pqmagic.
-
-*   [malb/m4ri](https://github.com/malb/m4ri) - M4RI is a library for fast arithmetic with dense matrices over GF(2)
-
-*   [smallkirby/kernelpwn](https://github.com/smallkirby/kernelpwn) - kernel-pwn and writeup collection
-
-*   [libimobiledevice/libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) - A cross-platform protocol library to communicate with iOS devices
-
-*   [zmap/zmap](https://github.com/zmap/zmap) - ZMap is a fast single packet network scanner designed for Internet-wide network surveys.
-
-*   [PQClean/PQClean](https://github.com/PQClean/PQClean) - Clean, portable, tested implementations of post-quantum cryptography
-
-*   [Antibioticss/tinyhook](https://github.com/Antibioticss/tinyhook) - A tiny macOS hook framework, inlcuded inline hook, objc runtime hook, symbol resolver..
-
-*   [vvasseur/pqsigRM](https://github.com/vvasseur/pqsigRM) - Scripts showing vulnerabilities in enhanced pqsigRM.
-
-*   [PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable) - Portable OpenSSH, all Win32-OpenSSH releases and wiki are managed at https://github.com/powershell/Win32-OpenSSH
-
-*   [oldboy21/RflDllOb](https://github.com/oldboy21/RflDllOb) - Reflective DLL Injection Made Bella
-
-*   [paboldin/meltdown-exploit](https://github.com/paboldin/meltdown-exploit) - Meltdown Exploit PoC
-
-*   [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) - FreeRDP is a free remote desktop protocol library and clients
-
-*   [algebraic-solving/msolve](https://github.com/algebraic-solving/msolve) - Library for Polynomial System Solving through Algebraic Methods
-
-*   [Gui774ume/ebpfkit](https://github.com/Gui774ume/ebpfkit) - ebpfkit is a rootkit powered by eBPF
-
-*   [LLeavesG/eBPFDexDumper](https://github.com/LLeavesG/eBPFDexDumper) - DexDumper based eBPF on Android Platform
-
-*   [JHUISI/charm](https://github.com/JHUISI/charm) - Charm: A Framework for Rapidly Prototyping Cryptosystems
-
-*   [nicbarker/clay](https://github.com/nicbarker/clay) - High performance UI layout library in C.
-
-*   [mit-pdos/xv6-riscv](https://github.com/mit-pdos/xv6-riscv) - Xv6 for RISC-V
-
-*   [FACT0RN/factoring](https://github.com/FACT0RN/factoring) - Mining code for the FACT0RN blockchain.
-
-*   [pkgconf/pkgconf](https://github.com/pkgconf/pkgconf) - package compiler and linker metadata toolkit
-
-*   [opa334/Dopamine](https://github.com/opa334/Dopamine) - Dopamine is a semi-untethered jailbreak for iOS 15 and 16
-
-*   [mozillazg/ptcpdump](https://github.com/mozillazg/ptcpdump) - Process-aware, eBPF-based tcpdump
-
-*   [hengyoush/kyanos](https://github.com/hengyoush/kyanos) - Kyanos is a networking analysis tool using eBPF. It can visualize the time packets spend in the kernel, capture requests/responses, makes troubleshooting more efficient.
-
-*   [amitv87/PiP](https://github.com/amitv87/PiP) - macOS Picture in Picture and AirPlay Receiver
-
-*   [IchildYu/load-elf](https://github.com/IchildYu/load-elf) -
-
-*   [jaredsburrows/rarcrack](https://github.com/jaredsburrows/rarcrack) - Rarcrack - port for Mac OSX (works on Linux and Mac OSX)
-
-*   [h3xduck/TripleCross](https://github.com/h3xduck/TripleCross) - A Linux eBPF rootkit with a backdoor, C2, library injection, execution hijacking, persistence and stealth capabilities.
-
-*   [zherczeg/sljit](https://github.com/zherczeg/sljit) - Platform independent low-level JIT compiler
-
-*   [Lydxn/xorsat](https://github.com/Lydxn/xorsat) -
-
-*   [maple3142/gf2bv](https://github.com/maple3142/gf2bv) - Solving linear systems over GF(2) by manipulating bitvectors
-
-*   [portapack-mayhem/mayhem-firmware](https://github.com/portapack-mayhem/mayhem-firmware) - Custom firmware for the HackRF+PortaPack H1/H2/H4
-
-*   [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch) - A maintained, feature-rich and performance oriented, neofetch like system information tool.
-
-*   [positive-security/send-my](https://github.com/positive-security/send-my) - Upload arbitrary data via Apple's Find My network.
-
-*   [pbatard/libwdi](https://github.com/pbatard/libwdi) - Windows Driver Installer library for USB devices
-
-*   [Molyuu/neko\_kernel\_xiaomi\_gauguin](https://github.com/Molyuu/neko_kernel_xiaomi_gauguin) - Android kernel for gauguin | LA.UM.9.12.r1-15100-SMxx50.QSSI12.0 | 4.19.264
-
-*   [everettjf/AppleTrace](https://github.com/everettjf/AppleTrace) - 🍎Objective C Method Tracing Call Chart
-
-*   [mit-pdos/xv6-public](https://github.com/mit-pdos/xv6-public) - xv6 OS
-
-*   [crigler/dtach](https://github.com/crigler/dtach) - A simple program that emulates the detach feature of screen
-
-*   [acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) - OpenCore bootloader
-
-*   [gojue/ecapture](https://github.com/gojue/ecapture) - Capturing SSL/TLS plaintext without a CA certificate using eBPF. Supported on Linux/Android kernels for amd64/arm64.
-
-*   [apple-oss-distributions/mDNSResponder](https://github.com/apple-oss-distributions/mDNSResponder) -
-
-*   [matt-wu/AES](https://github.com/matt-wu/AES) - Understanding AES & Rijndael
-
-*   [SideChannelMarvels/Stark](https://github.com/SideChannelMarvels/Stark) - Repository of small utilities related to key recovery
-
-*   [Gr1zz/WhiteBoxAES](https://github.com/Gr1zz/WhiteBoxAES) - C/C++ whitebox implementation of AES
-
-*   [kokke/tiny-AES-c](https://github.com/kokke/tiny-AES-c) - Small portable AES128/192/256 in C
-
-*   [SideChannelMarvels/Deadpool](https://github.com/SideChannelMarvels/Deadpool) - Repository of various public white-box cryptographic implementations and their practical attacks.
-
-*   [koekeishiya/yabai](https://github.com/koekeishiya/yabai) - A tiling window manager for macOS based on binary space partitioning
-
-*   [mikebrady/shairport-sync](https://github.com/mikebrady/shairport-sync) - AirPlay and AirPlay 2 audio player
-
-*   [juhovh/shairplay](https://github.com/juhovh/shairplay) - Apple airplay and raop protocol server
-
-*   [PacktPublishing/Fuzzing-Against-the-Machine](https://github.com/PacktPublishing/Fuzzing-Against-the-Machine) -
-
-*   [eunomia-bpf/bpf-developer-tutorial](https://github.com/eunomia-bpf/bpf-developer-tutorial) - eBPF Developer Tutorial: Learning eBPF Step by Step with Examples
-
-*   [NixOS/patchelf](https://github.com/NixOS/patchelf) - A small utility to modify the dynamic linker and RPATH of ELF executables
-
-*   [theos/sdks](https://github.com/theos/sdks) - Patched sdks that include private framework tbds
-
-*   [SeeFlowerX/stackplz](https://github.com/SeeFlowerX/stackplz) - 基于eBPF的堆栈追踪工具
-
-*   [keens312/yafu\_arm](https://github.com/keens312/yafu_arm) - yafu is optimized for x86/x64 architecture, and this project is based on yafu with changes to support ARM architecture.
-
-*   [tsl0922/ttyd](https://github.com/tsl0922/ttyd) - Share your terminal over the web
-
-*   [upiter/msieve](https://github.com/upiter/msieve) - MSIEVE: A Library for Factoring Large Integers
-
-*   [radii/msieve](https://github.com/radii/msieve) - msieve - Number Field Sieve implementation by Jason Papadopoulos
-
-*   [alfiecg24/TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX) - A TrollStore installer for iOS 14.0 - 16.6.1
-
-*   [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) - Display and control your Android device
-
-*   [iagox86/hash\_extender](https://github.com/iagox86/hash_extender) -
-
-*   [bndeff/socksdroid](https://github.com/bndeff/socksdroid) -
-
-*   [realme-kernel-opensource/realmeV3\_realmeX7\_realmeX7Pro\_AndroidQ-kernel-source](https://github.com/realme-kernel-opensource/realmeV3_realmeX7_realmeX7Pro_AndroidQ-kernel-source) - realmeV3\_realmeX7\_realmeX7Pro\_AndroidQ-kernel-source
-
-*   [arut/nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module) - NGINX-based Media Streaming Server
-
-*   [gdbinit/MachOView](https://github.com/gdbinit/MachOView) - MachOView fork
-
-*   [meme/apple-tools](https://github.com/meme/apple-tools) - A collection of tools for working with Apple software/hardware
-
-*   [shellphish/how2heap](https://github.com/shellphish/how2heap) - A repository for learning various heap exploitation techniques.
-
-*   [aleaxit/gmpy](https://github.com/aleaxit/gmpy) - General Multi-Precision arithmetic for Python 2.6+/3+ (GMP, MPIR, MPFR, MPC)
-
-*   [KFERMercer/OpenWrt](https://github.com/KFERMercer/OpenWrt) - Mercer's OpenWrt source tree
-
-*   [fw876/helloworld](https://github.com/fw876/helloworld) -
-
-*   [barefootnetworks/Open-Tofino](https://github.com/barefootnetworks/Open-Tofino) -
-
-*   [gentilkiwi/mimikatz](https://github.com/gentilkiwi/mimikatz) - A little tool to play with Windows security
-
-*   [RoderickChan/deploy\_pwn\_template](https://github.com/RoderickChan/deploy_pwn_template) - Templates for deploying pwn challenge in ctf
-
-*   [hal3002/rooty](https://github.com/hal3002/rooty) - libpcap based ICMP encrypted backdoor for linux.
-
-*   [Carl-Knox/pollard-rho-brent](https://github.com/Carl-Knox/pollard-rho-brent) - Parallel Multicore Semiprime Factoring Pollard Rho Brent, OpenMPI, GMP.
-
-*   [haad/proxychains](https://github.com/haad/proxychains) - proxychains - a tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy.  Supported auth-types: "user/pass" for SOCKS4/5, "basic" for HTTP.
-
-*   [guanzhi/GmSSL](https://github.com/guanzhi/GmSSL) - 支持国密SM2/SM3/SM4/SM9/SSL的密码工具箱
-
-*   [bbuhrow/avx-ecm](https://github.com/bbuhrow/avx-ecm) - Computes parallel curves of the ECM (Elliptic Curve Method) factoring algorithm using AVX-512 vector arithmetic
-
-*   [bbuhrow/yafu](https://github.com/bbuhrow/yafu) - Automated integer factorization
-
-*   [pelya/android-keyboard-gadget](https://github.com/pelya/android-keyboard-gadget) - Convert your Android device into USB keyboard/mouse, control your PC from your Android device remotely, including BIOS/bootloader.
-
-*   [peng-zhihui/HoloCubic](https://github.com/peng-zhihui/HoloCubic) - 带网络功能的伪全息透明显示桌面站
-
-*   [nonstriater/Learn-Algorithms](https://github.com/nonstriater/Learn-Algorithms) - 算法学习笔记
-
-*   [leapmotion/ProjectNorthStar](https://github.com/leapmotion/ProjectNorthStar) - The open-source files comprising Leap Motion's Project North Star AR Headset.
-
-## Rust
-
-*   [YaLTeR/niri](https://github.com/YaLTeR/niri) - A scrollable-tiling Wayland compositor.
-
-*   [huggingface/llm-ls](https://github.com/huggingface/llm-ls) - LSP server leveraging LLMs for code completion (and more?)
-
-*   [Swizzzer/simpleFileServer](https://github.com/Swizzzer/simpleFileServer) - A simple http server written in Rust, similar to `python -m http.server`
-
-*   [nushell/nushell](https://github.com/nushell/nushell) - A new type of shell
-
-*   [dandavison/delta](https://github.com/dandavison/delta) - A syntax-highlighting pager for git, diff, grep, and blame output
-
-*   [tealdeer-rs/tealdeer](https://github.com/tealdeer-rs/tealdeer) - A very fast implementation of tldr in Rust.
-
-*   [prefix-dev/pixi](https://github.com/prefix-dev/pixi) - Package management made easy
-
-*   [rust-lang/socket2](https://github.com/rust-lang/socket2) - Advanced configuration options for sockets.
-
-*   [openai/codex](https://github.com/openai/codex) - Lightweight coding agent that runs in your terminal
-
-*   [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
-
-*   [Martichou/rquickshare](https://github.com/Martichou/rquickshare) - Rust implementation of NearbyShare/QuickShare from Android for Linux and macOS.
-
-*   [strazzere/inject-hooks-android-rs](https://github.com/strazzere/inject-hooks-android-rs) - Remote library injection into Android processes, then hooking via various methods
-
-*   [mind-network/mind-sdk-deepseek-rust](https://github.com/mind-network/mind-sdk-deepseek-rust) - Mind Network Rust SDK DeepSeek
-
-*   [libnyanpasu/clash-nyanpasu](https://github.com/libnyanpasu/clash-nyanpasu) - Clash Nyanpasu～(∠・ω< )⌒☆​
-
-*   [Qi4l-Labs/Fusion](https://github.com/Qi4l-Labs/Fusion) - A cross platform C2/post-exploitation framework
-
-*   [WerWolv/ImHex-Patterns](https://github.com/WerWolv/ImHex-Patterns) - Hex patterns, include patterns and magic files for the use with the ImHex Hex Editor
-
-*   [starship/starship](https://github.com/starship/starship) - ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!
-
-*   [astral-sh/ruff](https://github.com/astral-sh/ruff) - An extremely fast Python linter and code formatter, written in Rust.
-
-*   [astral-sh/uv](https://github.com/astral-sh/uv) - An extremely fast Python package and project manager, written in Rust.
-
-*   [skim-rs/skim](https://github.com/skim-rs/skim) - Fuzzy Finder in rust!
-
-*   [MagnetForensics/dumpit-linux](https://github.com/MagnetForensics/dumpit-linux) - Memory acquisition for Linux that makes sense.
-
-*   [rust-crypto-labs/lll-rs](https://github.com/rust-crypto-labs/lll-rs) - Implementation of Lenstra-Lenstra-Lovász lattice basis reduction algorithm in Rust
-
-*   [alexkirsz/dispatch](https://github.com/alexkirsz/dispatch) - Combine internet connections, increase your download speed
-
-*   [sharkdp/bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
-
-*   [SitinCloud/Owlyshield](https://github.com/SitinCloud/Owlyshield) - Owlyshield is an EDR framework designed to safeguard vulnerable applications from potential exploitation (C\&C, exfiltration and impact).
-
-*   [anza-xyz/mollusk](https://github.com/anza-xyz/mollusk) - SVM program test harness
-
-*   [block/goose](https://github.com/block/goose) - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
-
-*   [uutils/coreutils](https://github.com/uutils/coreutils) - Cross-platform Rust rewrite of the GNU coreutils
-
-*   [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
-
-*   [Le1a/LokiPool](https://github.com/Le1a/LokiPool) - 一个使用Rust编写的SOCKS5代理池管理工具，能够自动测速、管理多个代理服务器，提供高效稳定的匿名代理服务。
-
-*   [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) - A Rust compiler front-end for IDEs
-
-*   [Devolutions/IronRDP](https://github.com/Devolutions/IronRDP) - Rust implementation of the Microsoft Remote Desktop Protocol (RDP)
-
-*   [WGUNDERWOOD/tex-fmt](https://github.com/WGUNDERWOOD/tex-fmt) - An extremely fast LaTeX formatter written in Rust
-
-*   [trunk-rs/trunk](https://github.com/trunk-rs/trunk) - Build, bundle & ship your Rust WASM application to the web.
-
-*   [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) - Facilitating high-level interactions between Wasm modules and JavaScript
-
-*   [zksecurity/noname](https://github.com/zksecurity/noname) - Noname: a programming language to write zkapps
-
-*   [aptos-labs/aptos-core](https://github.com/aptos-labs/aptos-core) - Aptos is a layer 1 blockchain built to support the widespread use of blockchain through better technology and user experience.
-
-*   [wasmerio/wasmer](https://github.com/wasmerio/wasmer) - 🚀 Fast, secure, lightweight containers based on WebAssembly
-
-*   [rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack) - 📦✨ your favorite rust -> wasm workflow tool!
-
-*   [huacnlee/autocorrect](https://github.com/huacnlee/autocorrect) - A linter and formatter to help you to improve copywriting, correct spaces, words, and punctuations between CJK (Chinese, Japanese, Korean).
-
-*   [otter-sec/sui-ctf-framework](https://github.com/otter-sec/sui-ctf-framework) - A framework for building sui based capture the flag challenges
-
-*   [tokio-rs/axum](https://github.com/tokio-rs/axum) - Ergonomic and modular web framework built with Tokio, Tower, and Hyper
-
-*   [hyperium/hyper](https://github.com/hyperium/hyper) - An HTTP library for Rust
-
-*   [0xProject/OpenZKP](https://github.com/0xProject/OpenZKP) - OpenZKP - pure Rust implementations of Zero-Knowledge Proof systems.
-
-*   [quantumsheep/sshs](https://github.com/quantumsheep/sshs) - Terminal user interface for SSH
-
-*   [ShellWen/v8\_killer](https://github.com/ShellWen/v8_killer) - A powerful and highly customizable universal V8 virtual machine injector.
-
-*   [sgayou/rbasefind](https://github.com/sgayou/rbasefind) - A firmware base address search tool.
-
-*   [amtoaer/bili-sync](https://github.com/amtoaer/bili-sync) - 由 Rust & Tokio 驱动的哔哩哔哩同步工具
-
-*   [samwho/spacer](https://github.com/samwho/spacer) - CLI tool to insert spacers when command output stops
-
-*   [rust9x/rust](https://github.com/rust9x/rust) - UNOFFICIAL "Tier 4" Rust target for Windows 9x/Me/NT/2000/XP/Vista.
-
-*   [ankitects/anki](https://github.com/ankitects/anki) - Anki's shared backend and web components, and the Qt frontend
-
-*   [ferrilab/bitvec](https://github.com/ferrilab/bitvec) - A crate for managing memory bit by bit
-
-*   [asterinas/asterinas](https://github.com/asterinas/asterinas) - Asterinas is a secure, fast, and general-purpose OS kernel, written in Rust and providing Linux-compatible ABI.
-
-*   [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org
-
-*   [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Magical shell history
-
-*   [Aloxaf/rbkcrack](https://github.com/Aloxaf/rbkcrack) - Crack legacy zip encryption with Biham and Kocher's known plaintext attack. 使用明文攻击破解加密的 zip 文件
-
-*   [b23r0/cliws](https://github.com/b23r0/cliws) - Cross platform interactive bind/reverse PTY shell
-
-*   [nix-community/nix-ld](https://github.com/nix-community/nix-ld) - Run unpatched dynamic binaries on NixOS \[maintainer=@Mic92]
-
-*   [LGUG2Z/komorebi](https://github.com/LGUG2Z/komorebi) - A tiling window manager for Windows 🍉
-
-*   [AFLplusplus/LibAFL](https://github.com/AFLplusplus/LibAFL) - Advanced Fuzzing Library - Slot your Fuzzer together in Rust! Scales across cores and machines. For Windows, Android, MacOS, Linux, no\_std, ...
-
-*   [shell-pool/shpool](https://github.com/shell-pool/shpool) - Think tmux, then aim... lower
-
-*   [rathole-org/rathole](https://github.com/rathole-org/rathole) - A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
-
-*   [XDSEC/WebSocketReflectorX](https://github.com/XDSEC/WebSocketReflectorX) -  Controlled TCP-over-WebSocket forwarding tunnel.
-
-*   [fuzzland/ityfuzz](https://github.com/fuzzland/ityfuzz) - Blazing Fast Bytecode-Level Hybrid Fuzzer for Smart Contracts
-
-*   [H-M-H/Weylus](https://github.com/H-M-H/Weylus) - Use your tablet as graphic tablet/touch screen on your computer.
-
-*   [jkcoxson/JitStreamer](https://github.com/jkcoxson/JitStreamer) - A service to activate JIT across the far reaches of the internet
-
-*   [io12/pwninit](https://github.com/io12/pwninit) - pwninit - automate starting binary exploit challenges
-
-*   [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) -  All Algorithms implemented in Rust
-
-*   [cmpute/num-prime](https://github.com/cmpute/num-prime) -
-
-*   [y011d4/factor-from-random-known-bits](https://github.com/y011d4/factor-from-random-known-bits) - Python's library written in Rust to quickly factor `n = pq` when around >50% bits of `p` and `q` are known which are distributed at random.
-
-*   [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
-
-*   [eza-community/eza](https://github.com/eza-community/eza) - A modern alternative to ls
-
-*   [zcash/halo2](https://github.com/zcash/halo2) - The Halo2 zero-knowledge proving system
-
-*   [MystenLabs/sui](https://github.com/MystenLabs/sui) -  Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language
-
-*   [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
-
-*   [TabbyML/tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant
-
-*   [xwxb/camdict-cli](https://github.com/xwxb/camdict-cli) - Simple Cambridge Dictionary command-line tool.
-
-*   [ReFirmLabs/binwalk](https://github.com/ReFirmLabs/binwalk) - Firmware Analysis Tool
-
 ## Nix
 
 *   [ryan4yin/nix-darwin-kickstarter](https://github.com/ryan4yin/nix-darwin-kickstarter) - macOS as Code! A beginner-friendly nix-darwin + home-manager + flakes startup configuration. 一份易于理解的 nix-darwin 初始配置模板，专为新手制作.
@@ -1242,56 +1542,6 @@
 *   [nix-community/nix-on-droid](https://github.com/nix-community/nix-on-droid) - Nix-enabled environment for your Android device. \[maintainers=@t184256,@Gerschtli]
 
 *   [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs) - Nix Packages collection & NixOS
-
-*   [clansty/superstar-checkin](https://github.com/clansty/superstar-checkin) - 超星学习通自动签到
-
-## HTML
-
-*   [davesc63/GeoPort](https://github.com/davesc63/GeoPort) - GeoPort: Your Location, Anywhere! The iOS location simulator
-
-*   [jina-ai/correlations](https://github.com/jina-ai/correlations) - Simple UI for debugging correlations of text embeddings
-
-*   [eunomia-bpf/eunomia.dev](https://github.com/eunomia-bpf/eunomia.dev) - https://github.com/eunomia-bpf homepage, documents and blogs
-
-*   [pawroman/zola-theme-terminimal](https://github.com/pawroman/zola-theme-terminimal) - A simple, minimal retro theme for Zola
-
-*   [cotes2020/jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) - A minimal, responsive, and feature-rich Jekyll theme for technical writing.
-
-*   [madhuakula/kubernetes-goat](https://github.com/madhuakula/kubernetes-goat) - Kubernetes Goat is a "Vulnerable by Design" cluster environment to learn and practice Kubernetes security using an interactive hands-on playground 🚀
-
-*   [demining/Twist-Attack](https://github.com/demining/Twist-Attack) - In this article, we will implement a Twist Attack with an example and show how, using certain points on the secp256k1 elliptic curve, we can get partial private key values ​​and restore a Bitcoin Wallet within 5-15 minutes using “Sagemath pollard rho function: (discrete\_log\_rho)” and “ Chinese Remainder Theorem” .
-
-*   [alshedivat/al-folio](https://github.com/alshedivat/al-folio) - A beautiful, simple, clean, and responsive Jekyll theme for academics
-
-*   [serpapi/awesome-seo-tools](https://github.com/serpapi/awesome-seo-tools) - Curated list of awesome SEO tools
-
-*   [ToverPomelo/ToverPomelo.github.io](https://github.com/ToverPomelo/ToverPomelo.github.io) - \Cypher/ \Cypher/ \Cypher/
-
-*   [Forensics-wiki/Forensics-Wiki](https://github.com/Forensics-wiki/Forensics-Wiki) - 电子数据取证Wiki
-
-*   [ScH01ar/ScH01ar.github.io](https://github.com/ScH01ar/ScH01ar.github.io) -
-
-*   [Lazzzaro/lazzzaro.github.io](https://github.com/Lazzzaro/lazzzaro.github.io) - blog
-
-*   [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) - Defines a common protocol for language servers.
-
-*   [Aemulo/Release](https://github.com/Aemulo/Release) -
-
-*   [bg6cq/speedtest](https://github.com/bg6cq/speedtest) - Lightweight HTML5 Speedtest
-
-*   [zgjx6/SocialEngineeringDictionaryGenerator](https://github.com/zgjx6/SocialEngineeringDictionaryGenerator) - 社会工程学密码生成器，是一个利用个人信息生成密码的工具
-
-*   [Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) - 一个基于 docsify 快速部署 Awesome-POC 漏洞文档的项目。Deploying the Awesome-POC repository via docsify.
-
-*   [hugo-fixit/FixIt](https://github.com/hugo-fixit/FixIt) - 🔧 A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题
-
-*   [Lerist/FakeLocation](https://github.com/Lerist/FakeLocation) - Fake Location
-
-*   [X1cT34m/0xGame2023](https://github.com/X1cT34m/0xGame2023) - 0xGame 2023 challenges and writeups
-
-*   [RootMyTV/RootMyTV.github.io](https://github.com/RootMyTV/RootMyTV.github.io) - RootMyTV is a user-friendly exploit for rooting/jailbreaking LG webOS smart TVs.
-
-*   [fengdu78/Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) - 吴恩达老师的机器学习课程个人笔记
 
 ## Swift
 
@@ -1557,196 +1807,6 @@
 
 *   [thecrabsterchief/Federated-Learning-meets-Homomorphic-Encryption](https://github.com/thecrabsterchief/Federated-Learning-meets-Homomorphic-Encryption) - Homomorphic Encryption and Federated Learning based Privacy-Preserving
 
-## TypeScript
-
-*   [NapNeko/NapCatQQ](https://github.com/NapNeko/NapCatQQ) - Modern protocol-side framework based on NTQQ
-
-*   [longern/FlareDrive](https://github.com/longern/FlareDrive) - Free file hosting service (WebUI & WebDAV) using CloudFlare R2
-
-*   [n8n-io/n8n](https://github.com/n8n-io/n8n) - Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
-
-*   [Authenticator-Extension/Authenticator](https://github.com/Authenticator-Extension/Authenticator) - Authenticator generates 2-Step Verification codes in your browser.
-
-*   [immersive-translate/zotero-immersivetranslate](https://github.com/immersive-translate/zotero-immersivetranslate) - Zotero BabelDOC plugin, for Immersive Translate Pro members.
-
-*   [Heavrnl/nexus-terminal](https://github.com/Heavrnl/nexus-terminal) -  一款现代化的 Web SSH / RDP / VNC 客户端，提供独立桌面端，支持人机验证、2FA、界面定制、操作审计等强大功能。
-
-*   [VisActor/VTable](https://github.com/VisActor/VTable) - VTable is not just a high-performance multidimensional data analysis table, but also a grid artist that creates art between rows and columns.
-
-*   [MCSManager/MCSManager](https://github.com/MCSManager/MCSManager) - Free, Secure, Distributed, Modern Control Panel for Minecraft and most Steam Game Servers.
-
-*   [kodu-ai/claude-coder](https://github.com/kodu-ai/claude-coder) - Kodu is an autonomous coding agent that lives in your IDE. It is a VSCode extension that can help you build your dream project step by step by leveraging the latest technologies in automated coding agents
-
-*   [Wangxs404/video2ppt](https://github.com/Wangxs404/video2ppt) - Convert videos to Slides, including local, online videos, screen recording.
-
-*   [agrawal-d/cph-submit](https://github.com/agrawal-d/cph-submit) - Codeforces Submit add-on for Competitive Programming Helper
-
-*   [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) - The official Typescript SDK for Model Context Protocol servers and clients
-
-*   [guigrpa/docx-templates](https://github.com/guigrpa/docx-templates) - Template-based docx report creation
-
-*   [astral-sh/ruff-vscode](https://github.com/astral-sh/ruff-vscode) - A Visual Studio Code extension with support for the Ruff linter.
-
-*   [outline/outline](https://github.com/outline/outline) - The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.
-
-*   [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 Curated coding interview preparation materials for busy software engineers
-
-*   [groupultra/telegram-search](https://github.com/groupultra/telegram-search) - 🔍  一个功能强大的 Telegram 聊天记录搜索工具，支持向量搜索和语义匹配。A powerful Telegram chat search tool with vector search and semantic matching capabilities.
-
-*   [freeman-jiang/beatsync](https://github.com/freeman-jiang/beatsync) - 🔊 High-precision web player for multi-device audio playback and spatial audio.
-
-*   [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) - Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme
-
-*   [Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt) - Telegram Web A, GPL v3
-
-*   [j4k0xb/webcrack](https://github.com/j4k0xb/webcrack) - Deobfuscate obfuscator.io, unminify and unpack bundled javascript
-
-*   [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ Free and serverless uptime monitoring / status page on Cloudflare Workers, with Geo-specific checks
-
-*   [biggerstar/wedecode](https://github.com/biggerstar/wedecode) - 全自动化，微信小程序 wxapkg 包 源代码还原工具, 线上代码安全审计
-
-*   [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) - Playwright MCP server
-
-*   [microsoft/playwright](https://github.com/microsoft/playwright) - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
-
-*   [mihomo-party-org/mihomo-party](https://github.com/mihomo-party-org/mihomo-party) - :electron: Another Mihomo GUI.
-
-*   [mokeyish/obsidian-enhancing-export](https://github.com/mokeyish/obsidian-enhancing-export) - This is an enhancing export plugin base on Pandoc for Obsidian (https://obsidian.md/ ). It's allow you to export to formats like Markdown、Markdown (Hugo https://gohugo.io/ )、Html、docx、Latex etc.
-
-*   [google-a2a/A2A](https://github.com/google-a2a/A2A) - An open protocol enabling communication and interoperability between opaque agentic applications.
-
-*   [TarsLab/obsidian-tars](https://github.com/TarsLab/obsidian-tars) - Obsidian tars plugin that supports text generation based on tag suggestions, using services like DeepSeek, Claude, OpenAI, OpenRouter, SiliconFlow, Gemini, Ollama, Kimi, Doubao, Qwen, Zhipu, QianFan & more.
-
-*   [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) - Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.
-
-*   [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync) -
-
-*   [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative
-
-*   [cline/cline](https://github.com/cline/cline) - Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.
-
-*   [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) - 一款提示词优化器，助力于编写高质量的提示词
-
-*   [movefuns/move-js](https://github.com/movefuns/move-js) - Javascript version of the Move language compiler, supports compiling Move code into Move bytecode in the browser.
-
-*   [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown
-
-*   [yaklang/yakit](https://github.com/yaklang/yakit) - Cyber Security ALL-IN-ONE Platform
-
-*   [galacean/engine](https://github.com/galacean/engine) - A typescript interactive engine, support 2D, 3D, animation, physics, built on WebGL and glTF.
-
-*   [xdebug/vscode-php-debug](https://github.com/xdebug/vscode-php-debug) - PHP Debug Adapter for Visual Studio Code 🐞⛔
-
-*   [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) - 🍒 Cherry Studio is a desktop client that supports for multiple LLM providers.
-
-*   [richards199999/Thinking-Claude](https://github.com/richards199999/Thinking-Claude) - Let your Claude able to think
-
-*   [dcrebbin/meta-vision-api](https://github.com/dcrebbin/meta-vision-api) - Mai - Hacky Messenger browser extension & API for the Meta Glasses. "Hey Meta send a message to ChatGPT"
-
-*   [ChiChou/vscode-frida](https://github.com/ChiChou/vscode-frida) - Unofficial frida extension for VSCode
-
-*   [markmap/markmap](https://github.com/markmap/markmap) - Build mindmaps with plain text
-
-*   [antiwork/shortest](https://github.com/antiwork/shortest) - QA via natural language AI tests
-
-*   [James-Yu/LaTeX-Workshop](https://github.com/James-Yu/LaTeX-Workshop) - Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.
-
-*   [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) - The headless rich text editor framework for web artisans.
-
-*   [wg-easy/wg-easy](https://github.com/wg-easy/wg-easy) - The easiest way to run WireGuard VPN + Web-based Admin UI.
-
-*   [kbravh/tweet-to-markdown](https://github.com/kbravh/tweet-to-markdown) - A command line tool to convert Tweets to Markdown.
-
-*   [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer) - Run compilers interactively from your web browser and interact with the assembly
-
-*   [molvqingtai/WebChat](https://github.com/molvqingtai/WebChat) - 💬 Chat with anyone on any website.
-
-*   [hedgedoc/hedgedoc](https://github.com/hedgedoc/hedgedoc) - HedgeDoc - Ideas grow better together
-
-*   [goreleaser/goreleaser-action](https://github.com/goreleaser/goreleaser-action) - GitHub Action for GoReleaser
-
-*   [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe) - AI app store powered by 24/7 desktop history.  open source | 100% local | dev friendly | 24/7 screen, mic recording
-
-*   [mendableai/firecrawl](https://github.com/mendableai/firecrawl) - 🔥 Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.
-
-*   [lyc8503/onedrive-cf-index-ng](https://github.com/lyc8503/onedrive-cf-index-ng) - Another OneDrive public directory listing on Docker / Cloudflare Workers, forked from onedrive-vercel-index.
-
-*   [OI-wiki/OI-wiki](https://github.com/OI-wiki/OI-wiki) - :star2: Wiki of OI / ICPC for everyone. （某大型游戏线上攻略，内含炫酷算术魔法）
-
-*   [RSSNext/Folo](https://github.com/RSSNext/Folo) - 🧡 Follow everything in one place
-
-*   [agrawal-d/cph](https://github.com/agrawal-d/cph) - Makes judging, compiling, and downloading problems for competitive programming easy.
-
-*   [eric-gitta-moore/chaoxing-sign-app](https://github.com/eric-gitta-moore/chaoxing-sign-app) - 学习通第三方版。超星学习通全平台，多账号批量签到，拍照签到（任选照片）、位置签到（任选位置）、二维码签到、普通签到、手势签到、签到码签到
-
-*   [PawanOsman/ChatGPT](https://github.com/PawanOsman/ChatGPT) - OpenAI API Free Reverse Proxy
-
-*   [jina-ai/reader](https://github.com/jina-ai/reader) - Convert any URL to an LLM-friendly input with a simple prefix https://r.jina.ai/
-
-*   [microsoft/vscode-json-languageservice](https://github.com/microsoft/vscode-json-languageservice) - JSON language service extracted from VSCode to be reused, e.g in the Monaco editor.
-
-*   [Chilfish/Weibo-archiver](https://github.com/Chilfish/Weibo-archiver) - 将微博导出备份的油猴脚本，为号被完全夹没前未雨绸缪 😭
-
-*   [webosbrew/dev-manager-desktop](https://github.com/webosbrew/dev-manager-desktop) - Device/DevMode Manager for webOS TV
-
-*   [type-challenges/type-challenges](https://github.com/type-challenges/type-challenges) - Collection of TypeScript type challenges with online judge
-
-*   [slidevjs/slidev](https://github.com/slidevjs/slidev) - Presentation Slides for Developers
-
-*   [share121/f1](https://github.com/share121/f1) - 耗时 3 天，我用纯 CSS 动画实现了 F1 赛车手出场动画。
-
-*   [jackyzha0/quartz](https://github.com/jackyzha0/quartz) - 🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites
-
-*   [withfig/autocomplete](https://github.com/withfig/autocomplete) - IDE-style autocomplete for your existing terminal & shell
-
-*   [tldraw/tldraw](https://github.com/tldraw/tldraw) - very good whiteboard SDK / infinite canvas SDK
-
-*   [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.
-
-*   [actions/checkout](https://github.com/actions/checkout) - Action for checking out a repo
-
-*   [LasCC/HackTools](https://github.com/LasCC/HackTools) - The all-in-one browser extension for offensive security professionals 🛠
-
-*   [getgridea/gridea](https://github.com/getgridea/gridea) - ✍️ A static blog writing client (一个静态博客写作客户端)
-
-*   [xmcp/pakku.js](https://github.com/xmcp/pakku.js) - 拯救B站的弹幕体验！
-
-*   [langgenius/dify](https://github.com/langgenius/dify) - Production-ready platform for agentic workflow development.
-
-*   [storybookjs/storybook](https://github.com/storybookjs/storybook) - Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
-
-*   [14790897/paper-ai](https://github.com/14790897/paper-ai) - 搜索真实文献并生成引用对应文献的AI论文
-
-*   [windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate) - Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.
-
-*   [ZuodaoTech/everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english) - 人人都能用英语
-
-*   [JSREI/js-cookie-monitor-debugger-hook](https://github.com/JSREI/js-cookie-monitor-debugger-hook) - js cookie逆向利器：js cookie变动监控可视化工具 & js cookie hook打条件断点
-
-*   [conwnet/github1s](https://github.com/conwnet/github1s) - One second to read GitHub code with VS Code.
-
-*   [privacy-scaling-explorations/maci](https://github.com/privacy-scaling-explorations/maci) - Minimal Anti-Collusion Infrastructure (MACI)
-
-*   [l0o0/jasminum](https://github.com/l0o0/jasminum) - A Zotero add-on to retrive CNKI meta data. 一个简单的Zotero 插件，用于识别中文元数据
-
-*   [Eugeny/tabby](https://github.com/Eugeny/tabby) - A terminal for a more modern age
-
-*   [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows
-
-*   [nicepkg/gpt-runner](https://github.com/nicepkg/gpt-runner) - Conversations with your files! Manage and run your AI presets!
-
-*   [wechaty/wechaty](https://github.com/wechaty/wechaty) - Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt
-
-*   [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - OneDrive public directory listing, powered by Vercel and Next.js
-
-*   [BetterDiscord/BetterDiscord](https://github.com/BetterDiscord/BetterDiscord) - Better Discord enhances Discord desktop app with new features.
-
-*   [coder/code-server](https://github.com/coder/code-server) - VS Code in the browser
-
-*   [dudor/BookmarkHub](https://github.com/dudor/BookmarkHub) - BookmarkHub , sync bookmarks across different browsers
-
-*   [cxOrz/chaoxing-signin](https://github.com/cxOrz/chaoxing-signin) - 超星学习通签到：支持普通签到、拍照签到、手势签到、位置签到、二维码签到，支持自动监测、QQ机器人签到与推送。
-
 ## Vue
 
 *   [uxiaohan/PayQrcode](https://github.com/uxiaohan/PayQrcode) - 最新物理合并微信收款码和支付宝收款码为聚合二维码👍
@@ -1783,7 +1843,7 @@
 
 *   [Yuan-ManX/ai-agent-roadmap](https://github.com/Yuan-ManX/ai-agent-roadmap) - Explore the latest AI Agent Framework!
 
-*   [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser & Trae AI (And other Open Sourced) System Prompts, Tools & AI Models.
+*   [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI & Cluely (And other Open Sourced) System Prompts, Tools & AI Models.
 
 *   [pudding0503/github-badge-collection](https://github.com/pudding0503/github-badge-collection) - Github README 常用徽章和图表合集
 
@@ -2037,58 +2097,6 @@
 
 *   [GSWXXN/RestoreSplashScreen](https://github.com/GSWXXN/RestoreSplashScreen) - 启动遮罩进化 / RestoreSplashScreen
 
-## Jupyter Notebook
-
-*   [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) - 《动手学大模型Dive into LLMs》系列编程实践教程
-
-*   [google-gemini/gemini-fullstack-langgraph-quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart) - Get started with building Fullstack Agents using Gemini 2.5 and LangGraph
-
-*   [langgptai/LangGPT](https://github.com/langgptai/LangGPT) - LangGPT: Empowering everyone to become a prompt expert!🚀  Structured Prompt，Language of GPT, 结构化提示词，结构化Prompt, Created by 「云中江树」
-
-*   [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) - 21 Lessons, Get Started Building with Generative AI  🔗 https://microsoft.github.io/generative-ai-for-beginners/
-
-*   [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) - 11 Lessons to Get Started Building AI Agents
-
-*   [anthropics/courses](https://github.com/anthropics/courses) - Anthropic's educational courses
-
-*   [TrustAI-laboratory/Learn-Prompt-Hacking](https://github.com/TrustAI-laboratory/Learn-Prompt-Hacking) - This is The most comprehensive prompt hacking course available, which record our progress on a prompt engineering and prompt hacking course.
-
-*   [microsoft/OmniParser](https://github.com/microsoft/OmniParser) - A simple screen parsing tool towards pure vision based GUI agent
-
-*   [Yuis1/LLM4Stock](https://github.com/Yuis1/LLM4Stock) - 基于LLM的股票投资决策系统
-
-*   [tl2cents/Implementation-of-Cryptographic-Attacks](https://github.com/tl2cents/Implementation-of-Cryptographic-Attacks) - Implementation of cryptographic attacks. Mainly reproduction of recent cryptographic papers.
-
-*   [IdahoLabResearch/5GAD](https://github.com/IdahoLabResearch/5GAD) - This is a dataset of 5G network traffic for use with machine learning tools to benchmark attack detection capabilities for multiple different models. The dataset contains simulated normal and attack 5G network traffic.
-
-*   [WTFAcademy/WTF-zk](https://github.com/WTFAcademy/WTF-zk) - 零知识证明入门教程。Comprehensive Zero-Knowledge Proofs Tutorial. #zk #WIP
-
-*   [Azmarie/Hairstyle-Transfer](https://github.com/Azmarie/Hairstyle-Transfer) - 💇🏻‍♀️ An end-to-end workflow for editing hair attributes on real faces
-
-*   [verazuo/jailbreak\_llms](https://github.com/verazuo/jailbreak_llms) - \[CCS'24] A dataset consists of 15,140 ChatGPT prompts from Reddit, Discord, websites, and open-source datasets (including 1,405 jailbreak prompts).
-
-*   [newaetech/chipwhisperer-jupyter](https://github.com/newaetech/chipwhisperer-jupyter) - Interactive ChipWhisperer tutorials using Jupyter notebooks.
-
-*   [zademn/EverythingCrypto](https://github.com/zademn/EverythingCrypto) - (Still exploring) My cryptography journey: A collection of notebooks covering different algorithms and concepts from cryptography
-
-*   [PetePriority/picoctf-2024](https://github.com/PetePriority/picoctf-2024) - picoCTF 2024 writeups
-
-*   [langchain-ai/langchain](https://github.com/langchain-ai/langchain) - 🦜🔗 Build context-aware reasoning applications
-
-*   [mshumer/gpt-investor](https://github.com/mshumer/gpt-investor) -
-
-*   [Gallopsled/pwntools-tutorial](https://github.com/Gallopsled/pwntools-tutorial) - Tutorials for getting started with Pwntools
-
-*   [fffmath/IdentifyIdealLattice](https://github.com/fffmath/IdentifyIdealLattice) - A tookit for Identifying-Ideal-Lattice
-
-*   [Hvass-Labs/TensorFlow-Tutorials](https://github.com/Hvass-Labs/TensorFlow-Tutorials) - TensorFlow Tutorials with YouTube Videos
-
-*   [jephianlin/outreach](https://github.com/jephianlin/outreach) - Slides or multi-media materials for outreach
-
-*   [linyiLYi/pose-monitor](https://github.com/linyiLYi/pose-monitor) - “让爷康康”是一款手机 AI 应用程序，可以监测不良坐姿并进行语音提示
-
-*   [fengdu78/Data-Science-Notes](https://github.com/fengdu78/Data-Science-Notes) - 数据科学的笔记以及资料搜集
-
 ## JavaScript
 
 *   [volcengine/ai-app-lab](https://github.com/volcengine/ai-app-lab) -
@@ -2128,8 +2136,6 @@
 *   [byxiaozhi/Typedown](https://github.com/byxiaozhi/Typedown) - A markdown editor
 
 *   [AssemblyScript/wabt.js](https://github.com/AssemblyScript/wabt.js) - A buildbot for wabt.js, a port of WABT to the Web, with TypeScript support.
-
-*   [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Model Context Protocol Servers
 
 *   [leaningtech/cheerp-meta](https://github.com/leaningtech/cheerp-meta) - Cheerp - a C/C++ compiler for Web applications - compiles to WebAssembly and JavaScript
 
@@ -2231,10 +2237,6 @@
 
 *   [scutan90/DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions) - 深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为18个章节，50余万字。由于水平有限，书中不妥之处恳请广大读者批评指正。   未完待续............ 如有意合作，联系scutjy2015@163.com                     版权所有，违权必究       Tan 2018.06
 
-*   [yangwk/m3u8-downloader](https://github.com/yangwk/m3u8-downloader) - chrome插件，支持监控和下载：m3u8流媒体、视频、音频
-
-*   [qxwlmz/aixue](https://github.com/qxwlmz/aixue) - AIXUE 学习强国辅助 自动答题脚本
-
 ## Shell
 
 *   [adobe-fonts/source-han-serif](https://github.com/adobe-fonts/source-han-serif) - Source Han Serif | 思源宋体 | 思源宋體 | 思源宋體 香港 | 源ノ明朝 | 본명조
@@ -2257,7 +2259,7 @@
 
 *   [cschwan/sage-on-gentoo](https://github.com/cschwan/sage-on-gentoo) - (Unofficial) Gentoo Overlay for Sage- and Sage-related ebuilds
 
-*   [LukeZGD/Legacy-iOS-Kit](https://github.com/LukeZGD/Legacy-iOS-Kit) - An all-in-one tool to restore/downgrade, save SHSH blobs, and jailbreak legacy iOS devices
+*   [LukeZGD/Legacy-iOS-Kit](https://github.com/LukeZGD/Legacy-iOS-Kit) - An all-in-one tool to restore/downgrade, save SHSH blobs, jailbreak legacy iOS devices, and more
 
 *   [docker-easyconnect/docker-easyconnect](https://github.com/docker-easyconnect/docker-easyconnect) - 使深信服（Sangfor）开发的非自由的 VPN 软件 EasyConnect 和 aTrust 运行在 docker 或 podman 中，并作为网关和/或提供 socks5、http 代理服务
 
@@ -2440,8 +2442,6 @@
 *   [nfcgate/nfcgate](https://github.com/nfcgate/nfcgate) - An NFC research toolkit application for Android
 
 *   [feihong-cs/ShiroExploit-Deprecated](https://github.com/feihong-cs/ShiroExploit-Deprecated) - Shiro550/Shiro721 一键化利用工具，支持多种回显方式
-
-*   [XanderYe/liveroom](https://github.com/XanderYe/liveroom) - 基于Dplayer和Websocket的直播间服务，支持弹幕发送，需要自行搭建rtmp服务器
 
 ## CSS
 
@@ -2735,7 +2735,7 @@
 
 *   [doraemonkeys/WindSend](https://github.com/doraemonkeys/WindSend) - Quickly and securely sync clipboard, transfer files and directories between devices. 快速安全的同步剪切板，传输文件或文件夹
 
-*   [ente-io/ente](https://github.com/ente-io/ente) - ✨ End-to-end encrypted cloud for photos, videos and 2FA secrets.
+*   [ente-io/ente](https://github.com/ente-io/ente) - 🔒 End-to-end encrypted cloud for photos, videos and 2FA secrets.
 
 *   [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) - Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.
 
